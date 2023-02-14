@@ -24,3 +24,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+2024l1-kicad-backups/
