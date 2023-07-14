@@ -508,6 +508,18 @@
     [
       "557de726-edfd-4324-bc0e-6d5b81e56087",
       "Step Down"
+    ],
+    [
+      "cae64224-042b-4ff7-8160-36c9af40f102",
+      "Encoders"
+    ],
+    [
+      "c4f87e4a-3e53-4bd2-b86a-3e1a33d74c42",
+      "Communication"
+    ],
+    [
+      "b747ab5a-b019-4769-8740-6dc6d17d5cd8",
+      "Drive"
     ]
   ],
   "text_variables": {}
