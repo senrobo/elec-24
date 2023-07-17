@@ -500,26 +500,6 @@
     [
       "5be543b5-1bdc-438f-a916-f916127c0a2b",
       ""
-    ],
-    [
-      "b3daf402-5eb6-40d4-a766-b970792273e4",
-      "Processing"
-    ],
-    [
-      "557de726-edfd-4324-bc0e-6d5b81e56087",
-      "Step Down"
-    ],
-    [
-      "0f103199-be19-4fa2-abc2-3c9a8fb6b0f6",
-      "VNH5050"
-    ],
-    [
-      "c4f87e4a-3e53-4bd2-b86a-3e1a33d74c42",
-      "Communication"
-    ],
-    [
-      "8ebc96eb-574c-44a2-a4af-8121e8678bf7",
-      "VNH5019"
     ]
   ],
   "text_variables": {}
