@@ -15,6 +15,23 @@
   )
 
 
+  (sheet (at 153.67 124.46) (size 17.78 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0f103199-be19-4fa2-abc2-3c9a8fb6b0f6)
+    (property "Sheetname" "VNH5050" (at 153.67 123.7484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VNH5050.kicad_sch" (at 153.67 136.4746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "2024l1"
+        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 129.54 142.24) (size 17.78 11.43) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -32,6 +49,23 @@
     )
   )
 
+  (sheet (at 180.34 124.46) (size 17.78 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8ebc96eb-574c-44a2-a4af-8121e8678bf7)
+    (property "Sheetname" "VNH5019" (at 180.34 123.7484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VNH5019.kicad_sch" (at 180.34 136.4746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "2024l1"
+        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 180.34 142.24) (size 17.78 11.43) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -45,23 +79,6 @@
     (instances
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 153.67 120.65) (size 17.78 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b747ab5a-b019-4769-8740-6dc6d17d5cd8)
-    (property "Sheetname" "Drive" (at 153.67 119.9384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Drive.kicad_sch" (at 153.67 132.6646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "2024l1"
-        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b" (page "6"))
       )
     )
   )
