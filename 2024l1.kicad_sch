@@ -15,14 +15,14 @@
   )
 
 
-  (sheet (at 129.54 106.68) (size 17.78 11.43) (fields_autoplaced)
+  (sheet (at 129.54 142.24) (size 17.78 11.43) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 557de726-edfd-4324-bc0e-6d5b81e56087)
-    (property "Sheetname" "Step Down" (at 129.54 105.9684 0)
+    (property "Sheetname" "Step Down" (at 129.54 141.5284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Step Down.kicad_sch" (at 129.54 118.6946 0)
+    (property "Sheetfile" "Step Down.kicad_sch" (at 129.54 154.2546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -79,23 +79,6 @@
     (instances
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 153.67 162.56) (size 17.78 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cae64224-042b-4ff7-8160-36c9af40f102)
-    (property "Sheetname" "Encoders" (at 153.67 161.8484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Encoders.kicad_sch" (at 153.67 174.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "2024l1"
-        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b" (page "4"))
       )
     )
   )
