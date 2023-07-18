@@ -1,6 +1,6 @@
 ## Sentinels Open 2024 Electrical Repository
 2024l1 - Layer 1 Schematic and PCB  
-<!-- 2024l2 - Layer 2 Schematic and PCB -->
+2024l2 - Layer 2 Schematic and PCB
 test-pcb - Testing Schematic and PCB
 ```bash
 ├── 2024l1
@@ -8,7 +8,10 @@ test-pcb - Testing Schematic and PCB
 │  ├── 2024l1.kicad_prl
 │  ├── 2024l1.kicad_pro
 │  └── 2024l1.kicad_sch
-├── .gitignore
+├── 2024l2
+│  ├── 2024l2.kicad_pcb
+│  ├── 2024l2.kicad_pro
+│  └── 2024l2.kicad_sch
 ├── LICENSE
 ├── README.md
 └── test-pcb
