@@ -1,5 +1,6 @@
-2024-Elec
+## Sentinels Open 2024 Electrical Repository
 ```bash
+2024-Elec
 ├── 2024l1
 │  ├── 2024l1.kicad_pcb
 │  ├── 2024l1.kicad_prl
