@@ -13,14 +13,12 @@ test-pcb - Testing Schematic and PCB
 │  ├── 2024l2.kicad_pro
 │  └── 2024l2.kicad_sch
 ├── test-pcb
-|  ├── 3dmodels
-|  ├── fp-info-cache
-|  ├── fp-lib-table
-|  ├── test-pcb.kicad_pcb
-|  ├── test-pcb.kicad_prl
-|  ├── test-pcb.kicad_pro
-|  ├── test-pcb.kicad_sch
-|  └── test-pcb.pretty
+│  ├── 3dmodels
+│  ├── test-pcb.kicad_pcb
+│  ├── test-pcb.kicad_prl
+│  ├── test-pcb.kicad_pro
+│  ├── test-pcb.kicad_sch
+│  └── test-pcb.pretty
 ├── .gitignore
 ├── LICENSE
 └── README.md
