@@ -5,7 +5,7 @@
 │  ├── 2024l1.kicad_prl
 │  ├── 2024l1.kicad_pro
 │  └── 2024l1.kicad_sch
-├── 2024l2
+├── .gitignore
 ├── LICENSE
 └── test-pcb
    ├── fp-info-cache
