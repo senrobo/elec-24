@@ -5498,7 +5498,7 @@
     (property "Value" "Conn_01x04" (at 396.24 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 396.24 111.76 0)
+    (property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" (at 396.24 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 396.24 111.76 0)
