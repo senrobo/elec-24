@@ -980,7 +980,7 @@
 
   (footprint "2024l1:0630 One Piece Inductor" (layer "F.Cu")
     (tstamp 7603e4d9-168c-47b7-be69-9e8e9e020cf5)
-    (at 185.89 26.767)
+    (at 167.698 55.608)
     (property "Sheetfile" "2024l1.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Inductor")
