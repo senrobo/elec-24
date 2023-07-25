@@ -196,11 +196,11 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
+    (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x03_Pin" (at 0 -5.08 0)
+      (property "Value" "Conn_01x02" (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -209,66 +209,35 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x03, script generated" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x03_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
+      (symbol "Conn_01x02_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy 1.27 2.54)
-            (xy 0.8636 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
+        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
         )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 2.54 180) (length 3.81)
+        (pin passive line (at -5.08 0 0) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 5.08 0 180) (length 3.81)
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
           (name "Pin_2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -971,7 +940,6 @@
   (no_connect (at 25.4 81.28) (uuid e0aefe0b-06a3-4654-a40e-fbfcd44982bb))
   (no_connect (at 97.79 93.98) (uuid ece4d91e-5b0e-4441-aaba-cc48933a0cb1))
   (no_connect (at 128.27 91.44) (uuid f0a79d09-6dc8-46a1-bd21-2313791cb453))
-  (no_connect (at 190.5 91.44) (uuid fb1556fc-cd80-4d2d-83a0-97ecf73a4ccc))
   (no_connect (at 77.47 46.99) (uuid fbfd3e5e-5082-42ba-913a-0609bd654f79))
 
   (wire (pts (xy 123.19 36.83) (xy 132.08 36.83))
@@ -1078,7 +1046,7 @@
     (stroke (width 0) (type default))
     (uuid 7468d06a-5a7f-4b20-83fb-5dcb710d6c48)
   )
-  (wire (pts (xy 190.5 93.98) (xy 199.39 93.98))
+  (wire (pts (xy 190.5 91.44) (xy 199.39 91.44))
     (stroke (width 0) (type default))
     (uuid 797314bd-9b53-4108-9d17-64c6d2821e6c)
   )
@@ -1394,7 +1362,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d7cf891-d28f-41cc-bd4b-c8eeb80b08c0)
   )
-  (label "ESC" (at 194.31 88.9 0) (fields_autoplaced)
+  (label "+5V" (at 194.31 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 83825666-1af8-4fbd-bec9-0e732831440f)
   )
@@ -1450,7 +1418,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c2b6482d-cf58-460b-a52a-3bbb4a365a44)
   )
-  (label "GND" (at 194.31 93.98 0) (fields_autoplaced)
+  (label "GND" (at 194.31 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c43a16fa-b52a-4fc6-9462-e3444b4044e8)
   )
@@ -1502,6 +1470,32 @@
     )
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 185.42 88.9 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0712305d-843e-4310-b87b-588948561453)
+    (property "Reference" "J?" (at 185.42 82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED" (at 185.42 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_Clear" (at 185.42 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 185.42 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e7eb0543-20af-469f-96a4-96ea30de1e30))
+    (pin "2" (uuid 69ee0441-f4fe-49b4-ab01-14c7d31f636f))
+    (instances
+      (project "2024l3"
+        (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
+          (reference "J?") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "OpenMV:OpenMV_H7") (at 48.26 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10e6d422-6eda-4966-ab8a-8744b0c29e05)
@@ -1539,7 +1533,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "U2") (unit 1)
         )
@@ -1600,7 +1594,7 @@
     (pin "MP1" (uuid f811710f-cfbf-4f39-805f-fe75cc73ebee))
     (pin "MP2" (uuid 870d5089-5b4e-46d0-be84-e76a8890230a))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "J1") (unit 1)
         )
@@ -1625,7 +1619,7 @@
     )
     (pin "1" (uuid f4846deb-9577-4c22-b9db-ef6ce18e7744))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR09") (unit 1)
         )
@@ -1656,7 +1650,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
           (reference "R3") (unit 1)
         )
@@ -1694,7 +1688,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR0118") (unit 1)
         )
@@ -1719,7 +1713,7 @@
     )
     (pin "1" (uuid 80912ba3-a339-46a4-9918-3fc59a27190d))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR0104") (unit 1)
         )
@@ -1754,7 +1748,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR03") (unit 1)
         )
@@ -1789,7 +1783,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR014") (unit 1)
         )
@@ -1855,7 +1849,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "U1") (unit 1)
         )
@@ -1880,7 +1874,7 @@
     )
     (pin "1" (uuid 20047153-bc70-4fcf-a262-54a7f1d91ac4))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR0105") (unit 1)
         )
@@ -1911,7 +1905,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
           (reference "R5") (unit 1)
         )
@@ -1944,7 +1938,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
           (reference "#PWR0167") (unit 1)
         )
@@ -1972,36 +1966,9 @@
     )
     (pin "1" (uuid bcff5b8f-7daa-48dd-9939-2572d03bd2eb))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 185.42 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 99f46e13-21e4-4338-9e19-ca62e6b2cc05)
-    (property "Reference" "J2" (at 186.055 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x03_Pin" (at 186.055 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 185.42 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 185.42 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b7e952c7-e032-4a74-8afd-c388dcabc3c8))
-    (pin "2" (uuid e173b833-611b-40cf-a6d6-37c1b01fcf94))
-    (pin "3" (uuid 318aff17-710d-4043-8889-38dfc17d7b94))
-    (instances
-      (project "2023l3-int"
-        (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "J2") (unit 1)
         )
       )
     )
@@ -2024,7 +1991,7 @@
     )
     (pin "1" (uuid 2c04de9d-6a46-4738-ab24-eb318d3e9a3f))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "H1") (unit 1)
         )
@@ -2049,7 +2016,7 @@
     )
     (pin "1" (uuid 6be320d9-b982-44da-bf17-2f4a89e10ab2))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "H4") (unit 1)
         )
@@ -2079,7 +2046,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR04") (unit 1)
         )
@@ -2104,7 +2071,7 @@
     )
     (pin "1" (uuid 191280a5-c3a9-4256-94cf-12c6fd9ae5d1))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR06") (unit 1)
         )
@@ -2132,7 +2099,7 @@
     (pin "3" (uuid 0aeb62fe-7354-4391-949f-9bc29a10e35c))
     (pin "4" (uuid db61dc35-2079-4342-bb6c-f6f67185217c))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "SW1") (unit 1)
         )
@@ -2157,7 +2124,7 @@
     )
     (pin "1" (uuid fb554d9d-95ee-463d-b17a-9dcf10eb8781))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR01") (unit 1)
         )
@@ -2187,7 +2154,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR02") (unit 1)
         )
@@ -2222,7 +2189,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR08") (unit 1)
         )
@@ -2247,7 +2214,7 @@
     )
     (pin "1" (uuid 013e8f79-cb38-4c55-afc6-1267010ac89b))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "H2") (unit 1)
         )
@@ -2278,7 +2245,7 @@
           (reference "SW?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
           (reference "SW2") (unit 1)
         )
@@ -2316,7 +2283,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR0117") (unit 1)
         )
@@ -2372,7 +2339,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "U3") (unit 1)
         )
@@ -2402,7 +2369,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "#PWR0115") (unit 1)
         )
@@ -2440,7 +2407,7 @@
     (pin "8" (uuid ba8158d7-744b-4c0b-9e11-16364dcd6400))
     (pin "9" (uuid 16adc5cf-df41-4405-a907-8aa05e33f1d1))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "U28") (unit 1)
         )
@@ -2470,7 +2437,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
           (reference "#PWR0171") (unit 1)
         )
@@ -2498,7 +2465,7 @@
     )
     (pin "1" (uuid 160258b7-6f51-4c98-8b1a-86cd1bc88f01))
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
           (reference "H3") (unit 1)
         )
@@ -2517,7 +2484,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "2023l3-int"
+      (project "2024l3"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474" (page "3"))
       )
     )
