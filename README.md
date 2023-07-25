@@ -1,4 +1,11 @@
 ## Sentinels 2024 Electrical Repository
+### TODO:
+- ESD Protection Circuit for intra robot and STM32 Header
+- Clean up the schematic
+   - reference designators
+   - net labels
+- Route Boost PCB
+-Test Optosiolator replacement
 ### Folder Structure
 ```bash
 ├── LICENSE
