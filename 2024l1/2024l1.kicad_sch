@@ -1909,7 +1909,6 @@
   (no_connect (at 320.04 104.14) (uuid d422631a-f732-4421-87f4-3f3a5996f4af))
   (no_connect (at 353.06 86.36) (uuid d449a7e8-4ea6-4e98-b504-2978a6bc3c48))
   (no_connect (at 353.06 73.66) (uuid de1b7aab-7b37-4285-977d-c12bc5ed0163))
-  (no_connect (at 332.74 50.8) (uuid e2d27f24-d0e8-42cf-91b6-55f07b893fce))
   (no_connect (at 320.04 121.92) (uuid e30e780d-694f-4c7e-ba8c-ea2f95beb002))
 
   (wire (pts (xy 125.73 209.55) (xy 131.445 209.55))
