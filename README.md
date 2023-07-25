@@ -1,24 +1,42 @@
-## Sentinels Open 2024 Electrical Repository
-2024l1 - Layer 1 Schematic and PCB  
-2024l2 - Layer 2 Schematic and PCB  
-test-pcb - Testing Schematic and PCB  
+## Sentinels 2024 Electrical Repository
+### Folder Structure
 ```bash
-├── 2024l1
-│  ├── 2024l1.kicad_pcb
-│  ├── 2024l1.kicad_pro
-│  └── 2024l1.kicad_sch
-├── 2024l2
-│  ├── 2024l2.kicad_pcb
-│  ├── 2024l2.kicad_pro
-│  └── 2024l2.kicad_sch
-├── test-pcb
-│  ├── 3dmodels
-│  ├── test-pcb.kicad_pcb
-│  ├── test-pcb.kicad_pro
-│  ├── test-pcb.kicad_sch
-│  └── test-pcb.pretty
-├── .gitignore
 ├── LICENSE
-└── README.md
+├── lightweight
+│  ├── 2024l1
+│  │  ├── 2024l1.kicad_pcb
+│  │  ├── 2024l1.kicad_pro
+│  │  └── 2024l1.kicad_sch
+│  └── 2024l3
+│     ├── 2024l3.kicad_pcb
+│     ├── 2024l3.kicad_pro
+│     ├── 2024l3.kicad_sch
+│     └── ir.kicad_sch
+├── open
+│  ├── 2024l1
+│  │  ├── 3dmodels
+│  │  ├── 2024l1.kicad_pcb
+│  │  ├── 2024l1.kicad_pro
+│  │  ├── 2024l1.kicad_sch
+│  │  ├── 2024l1.pretty
+│  │  ├── fp-info-cache
+│  │  └── fp-lib-table
+│  └── 2024l2
+│     ├── 3dmodels
+│     ├── 2024l2.kicad_pcb
+│     ├── 2024l2.kicad_pro
+│     ├── 2024l2.kicad_sch
+│     ├── 2024l2.pretty
+│     ├── fp-info-cache
+│     ├── fp-lib-table
+│     └── Power.kicad_sch
+├── README.md
+└── test-pcb
+   ├── 3dmodels
+   ├── fp-info-cache
+   ├── test-pcb.kicad_pcb
+   ├── test-pcb.kicad_pro
+   ├── test-pcb.kicad_sch
+   └── test-pcb.pretty
 ```
 Feel free to copy our designs but don't forget to give us some love by giving us credit ❤️
