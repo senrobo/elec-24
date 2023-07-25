@@ -32,3 +32,5 @@ fp-info-cache
 2024l2-backups/
 test-pcb-backups/
 production/
+
+*.step
