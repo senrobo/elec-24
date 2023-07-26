@@ -3989,7 +3989,7 @@
   (symbol (lib_id "Device:R") (at 315.595 245.745 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0014118d-0359-4784-af18-e1c10fbeee4b)
-    (property "Reference" "R9" (at 313.055 244.4749 0)
+    (property "Reference" "R?" (at 313.055 244.4749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K5" (at 313.055 247.0149 0)
@@ -4006,12 +4006,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "2024l1"
@@ -4025,7 +4025,7 @@
   (symbol (lib_id "power:GND") (at 287.655 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 017a20aa-8205-461b-a93d-c5c35337ac05)
-    (property "Reference" "#PWR07" (at 287.655 112.395 0)
+    (property "Reference" "#PWR024" (at 287.655 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 287.655 111.125 0)
@@ -4041,7 +4041,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "2024l1"
@@ -4051,12 +4051,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4065,7 +4065,7 @@
   (symbol (lib_id "vincent:R") (at 201.295 213.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03ea1b18-333a-41b6-a9ce-5aa5de23da56)
-    (property "Reference" "R1" (at 201.295 211.455 0)
+    (property "Reference" "R?" (at 201.295 211.455 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 201.295 213.995 0)
@@ -4082,23 +4082,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R5") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R5") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -4110,7 +4110,7 @@
   (symbol (lib_id "Device:R") (at 217.805 243.205 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05bfc84d-a2fe-4281-8697-7ef65f9b4eba)
-    (property "Reference" "R9" (at 215.265 241.9349 0)
+    (property "Reference" "R?" (at 215.265 241.9349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K5" (at 215.265 244.4749 0)
@@ -4127,12 +4127,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "2024l1"
@@ -4146,7 +4146,7 @@
   (symbol (lib_id "vincent:IPD050N10N5ATMA1") (at 356.235 144.145 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06af21d1-fbd2-4a8d-999c-4ce3badcb6a0)
-    (property "Reference" "Q1" (at 366.395 142.875 0)
+    (property "Reference" "Q?" (at 366.395 142.875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IPD050N10N5ATMA1" (at 366.395 145.415 0)
@@ -4179,12 +4179,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "Q?") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
       (project "2024l1"
@@ -4198,7 +4198,7 @@
   (symbol (lib_id "vincent:IPD050N10N5ATMA1") (at 258.445 141.605 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06efcf48-b667-43b1-9904-c9375fdc4f8e)
-    (property "Reference" "Q1" (at 268.605 140.335 0)
+    (property "Reference" "Q?" (at 268.605 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IPD050N10N5ATMA1" (at 268.605 142.875 0)
@@ -4231,12 +4231,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "Q?") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
       (project "2024l1"
@@ -4250,13 +4250,13 @@
   (symbol (lib_id "vincent:OpenMV") (at 57.15 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0aeaaa3c-62cc-4985-b0cd-3fd8d80e8658)
-    (property "Reference" "U?" (at 56.515 92.075 0)
+    (property "Reference" "U3" (at 56.515 92.075 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OpenMV" (at 56.515 94.615 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 62.23 97.155 0)
+    (property "Footprint" "2024l2:openmv" (at 62.23 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://cdn.shopify.com/s/files/1/0803/9211/files/OpenMV-H7.pdf?10726770933929369108" (at 62.23 97.155 0)
@@ -4281,7 +4281,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "U?") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4290,7 +4290,7 @@
   (symbol (lib_id "power:GND") (at 156.21 201.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c6a07b9-3e1b-4b30-be21-771512fcc104)
-    (property "Reference" "#PWR04" (at 156.21 207.645 0)
+    (property "Reference" "#PWR06" (at 156.21 207.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 205.74 0)
@@ -4306,7 +4306,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4315,7 +4315,7 @@
   (symbol (lib_id "Device:C") (at 300.355 245.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 141a7668-d8ca-4e79-bc1d-46645c0b1dee)
-    (property "Reference" "C1" (at 304.165 244.4749 0)
+    (property "Reference" "C?" (at 304.165 244.4749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33n" (at 304.165 247.0149 0)
@@ -4332,12 +4332,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "2024l1"
@@ -4351,7 +4351,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 266.065 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1857a320-b648-4073-b53d-7947dadc1e52)
-    (property "Reference" "C2" (at 269.875 155.3209 0)
+    (property "Reference" "C?" (at 269.875 155.3209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680u" (at 269.875 157.8609 0)
@@ -4368,12 +4368,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "2024l1"
@@ -4387,7 +4387,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 57.15 132.715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a5c8247-d4e9-437f-baca-8607c6ce45d8)
-    (property "Reference" "SW?" (at 57.15 125.095 0)
+    (property "Reference" "SW1" (at 57.15 125.095 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Cam 5V" (at 57.15 127.635 0)
@@ -4405,7 +4405,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "SW?") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -4414,7 +4414,7 @@
   (symbol (lib_id "vincent:R") (at 307.975 163.195 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a682ea9-45cf-4f00-9e86-9978d647e1a5)
-    (property "Reference" "R7" (at 307.975 165.735 0)
+    (property "Reference" "R?" (at 307.975 165.735 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 307.975 163.195 0)
@@ -4431,23 +4431,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R8") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R8") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -4459,7 +4459,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 87.63 49.53 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1dd1e4de-817c-4c99-afd7-db77957b59b5)
-    (property "Reference" "SW?" (at 86.36 48.2599 90)
+    (property "Reference" "SW2" (at 86.36 48.2599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SW_Push" (at 86.36 50.7999 90)
@@ -4476,12 +4476,12 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "SW?") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "SW1") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
     )
@@ -4490,7 +4490,7 @@
   (symbol (lib_id "power:+5V") (at 352.425 85.725 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e8a358e-7871-49a9-a2d5-0e99b47a2d8c)
-    (property "Reference" "#PWR011" (at 348.615 85.725 0)
+    (property "Reference" "#PWR036" (at 348.615 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 356.235 86.36 90)
@@ -4506,7 +4506,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "2024l1"
@@ -4516,12 +4516,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4530,7 +4530,7 @@
   (symbol (lib_id "vincent:R") (at 307.975 239.395 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fec0884-aca9-4bc1-9a65-eb6f0cf5c704)
-    (property "Reference" "R7" (at 307.975 241.935 0)
+    (property "Reference" "R?" (at 307.975 241.935 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 307.975 239.395 0)
@@ -4547,23 +4547,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R8") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R8") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -4575,7 +4575,7 @@
   (symbol (lib_id "power:GND") (at 363.855 254.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2215075a-3936-4df9-9f26-a7d3d77cb15d)
-    (property "Reference" "#PWR05" (at 363.855 260.985 0)
+    (property "Reference" "#PWR?" (at 363.855 260.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 363.855 259.715 0)
@@ -4591,17 +4591,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4610,7 +4610,7 @@
   (symbol (lib_id "power:VCC") (at 363.855 122.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24452329-2a4a-4c5d-8203-0f861ccb8d0b)
-    (property "Reference" "#PWR04" (at 363.855 126.365 0)
+    (property "Reference" "#PWR?" (at 363.855 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 363.855 117.475 0)
@@ -4626,17 +4626,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4645,7 +4645,7 @@
   (symbol (lib_id "Device:R") (at 307.975 131.445 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26ac317d-f13f-4ada-91b8-eb377ced6dd1)
-    (property "Reference" "R3" (at 305.435 130.1749 0)
+    (property "Reference" "R?" (at 305.435 130.1749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 305.435 132.7149 0)
@@ -4662,12 +4662,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
       (project "2024l1"
@@ -4681,7 +4681,7 @@
   (symbol (lib_id "power:+5V") (at 313.055 122.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 280efb1f-7a2c-4869-809a-bafb663bfae0)
-    (property "Reference" "#PWR019" (at 313.055 126.365 0)
+    (property "Reference" "#PWR029" (at 313.055 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 313.055 118.11 0)
@@ -4697,7 +4697,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4706,13 +4706,13 @@
   (symbol (lib_id "vincent:Teensy 4.1") (at 162.56 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 290026fb-60de-4869-a050-03be1155d70a)
-    (property "Reference" "U?" (at 162.56 33.655 0)
+    (property "Reference" "U4" (at 162.56 33.655 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Teensy 4.1" (at 162.56 36.195 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 152.4 89.535 0)
+    (property "Footprint" "2024l2:Teensy41" (at 152.4 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 152.4 89.535 0)
@@ -4788,7 +4788,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "U?") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -4797,7 +4797,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 333.375 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cb2d544-fc68-4376-a160-43ea3b60f515)
-    (property "Reference" "C?" (at 337.185 88.646 0)
+    (property "Reference" "C9" (at 337.185 88.646 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 337.185 91.186 0)
@@ -4814,7 +4814,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "2024l1"
@@ -4824,12 +4824,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4838,7 +4838,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 233.68 88.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d685eb7-99a9-4264-b37a-cd18a6c76949)
-    (property "Reference" "J?" (at 233.68 83.185 0)
+    (property "Reference" "J7" (at 233.68 83.185 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 233.68 85.725 0)
@@ -4855,7 +4855,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J?") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -4864,13 +4864,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 33.02 215.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3295b7fb-2cb5-4d94-8297-b0d9dbe6fdbe)
-    (property "Reference" "J?" (at 33.02 204.47 0)
+    (property "Reference" "J1" (at 33.02 204.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06" (at 33.02 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.02 215.9 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" (at 33.02 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 215.9 0)
@@ -4885,7 +4885,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J?") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -4894,7 +4894,7 @@
   (symbol (lib_id "Device:R") (at 217.805 167.005 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32dd0db9-4a80-435b-89d9-548e7d1c090f)
-    (property "Reference" "R9" (at 215.265 165.7349 0)
+    (property "Reference" "R?" (at 215.265 165.7349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K5" (at 215.265 168.2749 0)
@@ -4911,12 +4911,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "2024l1"
@@ -4930,7 +4930,7 @@
   (symbol (lib_id "Device:R") (at 210.185 205.105 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 340c8996-7c92-4073-808d-abf6a60b6719)
-    (property "Reference" "R3" (at 207.645 203.8349 0)
+    (property "Reference" "R?" (at 207.645 203.8349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 207.645 206.3749 0)
@@ -4947,12 +4947,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "2024l1"
@@ -4966,7 +4966,7 @@
   (symbol (lib_id "Device:R") (at 319.405 249.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 341eb864-d202-4c1f-a759-6dd0fdc7c46c)
-    (property "Reference" "R10" (at 321.945 248.2849 0)
+    (property "Reference" "R?" (at 321.945 248.2849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 321.945 250.8249 0)
@@ -4983,12 +4983,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
       (project "2024l1"
@@ -5002,13 +5002,13 @@
   (symbol (lib_id "vincent:xiao-esp32c3") (at 54.61 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 347129f0-d2c1-46bf-b337-c48503a3fc51)
-    (property "Reference" "U?" (at 54.61 157.48 0)
+    (property "Reference" "U2" (at 54.61 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "xiao-esp32c3" (at 54.61 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:xiao-esp32c3" (at 50.8 165.1 0)
+    (property "Footprint" "2024l2:xiao-esp32c3" (at 50.8 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/esp32-c3_datasheet.pdf" (at 53.34 184.15 0)
@@ -5031,7 +5031,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "U?") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -5040,7 +5040,7 @@
   (symbol (lib_id "vincent:R") (at 210.185 160.655 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3486d344-7ee7-4dea-b610-977b2b40b0cd)
-    (property "Reference" "R7" (at 210.185 163.195 0)
+    (property "Reference" "R?" (at 210.185 163.195 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 210.185 160.655 0)
@@ -5057,23 +5057,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R8") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R8") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -5085,13 +5085,13 @@
   (symbol (lib_id "Device:R") (at 344.805 100.965 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 389d647b-28d8-49f6-8d9c-5dec27e52dda)
-    (property "Reference" "R?" (at 347.345 100.33 0)
+    (property "Reference" "R34" (at 347.345 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3K24" (at 347.345 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:res0603" (at 343.027 100.965 90)
+    (property "Footprint" "2024l2:res0603" (at 343.027 100.965 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 344.805 100.965 0)
@@ -5102,7 +5102,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
       (project "2024l1"
@@ -5112,12 +5112,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -5148,15 +5148,15 @@
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "2023l3-int"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -5165,13 +5165,13 @@
   (symbol (lib_id "vincent:VNH5019ATR-E") (at 220.345 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3db7a03e-9bac-4802-a9ab-c8714bfbf8e5)
-    (property "Reference" "IC1" (at 234.95 130.175 0)
+    (property "Reference" "IC?" (at 234.95 130.175 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VNH5019ATR-E" (at 234.95 132.715 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "test-pcb:VNH5019A-E" (at 254.635 232.715 0)
+    (property "Footprint" "2024l2:VNH5019A-E" (at 254.635 232.715 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf" (at 254.635 332.715 0)
@@ -5208,12 +5208,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "IC1") (unit 1)
+          (reference "IC?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "IC?") (unit 1)
+          (reference "IC1") (unit 1)
         )
       )
       (project "2024l1"
@@ -5227,7 +5227,7 @@
   (symbol (lib_id "power:+5V") (at 307.975 122.555 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 445c416c-c503-4cf1-8645-1a9b83388228)
-    (property "Reference" "#PWR018" (at 307.975 126.365 0)
+    (property "Reference" "#PWR025" (at 307.975 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 307.975 118.11 0)
@@ -5243,7 +5243,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5252,7 +5252,7 @@
   (symbol (lib_id "vincent:R") (at 201.295 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4742ed13-0dfa-462f-8898-182646870d31)
-    (property "Reference" "R1" (at 201.295 135.255 0)
+    (property "Reference" "R?" (at 201.295 135.255 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 201.295 137.795 0)
@@ -5269,23 +5269,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R5") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R5") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -5297,7 +5297,7 @@
   (symbol (lib_id "power:VCC") (at 266.065 196.215 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ac20f57-6b8a-4688-ad29-3303e76b3e4b)
-    (property "Reference" "#PWR04" (at 266.065 200.025 0)
+    (property "Reference" "#PWR?" (at 266.065 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 266.065 191.135 0)
@@ -5313,17 +5313,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5332,7 +5332,7 @@
   (symbol (lib_id "power:+5V") (at 313.055 198.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b6c39bd-3a95-4bb3-a3fc-9f03d495007a)
-    (property "Reference" "#PWR017" (at 313.055 202.565 0)
+    (property "Reference" "#PWR030" (at 313.055 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 313.055 194.31 0)
@@ -5348,7 +5348,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5357,7 +5357,7 @@
   (symbol (lib_id "power:+5V") (at 156.21 191.135 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bf2c2fc-4dad-47b1-a3b7-5232cba5d142)
-    (property "Reference" "#PWR03" (at 156.21 194.945 0)
+    (property "Reference" "#PWR05" (at 156.21 194.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 156.21 186.69 0)
@@ -5373,7 +5373,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -5382,13 +5382,13 @@
   (symbol (lib_id "Device:C") (at 307.975 85.725 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d01f6ef-edda-4cf4-a980-b149875eef6a)
-    (property "Reference" "C?" (at 307.975 79.375 90)
+    (property "Reference" "C8" (at 307.975 79.375 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 307.975 81.915 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:cap0603" (at 311.785 84.7598 0)
+    (property "Footprint" "2024l2:cap0603" (at 311.785 84.7598 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 307.975 85.725 0)
@@ -5399,7 +5399,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "2024l1"
@@ -5409,12 +5409,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -5423,13 +5423,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 140.335 176.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ee444bf-7d81-4de3-ac48-84ab1a6012f5)
-    (property "Reference" "J?" (at 140.335 167.64 0)
+    (property "Reference" "J6" (at 140.335 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 140.335 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 140.335 176.53 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (at 140.335 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.335 176.53 0)
@@ -5441,7 +5441,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J?") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -5450,7 +5450,7 @@
   (symbol (lib_id "power:VCC") (at 363.855 198.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 501c237a-6e98-4c39-88cb-c02cfe6e2321)
-    (property "Reference" "#PWR04" (at 363.855 202.565 0)
+    (property "Reference" "#PWR?" (at 363.855 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 363.855 193.675 0)
@@ -5466,17 +5466,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5485,7 +5485,7 @@
   (symbol (lib_id "Switch:SW_DIP_x02") (at 149.225 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52d290c7-c0fc-4b72-8431-327c05df650c)
-    (property "Reference" "SW?" (at 149.225 151.13 0)
+    (property "Reference" "SW4" (at 149.225 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DIP_x02" (at 149.225 153.67 0)
@@ -5504,12 +5504,12 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "SW?") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
       (project "2023l3-int"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "SW1") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
     )
@@ -5518,7 +5518,7 @@
   (symbol (lib_id "Device:R") (at 210.185 128.905 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53603035-3fe2-4d3c-b2af-0cc9e414d1b8)
-    (property "Reference" "R3" (at 207.645 127.6349 0)
+    (property "Reference" "R?" (at 207.645 127.6349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 207.645 130.1749 0)
@@ -5535,12 +5535,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "2024l1"
@@ -5554,7 +5554,7 @@
   (symbol (lib_id "power:+5V") (at 215.265 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5685ebbc-4be6-4b34-aa99-e051baac8e0c)
-    (property "Reference" "#PWR021" (at 215.265 123.825 0)
+    (property "Reference" "#PWR012" (at 215.265 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 215.265 115.57 0)
@@ -5570,7 +5570,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5579,7 +5579,7 @@
   (symbol (lib_id "power:GND") (at 363.855 178.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56b3376d-5521-4eee-baaf-e127db311de4)
-    (property "Reference" "#PWR05" (at 363.855 184.785 0)
+    (property "Reference" "#PWR?" (at 363.855 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 363.855 183.515 0)
@@ -5595,17 +5595,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5614,7 +5614,7 @@
   (symbol (lib_id "power:GND") (at 333.375 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58c52f44-6949-4581-a375-3ae3731db89a)
-    (property "Reference" "#PWR09" (at 333.375 102.235 0)
+    (property "Reference" "#PWR034" (at 333.375 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 333.375 100.965 0)
@@ -5630,7 +5630,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "2024l1"
@@ -5640,12 +5640,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5654,7 +5654,7 @@
   (symbol (lib_id "Device:R") (at 315.595 169.545 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 590f0b16-1647-4fbb-a0f3-84127861927d)
-    (property "Reference" "R9" (at 313.055 168.2749 0)
+    (property "Reference" "R?" (at 313.055 168.2749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K5" (at 313.055 170.8149 0)
@@ -5671,12 +5671,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project "2024l1"
@@ -5690,7 +5690,7 @@
   (symbol (lib_id "power:VCC") (at 246.38 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 597aa0cb-92f7-496a-b93f-6dffe9815475)
-    (property "Reference" "#PWR017" (at 246.38 88.265 0)
+    (property "Reference" "#PWR016" (at 246.38 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 246.38 80.01 0)
@@ -5706,7 +5706,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5715,7 +5715,7 @@
   (symbol (lib_id "Device:R") (at 215.265 128.905 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ec67e42-10f5-4bd4-adf8-187a1949169c)
-    (property "Reference" "R8" (at 217.805 127.6349 0)
+    (property "Reference" "R?" (at 217.805 127.6349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 217.805 130.1749 0)
@@ -5732,12 +5732,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "2024l1"
@@ -5751,7 +5751,7 @@
   (symbol (lib_id "power:+3V3") (at 87.63 26.67 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f46b741-0e3f-455e-a98c-e65dc36b1fda)
-    (property "Reference" "#PWR015" (at 87.63 30.48 0)
+    (property "Reference" "#PWR01" (at 87.63 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 87.63 21.59 0)
@@ -5767,12 +5767,12 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5781,7 +5781,7 @@
   (symbol (lib_id "Device:R") (at 313.055 131.445 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 624f5da6-7e6c-4ec9-a0fc-c553b6704466)
-    (property "Reference" "R8" (at 315.595 130.1749 0)
+    (property "Reference" "R?" (at 315.595 130.1749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 315.595 132.7149 0)
@@ -5798,12 +5798,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "2024l1"
@@ -5817,7 +5817,7 @@
   (symbol (lib_id "power:VCC") (at 266.065 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 638633b4-d830-438f-ac81-cf6aa91ba878)
-    (property "Reference" "#PWR04" (at 266.065 123.825 0)
+    (property "Reference" "#PWR?" (at 266.065 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 266.065 114.935 0)
@@ -5833,17 +5833,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5852,13 +5852,13 @@
   (symbol (lib_id "vincent:R") (at 87.63 34.29 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63f2b154-65cd-46ba-bdd8-45ca97709155)
-    (property "Reference" "R?" (at 85.09 33.0199 90)
+    (property "Reference" "R1" (at 85.09 33.0199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K" (at 85.09 35.5599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "2024l1:res0603" (at 87.63 34.29 0)
+    (property "Footprint" "2024l2:res0603" (at 87.63 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 87.63 34.29 0)
@@ -5869,12 +5869,12 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "R31") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -5883,13 +5883,13 @@
   (symbol (lib_id "Device:C") (at 266.065 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a32215a-c014-4eb4-a089-209071729b98)
-    (property "Reference" "C?" (at 269.875 93.98 0)
+    (property "Reference" "C3" (at 269.875 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 269.875 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:cap0603" (at 267.0302 98.425 0)
+    (property "Footprint" "2024l2:cap0603" (at 267.0302 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.065 94.615 0)
@@ -5900,7 +5900,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "2024l1"
@@ -5910,12 +5910,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "C10") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -5924,7 +5924,7 @@
   (symbol (lib_id "power:GND") (at 221.615 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b71dae3-04ba-4597-9f58-772e75c71471)
-    (property "Reference" "#PWR06" (at 221.615 182.245 0)
+    (property "Reference" "#PWR?" (at 221.615 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 221.615 180.975 0)
@@ -5940,17 +5940,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5959,7 +5959,7 @@
   (symbol (lib_id "Device:C") (at 202.565 243.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ede42ee-496c-4259-ab64-6a391b64b47f)
-    (property "Reference" "C1" (at 206.375 241.9349 0)
+    (property "Reference" "C?" (at 206.375 241.9349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33n" (at 206.375 244.4749 0)
@@ -5976,12 +5976,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "2024l1"
@@ -5995,7 +5995,7 @@
   (symbol (lib_id "power:GND") (at 319.405 178.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 736cea52-fb32-4105-9f30-735530e93d23)
-    (property "Reference" "#PWR06" (at 319.405 184.785 0)
+    (property "Reference" "#PWR?" (at 319.405 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 319.405 183.515 0)
@@ -6011,17 +6011,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6030,7 +6030,7 @@
   (symbol (lib_id "power:GND") (at 159.385 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7447971d-8b31-45d3-b068-535cf5512112)
-    (property "Reference" "#PWR024" (at 159.385 170.18 0)
+    (property "Reference" "#PWR07" (at 159.385 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 159.385 168.91 0)
@@ -6046,12 +6046,12 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "2023l3-int"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6085,7 +6085,7 @@
   (symbol (lib_id "Device:R") (at 313.055 207.645 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7542707a-0a9e-4839-b1b2-55c63a056863)
-    (property "Reference" "R8" (at 315.595 206.3749 0)
+    (property "Reference" "R?" (at 315.595 206.3749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 315.595 208.9149 0)
@@ -6102,12 +6102,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "2024l1"
@@ -6121,7 +6121,7 @@
   (symbol (lib_id "power:+5V") (at 307.975 198.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 763ce8c9-1b2b-47b1-9293-41e5963b6649)
-    (property "Reference" "#PWR014" (at 307.975 202.565 0)
+    (property "Reference" "#PWR027" (at 307.975 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 307.975 194.31 0)
@@ -6137,7 +6137,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -6146,7 +6146,7 @@
   (symbol (lib_id "Device:R") (at 319.405 173.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76bd4d44-e6c6-490e-a90b-1eade1fc6bcc)
-    (property "Reference" "R10" (at 321.945 172.0849 0)
+    (property "Reference" "R?" (at 321.945 172.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 321.945 174.6249 0)
@@ -6163,12 +6163,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
       (project "2024l1"
@@ -6182,7 +6182,7 @@
   (symbol (lib_id "power:GND") (at 307.975 178.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77c450fa-e13b-49c4-9e10-9eaefa162cf4)
-    (property "Reference" "#PWR02" (at 307.975 184.785 0)
+    (property "Reference" "#PWR?" (at 307.975 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 307.975 183.515 0)
@@ -6198,17 +6198,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6217,7 +6217,7 @@
   (symbol (lib_id "power:GND") (at 307.975 254.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 786d7d92-df9b-40b8-b2f6-4cf7bbab6b07)
-    (property "Reference" "#PWR02" (at 307.975 260.985 0)
+    (property "Reference" "#PWR?" (at 307.975 260.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 307.975 259.715 0)
@@ -6233,17 +6233,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6252,7 +6252,7 @@
   (symbol (lib_id "vincent:4754") (at 44.45 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c4f6806-0045-4ba4-8f36-78cb49591d70)
-    (property "Reference" "U?" (at 34.29 29.718 0)
+    (property "Reference" "U1" (at 34.29 29.718 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "4754" (at 34.29 66.04 0)
@@ -6279,7 +6279,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "U?") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -6288,7 +6288,7 @@
   (symbol (lib_id "power:GND") (at 221.615 252.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85408fd7-5373-449c-9376-5adc4e143e6e)
-    (property "Reference" "#PWR06" (at 221.615 258.445 0)
+    (property "Reference" "#PWR?" (at 221.615 258.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 221.615 257.175 0)
@@ -6304,17 +6304,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6323,13 +6323,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 65.405 215.265 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 857ead7c-257b-413a-ad4b-c5b44fb913b9)
-    (property "Reference" "J?" (at 65.405 203.835 0)
+    (property "Reference" "J3" (at 65.405 203.835 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06" (at 65.405 206.375 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 65.405 215.265 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" (at 65.405 215.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 65.405 215.265 0)
@@ -6344,7 +6344,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J?") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -6353,7 +6353,7 @@
   (symbol (lib_id "power:GND") (at 318.135 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85980284-f0f8-4db7-b4bb-01300b3ec02f)
-    (property "Reference" "#PWR08" (at 318.135 102.235 0)
+    (property "Reference" "#PWR031" (at 318.135 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 318.135 100.965 0)
@@ -6369,7 +6369,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "2024l1"
@@ -6379,12 +6379,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6415,15 +6415,15 @@
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "2023l3-int"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -6432,7 +6432,7 @@
   (symbol (lib_id "power:GND") (at 210.185 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8984e5d5-fdf4-4b76-a2cb-2a0375525051)
-    (property "Reference" "#PWR02" (at 210.185 182.245 0)
+    (property "Reference" "#PWR?" (at 210.185 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.185 180.975 0)
@@ -6448,17 +6448,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6467,7 +6467,7 @@
   (symbol (lib_id "vincent:IPD050N10N5ATMA1") (at 356.235 220.345 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b61a78f-09f9-49f9-b37b-d4a57d238bca)
-    (property "Reference" "Q1" (at 366.395 219.075 0)
+    (property "Reference" "Q?" (at 366.395 219.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IPD050N10N5ATMA1" (at 366.395 221.615 0)
@@ -6500,12 +6500,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "Q?") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
       (project "2024l1"
@@ -6519,7 +6519,7 @@
   (symbol (lib_id "vincent:IPD050N10N5ATMA1") (at 258.445 217.805 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e7921a8-9020-4ecd-8dfa-db1a3a6142b1)
-    (property "Reference" "Q1" (at 268.605 216.535 0)
+    (property "Reference" "Q?" (at 268.605 216.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IPD050N10N5ATMA1" (at 268.605 219.075 0)
@@ -6552,12 +6552,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "Q?") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
       (project "2024l1"
@@ -6571,13 +6571,13 @@
   (symbol (lib_id "vincent:EXB-V8V102JV") (at 259.08 15.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ffc3963-20dd-4696-ac55-e1bcc56374cc)
-    (property "Reference" "RN?" (at 266.7 15.875 0)
+    (property "Reference" "RN1" (at 266.7 15.875 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EXB-V8V102JV" (at 266.7 18.415 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "EXB38V472JV" (at 275.59 110.16 0)
+    (property "Footprint" "2024l2:EXB38V472JV" (at 275.59 110.16 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" (at 275.59 210.16 0)
@@ -6609,7 +6609,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "RN?") (unit 1)
+          (reference "RN1") (unit 1)
         )
       )
     )
@@ -6618,7 +6618,7 @@
   (symbol (lib_id "vincent:R") (at 299.085 144.145 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92f44873-414e-4985-9162-c412ba1ef378)
-    (property "Reference" "R2" (at 299.085 146.685 0)
+    (property "Reference" "R?" (at 299.085 146.685 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 299.085 144.145 0)
@@ -6635,23 +6635,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R6") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R6") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -6663,13 +6663,13 @@
   (symbol (lib_id "Device:R") (at 344.805 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93171e73-f88d-4e0a-91bc-66f800745a3e)
-    (property "Reference" "R?" (at 347.345 90.17 0)
+    (property "Reference" "R33" (at 347.345 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 347.345 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:res0603" (at 343.027 90.805 90)
+    (property "Footprint" "2024l2:res0603" (at 343.027 90.805 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 344.805 90.805 0)
@@ -6680,7 +6680,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
       (project "2024l1"
@@ -6690,12 +6690,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "R46") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -6704,7 +6704,7 @@
   (symbol (lib_id "power:GND") (at 319.405 254.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98aa63dd-e7a5-41d4-b429-4be2c1568fbb)
-    (property "Reference" "#PWR06" (at 319.405 260.985 0)
+    (property "Reference" "#PWR?" (at 319.405 260.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 319.405 259.715 0)
@@ -6720,17 +6720,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6761,15 +6761,15 @@
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "SW?") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
       (project "2023l3-int"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
-          (reference "SW2") (unit 1)
+          (reference "SW?") (unit 1)
         )
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "SW3") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
     )
@@ -6778,7 +6778,7 @@
   (symbol (lib_id "vincent:R") (at 299.085 140.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e5c14d8-545b-49d3-996a-42705bff70c6)
-    (property "Reference" "R1" (at 299.085 137.795 0)
+    (property "Reference" "R?" (at 299.085 137.795 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 299.085 140.335 0)
@@ -6795,23 +6795,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R5") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R5") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -6823,7 +6823,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 266.065 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ef89ee7-a086-4d9d-82c5-a039456e951e)
-    (property "Reference" "C2" (at 269.875 231.5209 0)
+    (property "Reference" "C?" (at 269.875 231.5209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680u" (at 269.875 234.0609 0)
@@ -6840,12 +6840,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "2024l1"
@@ -6859,7 +6859,7 @@
   (symbol (lib_id "Diode:B340") (at 318.135 90.805 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fc806e6-2841-4fc0-badf-07ffdac27f7f)
-    (property "Reference" "D?" (at 320.675 89.2175 90)
+    (property "Reference" "D1" (at 320.675 89.2175 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SS54" (at 320.675 91.7575 90)
@@ -6876,7 +6876,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "D?") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "2024l1"
@@ -6886,12 +6886,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "D4") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "D1") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -6900,7 +6900,7 @@
   (symbol (lib_id "Device:R") (at 307.975 207.645 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1671b78-00a6-4b0f-9ff2-24892d6ad593)
-    (property "Reference" "R3" (at 305.435 206.3749 0)
+    (property "Reference" "R?" (at 305.435 206.3749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 305.435 208.9149 0)
@@ -6917,12 +6917,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
       (project "2024l1"
@@ -6936,7 +6936,7 @@
   (symbol (lib_id "Regulator_Switching:TPS5430DDA") (at 288.925 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a34cafb6-441b-42f4-92b2-1df6065aa477)
-    (property "Reference" "U?" (at 288.925 79.375 0)
+    (property "Reference" "U5" (at 288.925 79.375 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS5430DDA" (at 288.925 81.915 0)
@@ -6960,7 +6960,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "U?") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "2024l1"
@@ -6970,12 +6970,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "U3") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -6984,7 +6984,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 387.35 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a40fe525-85ce-495d-9ea6-42ae55da3133)
-    (property "Reference" "SW?" (at 387.35 181.61 0)
+    (property "Reference" "SW5" (at 387.35 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "M SW" (at 387.35 184.15 0)
@@ -7002,7 +7002,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "SW?") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -7011,7 +7011,7 @@
   (symbol (lib_id "power:GND") (at 210.185 252.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab853463-2e87-4a83-8222-a91948862a42)
-    (property "Reference" "#PWR02" (at 210.185 258.445 0)
+    (property "Reference" "#PWR?" (at 210.185 258.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.185 257.175 0)
@@ -7027,17 +7027,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7067,15 +7067,15 @@
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "2023l3-int"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
-          (reference "#PWR0167") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7084,13 +7084,13 @@
   (symbol (lib_id "vincent:VNH5019ATR-E") (at 318.135 140.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b08b2e44-5878-4250-af9e-efdabb646697)
-    (property "Reference" "IC1" (at 332.74 132.715 0)
+    (property "Reference" "IC?" (at 332.74 132.715 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VNH5019ATR-E" (at 332.74 135.255 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "test-pcb:VNH5019A-E" (at 352.425 235.255 0)
+    (property "Footprint" "2024l2:VNH5019A-E" (at 352.425 235.255 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf" (at 352.425 335.255 0)
@@ -7127,12 +7127,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "IC1") (unit 1)
+          (reference "IC?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "IC?") (unit 1)
+          (reference "IC3") (unit 1)
         )
       )
       (project "2024l1"
@@ -7146,7 +7146,7 @@
   (symbol (lib_id "power:GND") (at 344.805 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1fbced6-8b73-46cc-9bd8-3fed50e317c7)
-    (property "Reference" "#PWR010" (at 344.805 112.395 0)
+    (property "Reference" "#PWR035" (at 344.805 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 344.805 111.125 0)
@@ -7162,7 +7162,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "2024l1"
@@ -7172,12 +7172,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7186,7 +7186,7 @@
   (symbol (lib_id "vincent:R") (at 201.295 217.805 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2604b73-39ba-4370-9b90-968f2f0766f9)
-    (property "Reference" "R2" (at 201.295 220.345 0)
+    (property "Reference" "R?" (at 201.295 220.345 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 201.295 217.805 0)
@@ -7203,23 +7203,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R6") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R6") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -7231,13 +7231,13 @@
   (symbol (lib_id "vincent:EXB-V8V102JV") (at 259.08 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b316cd1a-e23f-4c5e-a499-a76499cec4f7)
-    (property "Reference" "RN?" (at 266.7 34.925 0)
+    (property "Reference" "RN2" (at 266.7 34.925 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EXB-V8V102JV" (at 266.7 37.465 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "EXB38V472JV" (at 275.59 129.21 0)
+    (property "Footprint" "2024l2:EXB38V472JV" (at 275.59 129.21 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" (at 275.59 229.21 0)
@@ -7269,7 +7269,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "RN?") (unit 1)
+          (reference "RN2") (unit 1)
         )
       )
     )
@@ -7299,15 +7299,15 @@
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "2023l3-int"
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474/b6f041e8-1c4e-4d5e-bf26-3f97c4703dae"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7316,7 +7316,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 363.855 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5f69782-55bb-4503-834f-f8f996fb1f97)
-    (property "Reference" "C2" (at 367.665 157.8609 0)
+    (property "Reference" "C?" (at 367.665 157.8609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680u" (at 367.665 160.4009 0)
@@ -7333,12 +7333,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "2024l1"
@@ -7352,7 +7352,7 @@
   (symbol (lib_id "power:VCC") (at 266.065 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd171660-da05-4312-a6f1-6d92f66bfae5)
-    (property "Reference" "#PWR01" (at 266.065 86.995 0)
+    (property "Reference" "#PWR018" (at 266.065 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 266.065 78.105 0)
@@ -7368,7 +7368,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -7377,7 +7377,7 @@
   (symbol (lib_id "Device:R") (at 221.615 247.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf7849ff-5059-4309-8011-ec1cca05a883)
-    (property "Reference" "R10" (at 224.155 245.7449 0)
+    (property "Reference" "R?" (at 224.155 245.7449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 224.155 248.2849 0)
@@ -7394,12 +7394,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "2024l1"
@@ -7413,7 +7413,7 @@
   (symbol (lib_id "Device:R") (at 221.615 170.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bff377bc-5855-4435-bfc1-5803005eb657)
-    (property "Reference" "R10" (at 224.155 169.5449 0)
+    (property "Reference" "R?" (at 224.155 169.5449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 224.155 172.0849 0)
@@ -7430,12 +7430,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "2024l1"
@@ -7449,7 +7449,7 @@
   (symbol (lib_id "power:GND") (at 266.065 252.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4f93c71-2379-4d0d-a7a3-37329b5c33b8)
-    (property "Reference" "#PWR05" (at 266.065 258.445 0)
+    (property "Reference" "#PWR?" (at 266.065 258.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.065 257.175 0)
@@ -7465,17 +7465,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7484,13 +7484,13 @@
   (symbol (lib_id "vincent:EXB-V8V102JV") (at 259.08 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c840a273-0752-44ec-b81c-d5a308ce1891)
-    (property "Reference" "RN?" (at 266.7 53.975 0)
+    (property "Reference" "RN3" (at 266.7 53.975 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EXB-V8V102JV" (at 266.7 56.515 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "EXB38V472JV" (at 275.59 148.26 0)
+    (property "Footprint" "2024l2:EXB38V472JV" (at 275.59 148.26 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" (at 275.59 248.26 0)
@@ -7522,7 +7522,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "RN?") (unit 1)
+          (reference "RN3") (unit 1)
         )
       )
     )
@@ -7531,7 +7531,7 @@
   (symbol (lib_id "vincent:R") (at 299.085 216.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c86f3c0c-fd42-40e3-8128-18cfc75815a6)
-    (property "Reference" "R1" (at 299.085 213.995 0)
+    (property "Reference" "R?" (at 299.085 213.995 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 299.085 216.535 0)
@@ -7548,23 +7548,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R5") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R5") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -7576,7 +7576,7 @@
   (symbol (lib_id "vincent:R") (at 210.185 236.855 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c90b863f-9d4c-4945-a8ba-dc235a7bd435)
-    (property "Reference" "R7" (at 210.185 239.395 0)
+    (property "Reference" "R?" (at 210.185 239.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 210.185 236.855 0)
@@ -7593,23 +7593,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R8") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R8") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -7621,7 +7621,7 @@
   (symbol (lib_id "vincent:R") (at 87.63 59.69 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9388f96-5f22-4c76-ad15-e2c7961816d6)
-    (property "Reference" "R?" (at 85.09 58.4199 90)
+    (property "Reference" "R2" (at 85.09 58.4199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K" (at 85.09 60.9599 90)
@@ -7638,12 +7638,12 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "R32") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -7652,13 +7652,13 @@
   (symbol (lib_id "vincent:VNH5019ATR-E") (at 318.135 216.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccdb40a8-f1b1-41d1-8e22-9a4aa02d6058)
-    (property "Reference" "IC1" (at 332.74 208.915 0)
+    (property "Reference" "IC?" (at 332.74 208.915 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VNH5019ATR-E" (at 332.74 211.455 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "test-pcb:VNH5019A-E" (at 352.425 311.455 0)
+    (property "Footprint" "2024l2:VNH5019A-E" (at 352.425 311.455 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf" (at 352.425 411.455 0)
@@ -7695,12 +7695,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "IC1") (unit 1)
+          (reference "IC?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "IC?") (unit 1)
+          (reference "IC4") (unit 1)
         )
       )
       (project "2024l1"
@@ -7714,7 +7714,7 @@
   (symbol (lib_id "power:GND") (at 266.065 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf91d899-020f-4224-bec3-c011be875d25)
-    (property "Reference" "#PWR05" (at 266.065 182.245 0)
+    (property "Reference" "#PWR?" (at 266.065 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.065 180.975 0)
@@ -7730,17 +7730,17 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7749,7 +7749,7 @@
   (symbol (lib_id "power:+5V") (at 210.185 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d04517c7-9ffe-486b-82f6-0bb2859e7d4b)
-    (property "Reference" "#PWR020" (at 210.185 123.825 0)
+    (property "Reference" "#PWR08" (at 210.185 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 210.185 115.57 0)
@@ -7765,7 +7765,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -7774,7 +7774,7 @@
   (symbol (lib_id "Device:C") (at 300.355 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0dee00a-7be4-4f8f-b7c3-9a0e31c47717)
-    (property "Reference" "C1" (at 304.165 168.2749 0)
+    (property "Reference" "C?" (at 304.165 168.2749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33n" (at 304.165 170.8149 0)
@@ -7791,12 +7791,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "2024l1"
@@ -7810,13 +7810,13 @@
   (symbol (lib_id "vincent:VNH5019ATR-E") (at 220.345 213.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1482fa1-414c-44c5-bf56-6a2bbd8d2cbc)
-    (property "Reference" "IC1" (at 234.95 206.375 0)
+    (property "Reference" "IC?" (at 234.95 206.375 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VNH5019ATR-E" (at 234.95 208.915 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "test-pcb:VNH5019A-E" (at 254.635 308.915 0)
+    (property "Footprint" "2024l2:VNH5019A-E" (at 254.635 308.915 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf" (at 254.635 408.915 0)
@@ -7853,12 +7853,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "IC1") (unit 1)
+          (reference "IC?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "IC?") (unit 1)
+          (reference "IC2") (unit 1)
         )
       )
       (project "2024l1"
@@ -7872,7 +7872,7 @@
   (symbol (lib_id "Device:L_Iron") (at 325.755 85.725 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d152d6ec-8655-4e69-95eb-284b29f66215)
-    (property "Reference" "L?" (at 325.755 79.375 90)
+    (property "Reference" "L1" (at 325.755 79.375 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15uH" (at 325.755 81.915 90)
@@ -7889,7 +7889,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "L?") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
       (project "2024l1"
@@ -7899,12 +7899,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "L2") (unit 1)
+          (reference "L?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
       )
     )
@@ -7913,7 +7913,7 @@
   (symbol (lib_id "Device:C") (at 202.565 167.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d27bc9bc-e224-41bc-b12d-090671141998)
-    (property "Reference" "C1" (at 206.375 165.7349 0)
+    (property "Reference" "C?" (at 206.375 165.7349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33n" (at 206.375 168.2749 0)
@@ -7930,12 +7930,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "2024l1"
@@ -7949,7 +7949,7 @@
   (symbol (lib_id "power:GND") (at 266.065 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d674b6fe-6a39-4ba6-8b95-4dcb4e789c84)
-    (property "Reference" "#PWR06" (at 266.065 112.395 0)
+    (property "Reference" "#PWR019" (at 266.065 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.065 111.125 0)
@@ -7965,7 +7965,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "2024l1"
@@ -7975,12 +7975,12 @@
       )
       (project "2023l1-int"
         (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -7989,7 +7989,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 139.7 194.945 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d85ccfb4-0766-43b9-8184-1ca487d130b3)
-    (property "Reference" "J?" (at 139.7 186.055 0)
+    (property "Reference" "J5" (at 139.7 186.055 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L1 Conn" (at 139.7 188.595 0)
@@ -8008,7 +8008,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J?") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -8017,7 +8017,7 @@
   (symbol (lib_id "vincent:R") (at 201.295 141.605 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d994cfe4-a945-42f2-9e18-10ff17988fcc)
-    (property "Reference" "R2" (at 201.295 144.145 0)
+    (property "Reference" "R?" (at 201.295 144.145 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 201.295 141.605 0)
@@ -8034,23 +8034,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R6") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R6") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -8062,13 +8062,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 65.405 239.395 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc30db37-decb-4c22-be03-ae8aaa2b49a8)
-    (property "Reference" "J?" (at 65.405 227.965 0)
+    (property "Reference" "J4" (at 65.405 227.965 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06" (at 65.405 230.505 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 65.405 239.395 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" (at 65.405 239.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 65.405 239.395 0)
@@ -8083,7 +8083,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J?") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -8092,13 +8092,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 33.655 240.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2015b9f-bd69-45e3-b19b-9612e06cfeb2)
-    (property "Reference" "J?" (at 33.655 228.6 0)
+    (property "Reference" "J2" (at 33.655 228.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06" (at 33.655 231.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 33.655 240.03 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" (at 33.655 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.655 240.03 0)
@@ -8113,7 +8113,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J?") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -8122,7 +8122,7 @@
   (symbol (lib_id "power:GND") (at 246.38 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5a07b2f-0ea2-481b-841d-86c13179cb5d)
-    (property "Reference" "#PWR018" (at 246.38 104.14 0)
+    (property "Reference" "#PWR017" (at 246.38 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 102.235 0)
@@ -8138,7 +8138,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -8147,7 +8147,7 @@
   (symbol (lib_id "Device:R") (at 215.265 205.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec4df390-fbb5-484a-9681-f9157f9938ae)
-    (property "Reference" "R8" (at 217.805 203.8349 0)
+    (property "Reference" "R?" (at 217.805 203.8349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 217.805 206.3749 0)
@@ -8164,12 +8164,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "2024l1"
@@ -8183,7 +8183,7 @@
   (symbol (lib_id "vincent:R") (at 299.085 220.345 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eefc6573-71c9-4eb9-9224-564db5f08059)
-    (property "Reference" "R2" (at 299.085 222.885 0)
+    (property "Reference" "R?" (at 299.085 222.885 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 299.085 220.345 0)
@@ -8200,23 +8200,23 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "R?") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "M3R6") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/b747ab5a-b019-4769-8740-6dc6d17d5cd8"
           (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/0f103199-be19-4fa2-abc2-3c9a8fb6b0f6"
-          (reference "M3R6") (unit 1)
+          (reference "M3R?") (unit 1)
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
@@ -8228,7 +8228,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 363.855 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0aadae3-1b76-41c6-a6a8-dc6cdb61e998)
-    (property "Reference" "C2" (at 367.665 234.0609 0)
+    (property "Reference" "C?" (at 367.665 234.0609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680u" (at 367.665 236.6009 0)
@@ -8245,12 +8245,12 @@
     (instances
       (project "test-pcb"
         (path "/1cd04cc7-ac63-4801-a234-4389545ae7cf"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "C?") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "2024l1"
@@ -8264,7 +8264,7 @@
   (symbol (lib_id "power:GND") (at 87.63 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4a99cd5-d71f-4ce5-b6b3-17e4fe7488b9)
-    (property "Reference" "#PWR016" (at 87.63 73.66 0)
+    (property "Reference" "#PWR02" (at 87.63 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 72.39 0)
@@ -8280,12 +8280,12 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -8294,7 +8294,7 @@
   (symbol (lib_id "power:+5V") (at 210.185 196.215 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb8c1e6c-f8a3-4e05-9bf4-244d92b2054a)
-    (property "Reference" "#PWR012" (at 210.185 200.025 0)
+    (property "Reference" "#PWR010" (at 210.185 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 210.185 191.77 0)
@@ -8310,7 +8310,7 @@
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )

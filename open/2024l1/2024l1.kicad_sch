@@ -4624,8 +4624,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 90.17 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 586dff43-e50e-49a6-a855-e5e2e6d4a889))
-    (pin "2" (uuid 2e3e4e39-018c-44fa-92fb-2e5d323c2bb7))
+    (pin "1" (uuid 6a9d33ba-be44-440f-aabc-d32d2b7b1c35))
+    (pin "2" (uuid 63c1a08b-e4b5-40a5-b4aa-4d21266f7d18))
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
@@ -5188,7 +5188,7 @@
     (property "Value" "SS54" (at 340.995 209.2325 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SMC" (at 334.01 208.28 0)
+    (property "Footprint" "2024l1:SMA (DO-214AC)" (at 334.01 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" (at 338.455 208.28 0)
@@ -5207,7 +5207,7 @@
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "D?") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
       (project "2023l1-int"
@@ -5437,13 +5437,13 @@
   (symbol (lib_id "Device:R") (at 78.74 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38bd27d4-1b13-47cb-8357-eb09ee329546)
-    (property "Reference" "R?" (at 76.2 226.0599 0)
+    (property "Reference" "R42" (at 76.2 226.0599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K" (at 76.2 228.5999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 76.962 227.33 90)
+    (property "Footprint" "2024l1:res0603" (at 76.962 227.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 78.74 227.33 0)
@@ -5454,7 +5454,7 @@
     (instances
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "R?") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -5675,7 +5675,7 @@
     (property "Value" "10K" (at 367.665 210.185 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:res0603" (at 363.347 208.28 90)
+    (property "Footprint" "2024l1:res0603" (at 363.347 208.28 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 365.125 208.28 0)
@@ -5694,7 +5694,7 @@
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "R?") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project "2023l1-int"
@@ -5797,7 +5797,7 @@
     (property "Value" "10n" (at 328.295 199.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:cap0603" (at 332.105 202.2348 0)
+    (property "Footprint" "2024l1:cap0603" (at 332.105 202.2348 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 328.295 203.2 0)
@@ -5816,7 +5816,7 @@
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "C?") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "2023l1-int"
@@ -6456,7 +6456,7 @@
     (property "Value" "5K9" (at 367.665 219.7099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:res0603" (at 363.347 218.44 90)
+    (property "Footprint" "2024l1:res0603" (at 363.347 218.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 365.125 218.44 0)
@@ -6475,7 +6475,7 @@
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "R?") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
       (project "2023l1-int"
@@ -7038,7 +7038,7 @@
     (property "Value" "TPS5430DDA" (at 309.245 199.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:TI_SO-PowerPAD-8_ThermalVias" (at 310.515 217.17 0)
+    (property "Footprint" "2024l1:TI_SO-PowerPAD-8_ThermalVias" (at 310.515 217.17 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps5430.pdf" (at 309.245 208.28 0)
@@ -7064,7 +7064,7 @@
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "U?") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project "2023l1-int"
@@ -7606,7 +7606,7 @@
     (property "Value" "220u" (at 357.505 208.661 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:EIA-7343-D" (at 354.6602 212.09 0)
+    (property "Footprint" "2024l1:EIA-7343-D" (at 354.6602 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 353.695 208.28 0)
@@ -7625,7 +7625,7 @@
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "C?") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "2023l1-int"
@@ -7984,7 +7984,7 @@
     (property "Value" "15uH" (at 346.075 199.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:0630 One Piece Inductor" (at 346.075 203.2 0)
+    (property "Footprint" "2024l1:0630 One Piece Inductor" (at 346.075 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 346.075 203.2 0)
@@ -8003,7 +8003,7 @@
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "L?") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
       (project "2023l1-int"
@@ -8177,7 +8177,7 @@
     (property "Datasheet" "" (at 95.25 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a34ee9b7-dd23-45a1-a1ef-faa85e4c7074))
+    (pin "1" (uuid 05427e67-c8f0-4489-ad7b-63992e5664ff))
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
@@ -8232,7 +8232,7 @@
     (property "Value" "10u" (at 290.195 213.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:cap0603" (at 287.3502 215.9 0)
+    (property "Footprint" "2024l1:cap0603" (at 287.3502 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 286.385 212.09 0)
@@ -8251,7 +8251,7 @@
       )
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "C?") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "2023l1-int"
@@ -8270,7 +8270,7 @@
   (symbol (lib_id "Isolator:PC817") (at 66.675 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1119296-a4ff-4f34-8f22-2ef9de839465)
-    (property "Reference" "U?" (at 66.675 232.41 0)
+    (property "Reference" "U4" (at 66.675 232.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PC817" (at 66.675 234.95 0)
@@ -8289,7 +8289,7 @@
     (instances
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "U?") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -8786,13 +8786,13 @@
   (symbol (lib_id "Device:D_Schottky") (at 229.87 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e49f018c-f44f-4fb5-8c44-496572e1747f)
-    (property "Reference" "D?" (at 230.1875 146.05 0)
+    (property "Reference" "D19" (at 230.1875 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SS510" (at 230.1875 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 229.87 152.4 0)
+    (property "Footprint" "2024l1:cap0603" (at 229.87 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 229.87 152.4 0)
@@ -8803,7 +8803,7 @@
     (instances
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "D?") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -9417,8 +9417,8 @@
     (property "Datasheet" "~" (at 105.41 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76b12c27-e790-43d0-ae05-748994a1bbfd))
-    (pin "2" (uuid 71e1af19-1ed8-4f01-b631-ae8d1139cff5))
+    (pin "1" (uuid f9d9e89d-5648-4bb1-9688-e11125958e68))
+    (pin "2" (uuid 17c28e17-e491-4b92-8bb1-08786ea9bf5d))
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
