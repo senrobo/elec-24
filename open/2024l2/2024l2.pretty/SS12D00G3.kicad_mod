@@ -3,8 +3,8 @@
   (descr "SS12D00G3-1")
   (tags "Switch")
   (attr through_hole)
-  (fp_text reference "S**" (at -2.794 -2.667) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+  (fp_text reference "S**" (at -3.2 -2.4) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     (tstamp 11008037-8b86-4bbd-999e-50fbfbfe3d77)
   )
   (fp_text value "SS12D00G3" (at 0 0) (layer "F.SilkS") hide
@@ -42,7 +42,7 @@
   (pad "1" thru_hole circle (at -2.5 0) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 82557152-2cbe-42cc-9098-ba307d0e655f))
   (pad "2" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 21ae9454-50f2-44d2-9fa8-57cc58118d22))
   (pad "3" thru_hole circle (at 2.5 0) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 48323eed-8d79-4a2a-8170-42257f63ce95))
-  (model "C:/Users/vince/OneDrive/Documents/KiCad/7.0/3dmodels/SS12D00G3.stp"
+  (model "${KIPRJMOD}/3dmodels/SS12D00G3.stp"
     (offset (xyz 0 0 0.1800000044))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

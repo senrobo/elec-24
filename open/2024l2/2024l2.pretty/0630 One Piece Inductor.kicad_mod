@@ -18,7 +18,7 @@
     (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp 6e871510-c929-4b3e-a94b-957c271de0b5))
   (pad "2" smd roundrect (at 2.7 0) (size 2 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
     (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp a019d7bc-c5cf-4d81-bad5-2250fbe3c460))
-  (model "${KICAD7_3DMODEL_DIR}/3dmodels/0603Inductor.step"
+  (model "${KIPRJMOD}/3dmodels/0603Inductor.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
