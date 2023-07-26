@@ -7958,7 +7958,7 @@
     (property "Value" "100uF" (at 174.244 169.291 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 171.1452 172.085 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (at 171.1452 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 168.275 0)
