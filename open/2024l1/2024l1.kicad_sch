@@ -6480,7 +6480,7 @@
     (property "Value" "68uH" (at 205.74 149.86 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2024l1:0630 One Piece Inductor" (at 205.74 152.4 0)
+    (property "Footprint" "2024l1:1040 One Piece Inductor" (at 205.74 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 152.4 0)
