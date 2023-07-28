@@ -232,15 +232,15 @@
 
   (footprint "kibuzzard-64C37D1B" (layer "F.Cu")
     (tstamp 059a1bbd-e487-4895-8882-2b83dbd9f655)
-    (at 168.55 23.05 180)
+    (at 168.75 23.05 180)
     (descr "Generated with KiBuzzard")
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJIZWx2ZXRpY2FOZXVlLUJvbGQiLCAiSGVpZ2h0Q3RybCI6ICIxLjUiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiSU1VIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjUiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjUiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICI1IiwgIlBhZGRpbmdUb3BDdHJsIjogIjUiLCAiV2lkdGhDdHJsIjogIjEuNSJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "kibuzzard-64C37D1B" (at 0 -4.41325 180) (layer "F.SilkS") hide
+    (fp_text reference "kibuzzard-64C37D1B" (at 0 -4.41325) (layer "F.SilkS") hide
         (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 9bed1539-e828-491e-b016-f2abb8bf6e82)
     )
-    (fp_text value "G***" (at 0 4.41325 180) (layer "F.SilkS") hide
+    (fp_text value "G***" (at 0 4.41325) (layer "F.SilkS") hide
         (effects (font (size 0 0) (thickness 0.15)))
       (tstamp f5feaab4-2fa0-4797-82e5-261211a56be7)
     )
@@ -2151,9 +2151,9 @@
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 94d3d868-dc42-486e-b0b1-65a7e121469d))
     (fp_arc (start -4.3 2.387868) (mid -4.512132 2.3) (end -4.6 2.087868)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 670e833a-bde0-4c68-bdb0-99bd05dc3e6a))
-    (fp_arc (start 4.3 -2.393934) (mid 4.512109 -2.306062) (end 4.6 -2.093934)
+    (fp_arc (start 4.3 -2.393934) (mid 4.512144 -2.306068) (end 4.6 -2.093934)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp ab32fc70-d927-4457-8d2c-c9ec7b6447b3))
-    (fp_arc (start 4.6 2.093934) (mid 4.512131 2.306067) (end 4.3 2.393934)
+    (fp_arc (start 4.6 2.093934) (mid 4.512131 2.306063) (end 4.3 2.393934)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp a6bca300-e3eb-43e4-a283-cbd1bcdbf696))
     (fp_line (start -4.6 -2.4) (end 4.6 -2.4)
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp d717845a-d8f2-4e0f-a0cf-75832b83143a))
@@ -2274,7 +2274,7 @@
 
   (footprint "2024l2:12x12x6" (layer "F.Cu")
     (tstamp 5e0c8e0f-ae7d-46e5-976b-3dca547f19f4)
-    (at 168.55 34.25 180)
+    (at 169.75 34.05 180)
     (descr "PTS125SM73SMTR21M LFS-1")
     (tags "Switch")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -4635,7 +4635,7 @@
 
   (gr_rect (start 126.15 21.05) (end 133.35 24.65)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 3133e522-13c1-4496-9ca3-2223a223800a))
-  (gr_rect (start 165.35 21.25) (end 171.75 24.85)
+  (gr_rect (start 165.55 21.25) (end 171.95 24.85)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 67b02732-e870-4ed5-96c1-4e3b16a9ce63))
   (gr_poly
     (pts
