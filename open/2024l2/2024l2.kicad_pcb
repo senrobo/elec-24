@@ -170,7 +170,7 @@
 
   (footprint "2024l2:AMASS_XT30-F" (layer "F.Cu")
     (tstamp 00d8dcc9-26ac-4e50-8ae0-f689a0de4672)
-    (at 107.99 70.130422 90)
+    (at 126.35 78.85 90)
     (descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -374,7 +374,7 @@
 
   (footprint "2024l2:VNH5050AE" (layer "F.Cu")
     (tstamp 122da2e2-e3b9-4fb5-8533-062356eaad98)
-    (at 200.74 126.76 90)
+    (at 178.208 118.83125 90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/d1482fa1-414c-44c5-bf56-6a2bbd8d2cbc")
@@ -552,7 +552,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 1985da4f-098d-4dc0-ae68-60d568cf4bf9)
-    (at 205.04 118.11 -90)
+    (at 182.508 110.18125 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/b2604b73-39ba-4370-9b90-968f2f0766f9")
@@ -594,7 +594,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 1be76c90-aa05-4807-910a-534c9541c541)
-    (at 95.79 61.480422 -90)
+    (at 114.15 70.2 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -704,7 +704,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 29ab9655-51ba-421d-bbe6-4f4bff7bb70a)
-    (at 202.94 118.11 -90)
+    (at 180.408 110.18125 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/9e5c14d8-545b-49d3-996a-42705bff70c6")
@@ -746,7 +746,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 2ccf694a-9b55-42da-9477-c06b9f315558)
-    (at 95.5014 118.169578 -90)
+    (at 114.05 111.3 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -790,7 +790,7 @@
 
   (footprint "2024l2:12x12x6" (layer "F.Cu")
     (tstamp 2ce14da0-57a0-4d53-bdac-72cd69e8f384)
-    (at 167.35 77.05)
+    (at 131.35 32.65)
     (descr "PTS125SM73SMTR21M LFS-1")
     (tags "Switch")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -858,7 +858,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 2e2d1eec-7bd5-47b4-9748-cef9df86b9f2)
-    (at 205.04 135.31 90)
+    (at 182.508 127.38125 90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/03ea1b18-333a-41b6-a9ce-5aa5de23da56")
@@ -900,7 +900,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 32182fa1-6d69-443a-be41-a9c07ff63510)
-    (at 179.4 76.75)
+    (at 186.75 105.05)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -1160,7 +1160,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 39adc2f0-09d7-4c90-be0a-e421182c46ee)
-    (at 204.65 61.65 -90)
+    (at 182.5 70.25 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -1204,7 +1204,7 @@
 
   (footprint "2024l2:VNH5050AE" (layer "F.Cu")
     (tstamp 401af36b-35d4-4d0d-ab25-cadc8525178d)
-    (at 200.35 70.25 90)
+    (at 178.2 78.85 90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/b08b2e44-5878-4250-af9e-efdabb646697")
@@ -1335,7 +1335,7 @@
 
   (footprint "2024l2:VNH5050AE" (layer "F.Cu")
     (tstamp 40b827a6-01c5-417f-9090-a29c120c6f32)
-    (at 97.75 70.05 -90)
+    (at 116.11 78.769578 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/3db7a03e-9bac-4802-a9ab-c8714bfbf8e5")
@@ -1466,7 +1466,7 @@
 
   (footprint "2024l2:SMA (DO-214AC)" (layer "F.Cu")
     (tstamp 45be643d-2c43-48ff-9d52-84ba97fae795)
-    (at 180.8 83.05)
+    (at 199.35 96.65 90)
     (descr "SMA (DO-214AC)")
     (tags "Schottky Diode")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -1475,11 +1475,11 @@
     (property "ki_keywords" "diode Schottky")
     (path "/9fc806e6-2841-4fc0-badf-07ffdac27f7f")
     (attr smd)
-    (fp_text reference "D1" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "D1" (at 0 0 90) (layer "F.SilkS")
         (effects (font (size 0.8 0.8) (thickness 0.1)))
       (tstamp 9e79af0b-e35e-4000-8d00-92f74d0ac0cb)
     )
-    (fp_text value "SS54" (at 0 0) (layer "F.SilkS") hide
+    (fp_text value "SS54" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp f2764d5d-5c39-4ca0-9230-8b02e8cc7ca7)
     )
@@ -1509,9 +1509,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 29bb58b7-66c4-47db-8e62-ea41899786f7))
     (fp_line (start 2.475 1.25) (end -2.475 1.25)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5b40900b-ef3a-4c5d-a065-8303ca0dee55))
-    (pad "1" smd roundrect (at -2 0 90) (size 1.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
+    (pad "1" smd roundrect (at -2 0 180) (size 1.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 50 "Net-(D1-K)") (pinfunction "K") (pintype "passive") (tstamp 44d5b81f-8502-4e51-a1a5-d04a9642c604))
-    (pad "2" smd roundrect (at 2 0 90) (size 1.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
+    (pad "2" smd roundrect (at 2 0 180) (size 1.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 1 "GND") (pinfunction "A") (pintype "passive") (tstamp 483ba080-067c-468b-9bd2-26090b82e192))
     (model "C:/Users/vince/OneDrive/Documents/KiCad/7.0/3dmodels/SS510-HF.stp"
       (offset (xyz 0 0 0))
@@ -1522,7 +1522,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 55764a10-04e5-46c2-9d24-ba8cb0744a13)
-    (at 202.94 135.31 90)
+    (at 180.408 127.38125 90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -1566,7 +1566,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 58a26c47-7a29-47cf-8f2c-220f31c4d16e)
-    (at 93.501401 135.369578 90)
+    (at 112.050001 128.5 90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/eefc6573-71c9-4eb9-9224-564db5f08059")
@@ -1608,7 +1608,7 @@
 
   (footprint "2024l2:AMASS_XT30-F" (layer "F.Cu")
     (tstamp 59a4c3e1-4d7a-46ea-9d02-3f642baa503e)
-    (at 107.8014 126.719578 -90)
+    (at 126.35 119.85 -90)
     (descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -1703,9 +1703,9 @@
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 94d3d868-dc42-486e-b0b1-65a7e121469d))
     (fp_arc (start -4.3 2.387868) (mid -4.512132 2.3) (end -4.6 2.087868)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 670e833a-bde0-4c68-bdb0-99bd05dc3e6a))
-    (fp_arc (start 4.3 -2.393934) (mid 4.512109 -2.306062) (end 4.6 -2.093934)
+    (fp_arc (start 4.3 -2.393934) (mid 4.512144 -2.306068) (end 4.6 -2.093934)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp ab32fc70-d927-4457-8d2c-c9ec7b6447b3))
-    (fp_arc (start 4.6 2.093934) (mid 4.512131 2.306067) (end 4.3 2.393934)
+    (fp_arc (start 4.6 2.093934) (mid 4.512131 2.306063) (end 4.3 2.393934)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp a6bca300-e3eb-43e4-a283-cbd1bcdbf696))
     (fp_line (start -4.6 -2.4) (end 4.6 -2.4)
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp d717845a-d8f2-4e0f-a0cf-75832b83143a))
@@ -1771,7 +1771,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_10x12.5" (layer "F.Cu")
     (tstamp 75567bec-f826-47d2-b365-22a60e6e9e03)
-    (at 83.39 70.130422 180)
+    (at 101.75 78.85 180)
     (descr "SMD capacitor, aluminum electrolytic, Vishay 1012, 10.0x12.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
     (tags "capacitor electrolytic")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -1871,7 +1871,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 793b69f3-027c-46c3-bd84-427d7d12fc39)
-    (at 93.69 78.680422 90)
+    (at 112.05 87.4 90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -1962,7 +1962,7 @@
 
   (footprint "2024l2:AMASS_XT30-F" (layer "F.Cu")
     (tstamp 83db6341-6007-4f94-8081-3891aeca5306)
-    (at 190.35 70.25 90)
+    (at 168.2 78.85 90)
     (descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -2028,7 +2028,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 84b54c84-bc00-4583-8112-7301c580e34d)
-    (at 202.55 61.65 -90)
+    (at 180.4 70.25 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/92f44873-414e-4985-9162-c412ba1ef378")
@@ -2070,7 +2070,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 92062a44-c2b8-4e96-a256-ebe244ca938a)
-    (at 186.75 105.250001)
+    (at 136.35 122.85)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/4742ed13-0dfa-462f-8898-182646870d31")
@@ -2112,7 +2112,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp 92a4e285-3587-4769-b9a4-8529f2cb0096)
-    (at 93.69 61.480422 -90)
+    (at 112.05 70.2 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -2156,7 +2156,7 @@
 
   (footprint "2024l2:AMASS_XT30-F" (layer "F.Cu")
     (tstamp 933faa7f-35cf-4486-8295-53786e27b296)
-    (at 190.74 126.76 -90)
+    (at 168.208 118.83125 -90)
     (descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -2222,7 +2222,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp acbe0b8e-ac70-4e21-a85c-49a4a8edea00)
-    (at 179.4 73.85)
+    (at 135.15 23.85 180)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -2233,7 +2233,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.1)))
       (tstamp 7c92637c-21d7-49d4-9e36-d9edae2121bb)
     )
-    (fp_text value "R" (at 0 1.8 unlocked) (layer "F.Fab")
+    (fp_text value "R" (at 0 1.8 180 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0569ac50-3e9f-4498-8c05-1ea9e1d53063)
     )
@@ -2253,9 +2253,9 @@
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 77bf3f95-6d08-457e-8b8b-91110c9cf1eb))
     (fp_arc (start 1.8 0.6) (mid 1.712132 0.812132) (end 1.5 0.9)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp aa326ebe-e1b9-4d7c-8ff2-c3d6ecc31c38))
-    (pad "1" smd roundrect (at -0.8 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
+    (pad "1" smd roundrect (at -0.8 0 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 59 "Net-(R2-Pad1)") (pintype "passive") (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp 966e1846-3e36-4e0e-ab66-5657fde298e5))
-    (pad "2" smd roundrect (at 0.8 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
+    (pad "2" smd roundrect (at 0.8 0 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp 0a0add16-fd6d-48ae-a57e-f72fc580cad4))
     (model "${KIPRJMOD}/3dmodels/R0603.step"
       (offset (xyz 0 0 0))
@@ -2266,7 +2266,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp afa6760c-adb6-4914-8a15-83064330363c)
-    (at 204.65 78.9 90)
+    (at 182.5 87.5 90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -2501,18 +2501,18 @@
 
   (footprint "2024l2:led0603" (layer "F.Cu")
     (tstamp b96692ba-0820-4744-a845-93f3fdd4774b)
-    (at 199.35 97.450001 -90)
+    (at 129.95 23.45)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
     (property "ki_keywords" "LED diode")
     (path "/3e0b6fd5-6079-48ff-841e-73085c92eeab")
     (attr smd)
-    (fp_text reference "D2" (at 0 -1.6 -90 unlocked) (layer "F.SilkS")
+    (fp_text reference "D2" (at 0 -1.6 unlocked) (layer "F.SilkS")
         (effects (font (size 0.8 0.8) (thickness 0.1)))
       (tstamp 7fc18cfa-ec5f-465b-b721-92c3ad918875)
     )
-    (fp_text value "LED" (at 0 1.8 -90 unlocked) (layer "F.Fab")
+    (fp_text value "LED" (at 0 1.8 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 080d9532-1eef-4d50-bbdf-4037fdf524e0)
     )
@@ -2532,9 +2532,9 @@
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 8508c5d4-f25e-466a-9d52-d7ef77df3f07))
     (fp_arc (start 1.8 0.6) (mid 1.712132 0.812132) (end 1.5 0.9)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 4b3304db-ac1e-426d-9fa5-63243a6995ee))
-    (pad "1" smd roundrect (at -0.8 0 270) (size 1 1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1)
+    (pad "1" smd roundrect (at -0.8 0) (size 1 1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1)
       (net 11 "Net-(D2-K)") (pinfunction "K") (pintype "passive") (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp f01ab855-611a-4fef-b779-a550d6a4f5a5))
-    (pad "2" smd roundrect (at 0.8 0 270) (size 1 1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1)
+    (pad "2" smd roundrect (at 0.8 0) (size 1 1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1)
       (net 51 "+3V3") (pinfunction "A") (pintype "passive") (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp 9c1b189e-7ea3-4f65-a472-9ffe07ce6e5c))
     (model "${KIPRJMOD}/3dmodels/led0603.step"
       (offset (xyz 9.15 -0.45 -9))
@@ -2824,7 +2824,7 @@
 
   (footprint "2024l2:VNH5050AE" (layer "F.Cu")
     (tstamp c6cd0732-809d-4dd7-ab4a-b8c7410a55ed)
-    (at 97.8014 126.719578 -90)
+    (at 116.35 119.85 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/ccdb40a8-f1b1-41d1-8e22-9a4aa02d6058")
@@ -2955,7 +2955,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp c6ea479f-52d3-424f-b6e5-2f809b584389)
-    (at 186.75 107.650001 180)
+    (at 136.35 125.25 180)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/d994cfe4-a945-42f2-9e18-10ff17988fcc")
@@ -3249,7 +3249,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_10x12.5" (layer "F.Cu")
     (tstamp e2ccc22d-d422-4c0b-8b80-c068921ed636)
-    (at 83.2014 126.719578 180)
+    (at 101.75 119.85 180)
     (descr "SMD capacitor, aluminum electrolytic, Vishay 1012, 10.0x12.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
     (tags "capacitor electrolytic")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -3349,7 +3349,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp e4b8978c-d49f-418a-b02b-a9cc396f1500)
-    (at 179.4 70.95)
+    (at 125.95 23.65)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -3481,7 +3481,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp e5659cb9-5523-4c71-b5dc-841e8e9c7f13)
-    (at 179.4 79.65)
+    (at 186.75 107.65 180)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -3492,7 +3492,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.1)))
       (tstamp 036a7ad1-4ad9-4ce1-9075-e5345e22e5d6)
     )
-    (fp_text value "3K24" (at 0 1.8 unlocked) (layer "F.Fab")
+    (fp_text value "3K24" (at 0 1.8 180 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 06bffbd9-d6e0-409f-87cf-2e694952955d)
     )
@@ -3512,9 +3512,9 @@
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp be4d97f6-0c65-4528-89cc-9e217886f165))
     (fp_arc (start 1.8 0.6) (mid 1.712132 0.812132) (end 1.5 0.9)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 8a7d871c-c5df-492e-9d6d-be8ff004a7f0))
-    (pad "1" smd roundrect (at -0.8 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
+    (pad "1" smd roundrect (at -0.8 0 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 8 "Net-(U2-VSENSE)") (pintype "passive") (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp dc3a8c3a-2b11-4ccb-88e8-4d6b1163e614))
-    (pad "2" smd roundrect (at 0.8 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
+    (pad "2" smd roundrect (at 0.8 0 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 1 "GND") (pintype "passive") (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp 18531953-5c6e-41ce-8a27-85bb29d12c60))
     (model "${KIPRJMOD}/3dmodels/R0603.step"
       (offset (xyz 0 0 0))
@@ -3525,7 +3525,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_10x12.5" (layer "F.Cu")
     (tstamp e69d29bb-aae2-418b-9e9f-57ea227a4fb9)
-    (at 214.9 70.25)
+    (at 192.75 78.85)
     (descr "SMD capacitor, aluminum electrolytic, Vishay 1012, 10.0x12.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
     (tags "capacitor electrolytic")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -3625,7 +3625,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp e828759f-ba64-421f-8e72-ff65ff26bbca)
-    (at 202.55 78.9 90)
+    (at 180.4 87.5 90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
@@ -3669,7 +3669,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_10x12.5" (layer "F.Cu")
     (tstamp ed03c94a-cbde-4eb6-9784-1a8dd423d7d0)
-    (at 215.34 126.76)
+    (at 192.808 118.83125)
     (descr "SMD capacitor, aluminum electrolytic, Vishay 1012, 10.0x12.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
     (tags "capacitor electrolytic")
     (property "Sheetfile" "2024l2.kicad_sch")
@@ -3874,7 +3874,7 @@
 
   (footprint "2024l2:res0603" (layer "F.Cu")
     (tstamp f70a48a9-0ef4-433e-b0ae-0312c91f1827)
-    (at 93.5014 118.169578 -90)
+    (at 112.05 111.3 -90)
     (property "Sheetfile" "2024l2.kicad_sch")
     (property "Sheetname" "")
     (path "/c86f3c0c-fd42-40e3-8128-18cfc75815a6")
