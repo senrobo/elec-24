@@ -21,6 +21,8 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d8030056-0351-415d-9cb8-dc6be42e0e5b)
   )
+  (fp_rect (start 18.8 42.672) (end -18.792 -3.556)
+    (stroke (width 0.1) (type default)) (fill none) (layer "B.SilkS") (tstamp e55cc121-59a3-4865-9bd6-8b845f049e30))
   (fp_line (start -17.586 23.876) (end -17.586 41.716)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 2aeca3df-afb3-4071-9701-227c0538f40a))
   (fp_line (start -17.586 23.876) (end -14.926 23.876)
@@ -45,8 +47,6 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 555cefab-3f05-4133-af55-56366b507aee))
   (fp_line (start 17.84 23.876) (end 17.84 41.716)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 8d2e0c73-5e44-48d7-a6ee-ee9206709fb5))
-  (fp_rect (start -18.796 42.672) (end 18.796 -3.556)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 42fde720-c671-4dbf-b5eb-368d8c7912fd))
   (fp_circle (center -14.732 0.508) (end -11.532 0.508)
     (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 095df666-57df-483d-b655-1af73fb02018))
   (fp_circle (center 14.732 0.508) (end 17.932 0.508)
@@ -181,8 +181,8 @@
       f4e8c44e-cf44-43e3-a735-34bdd74d0968
     )
   )
-  (model "${KIPRJMOD}/3dmodels/OpenMV H7.step"
-    (offset (xyz -17.5 -41.9 10))
+  (model "${KIPRJMOD}/3dmodels/OpenMV H7 underside.step"
+    (offset (xyz -17.5 -41.9 -14))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
