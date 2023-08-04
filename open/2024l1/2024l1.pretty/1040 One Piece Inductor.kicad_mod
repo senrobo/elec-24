@@ -33,9 +33,4 @@
     (thermal_bridge_angle 45) (tstamp cf06bdf0-abdd-4426-a1d0-8848259649a3))
   (pad "2" smd roundrect (at -4.55 0) (size 2.5 3.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp c9ac13dd-999b-4060-b261-0ce30d6aa81b))
-  (model "${KIPRJMOD}/3dmodels/1040Inductor.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
 )
