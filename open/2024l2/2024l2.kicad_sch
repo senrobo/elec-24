@@ -2789,31 +2789,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 19.05 33.655 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 14386292-7193-41d2-8a8a-30869bd22673)
-    (property "Reference" "H3" (at 22.225 31.1149 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 22.225 33.6549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 19.05 33.655 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 19.05 33.655 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0b2c69d2-4b8c-4820-8aa2-dee659642c09))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 158.115 126.365 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15cac413-b32f-4cca-979d-ebd90a864f8f)
@@ -3730,31 +3705,6 @@
         )
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b/8ebc96eb-574c-44a2-a4af-8121e8678bf7"
           (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 20.955 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 499354ea-6a1d-42c3-9f8d-018c0abd1fb8)
-    (property "Reference" "H4" (at 24.13 40.6399 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 24.13 43.1799 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 20.955 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 20.955 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c2ffc212-8b5b-44a5-b3f8-0a6d4d82702e))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "H4") (unit 1)
         )
       )
     )
