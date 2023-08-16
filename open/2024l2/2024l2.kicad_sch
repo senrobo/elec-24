@@ -3634,7 +3634,7 @@
     (property "Value" "Battery" (at 20.0243 155.1993 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2024l2:AMASS_XT60-M" (at 20.0243 164.0893 0)
+    (property "Footprint" "2024l2:AMASS_XT60PW-M" (at 20.0243 164.0893 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 20.0243 164.0893 0)

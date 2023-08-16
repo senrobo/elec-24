@@ -732,6 +732,31 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 137.5641 77.4769 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 72455321-7d70-4255-81b8-58c3bad12349)
+    (property "Reference" "H10" (at 140.6321 75.5719 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 140.6321 78.1119 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 137.5641 77.4769 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 137.5641 77.4769 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2dcbf310-afc0-494f-bdd7-2359865b0eec))
+    (instances
+      (project "2024l3"
+        (path "/d65f20ed-2841-484c-9395-70974a4cd101"
+          (reference "H10") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 149.2517 69.4353 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ed8db7c-2879-48e6-8b30-79948fc9615f)
@@ -802,6 +827,31 @@
       (project "2024l3"
         (path "/d65f20ed-2841-484c-9395-70974a4cd101"
           (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 148.9138 77.2075 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9d29ba6d-f676-4c4c-ba6f-b8a87b226df6)
+    (property "Reference" "H9" (at 152.0621 75.3025 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 152.0621 77.8425 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 148.9138 77.2075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 148.9138 77.2075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0ef4596b-fd3b-4607-8712-4d16e41dea1c))
+    (instances
+      (project "2024l3"
+        (path "/d65f20ed-2841-484c-9395-70974a4cd101"
+          (reference "H9") (unit 1)
         )
       )
     )
