@@ -95,7 +95,7 @@
     (solder_mask_margin 0.0508) (tstamp 5b8e74da-dd8c-4d5a-806a-929b76f73ac9))
   (pad "P$2" thru_hole circle (at -22.76 8.79) (size 3.81 3.81) (drill 2.5) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.0508) (tstamp 775d6ff1-20a9-45c4-98dc-351d40ec42e2))
-  (model "${KIPRJMOD}/2024-Elec/open/2024l3/3dmodels/4650 OLED FeatherWing.step"
+  (model "${KIPRJMOD}/3dmodels/4650 OLED FeatherWing.step"
     (offset (xyz -25.4 -10.795 6.35))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
