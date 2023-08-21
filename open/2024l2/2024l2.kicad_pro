@@ -49,12 +49,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|126950000|62598000|852f0149-217b-4b6c-a9ac-864cdfc542f6|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|141950000|62598000|ffcead31-7bd7-4330-876f-22e3330e66a6|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|156950000|62598000|d77db8ab-d940-48e1-97ed-7595065b9078|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|171950000|62598000|e1ef7bda-3ae1-4eec-bfaf-242918b7a50f|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
