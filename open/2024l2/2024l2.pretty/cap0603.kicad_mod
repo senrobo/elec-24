@@ -29,7 +29,7 @@
     (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp 9137ec12-f8fa-41d2-b062-21eb7a5d83e5))
   (pad "2" smd roundrect (at 0.8 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
     (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp dbd066eb-0e3d-4a8e-9d94-a3f249de795d))
-  (model "${KIPRJMOD}/3dmodels/C0603.STEP"
+  (model "${KIPRJMOD}/3dmodels/C0603.step"
     (offset (xyz 0 -0.4 0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
