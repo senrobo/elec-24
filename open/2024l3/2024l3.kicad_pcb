@@ -405,7 +405,7 @@
 
   (footprint "2024l3:xiao-esp32c3" (layer "F.Cu")
     (tstamp 328efc39-6af5-441f-86ed-36f094307ae5)
-    (at 187.391 99.314)
+    (at 202.111 98.309)
     (property "Sheetfile" "2024l3.kicad_sch")
     (property "Sheetname" "")
     (path "/6a4bfb3d-b329-42d6-8f3a-a288ac4bd425")
@@ -2053,7 +2053,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp b5dc94a4-32af-4d7a-af76-18fd916d22e3)
-    (at 127.111 63.134)
+    (at 179.841 99.994)
     (descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x06 2.54mm single row")
     (property "Sheetfile" "2024l3.kicad_sch")
@@ -2947,6 +2947,10 @@
     )
   )
 
+  (gr_line (start 183.5911 80.314) (end 183.5911 132.314)
+    (stroke (width 0.2) (type default)) (layer "F.Cu") (tstamp bc05d5ad-1e2f-4e4f-8e7f-6873cd357f94))
+  (gr_line (start 157.591 106.314) (end 183.5911 106.314)
+    (stroke (width 0.2) (type default)) (layer "F.Cu") (tstamp c8b17d74-60bb-43ee-897d-56e7f06d22b2))
   (gr_line (start 76.808889 137.814006) (end 238.373108 137.814001)
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 06362821-e5fc-46a0-a80c-693232387aaa))
   (gr_arc (start 240.25177 136.500053) (mid 239.519391 137.452925) (end 238.373108 137.814001)
