@@ -3997,7 +3997,7 @@
     (property "Value" "SW_SPDT" (at 298.4263 77.1725 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2024l1:SS12D00G3" (at 298.4263 80.9167 0)
+    (property "Footprint" "2024l1:SS12F21" (at 298.4263 80.9167 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 298.4263 80.9167 0)
