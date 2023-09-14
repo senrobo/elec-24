@@ -15221,7 +15221,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/308fb798-40b4-4fe2-917f-ac2ddcfd9e19")
     (attr smd)
-    (fp_text reference "R4" (at -2.6 0 270 unlocked) (layer "B.SilkS")
+    (fp_text reference "R4" (at -2.6 0 270 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 3270b4a0-b7cc-4f2d-a359-cc9dd48749a6)
     )
@@ -15266,7 +15266,7 @@
     (property "ki_keywords" "LED diode")
     (path "/56ae32ae-73c9-4675-a898-2691c4578185")
     (attr smd)
-    (fp_text reference "D3" (at 0 0.5 180 unlocked) (layer "B.SilkS")
+    (fp_text reference "D3" (at 0 0.5 180 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 232fb794-447b-46f0-ab32-426b0435cd94)
     )
