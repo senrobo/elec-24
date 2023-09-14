@@ -39,8 +39,8 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 20bf03ef-f958-4eb1-9801-338b6a66a438))
   (fp_circle (center 0 0) (end 0 -1.9)
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 6e5ea79e-8366-4eaf-8229-ba0ca1b9e8a7))
-  (pad "1" smd rect (at 2.4 0 90) (size 4.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0515700e-753e-4642-9480-624e02f2c30b))
-  (pad "2" smd rect (at -2.4 0 90) (size 4.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f6973c12-2d45-40a0-9f50-28c4fd62d56d))
+  (pad "1" smd rect (at -2.4 0 90) (size 4.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f6973c12-2d45-40a0-9f50-28c4fd62d56d))
+  (pad "2" smd rect (at 2.4 0 90) (size 4.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0515700e-753e-4642-9480-624e02f2c30b))
   (model "${KICAD7_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_5050-6.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
