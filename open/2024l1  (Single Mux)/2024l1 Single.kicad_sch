@@ -6033,7 +6033,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_Photo" (at 54.4777 96.6172 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "2024l1:C146233" (at 53.2077 101.6973 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
