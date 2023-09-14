@@ -14448,7 +14448,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/2a7e6441-31c6-4afa-b299-ee3b30a228da")
     (attr smd)
-    (fp_text reference "R13" (at -2.6 0 -60 unlocked) (layer "B.SilkS")
+    (fp_text reference "R13" (at -2.6 0 -60 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp cc8e1fa9-c555-451d-b618-6579bf6e4104)
     )
@@ -14493,7 +14493,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/45c83a34-12c8-4ae7-a9dc-ab5c09394157")
     (attr smd)
-    (fp_text reference "R9" (at -2.6 0 204 unlocked) (layer "B.SilkS")
+    (fp_text reference "R9" (at -2.6 0 204 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 8d1afb79-af2e-4c7e-ba4b-6eea22026cbc)
     )
@@ -14538,7 +14538,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/558deaf0-42e0-4ffa-8771-cddc4dd943e8")
     (attr smd)
-    (fp_text reference "R19" (at -2.6 0 84 unlocked) (layer "B.SilkS")
+    (fp_text reference "R19" (at -2.6 0 84 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp f1d361f7-50ef-4000-9306-9ccb24690490)
     )
@@ -14583,7 +14583,7 @@
     (property "ki_keywords" "LED diode")
     (path "/39eb12d0-be4f-4a7b-aa04-4d3887c775d9")
     (attr smd)
-    (fp_text reference "D17" (at 0 0.5 6 unlocked) (layer "B.SilkS")
+    (fp_text reference "D17" (at 0 0.5 6 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp c4e113d2-1f4e-4223-9f7f-47714e9678f2)
     )
@@ -14642,7 +14642,7 @@
     (property "ki_keywords" "LED diode")
     (path "/cc6fc46e-2be2-48f9-b1ba-026b9c8f1b34")
     (attr smd)
-    (fp_text reference "D10" (at 0 0.5 222 unlocked) (layer "B.SilkS")
+    (fp_text reference "D10" (at 0 0.499999 222 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 2fa7794f-d491-4311-bfc3-678d0ee40a82)
     )
@@ -14701,7 +14701,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/7e690458-8eeb-4488-a936-5176710603b4")
     (attr smd)
-    (fp_text reference "R8" (at -2.6 0 180 unlocked) (layer "B.SilkS")
+    (fp_text reference "R8" (at -2.6 0 180 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp a32c678a-41bc-42af-8d5f-2b572e5d0a40)
     )
@@ -14746,7 +14746,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/388819d8-aeab-4999-9395-5a92f5848bc0")
     (attr smd)
-    (fp_text reference "R15" (at -2.6 0 -12 unlocked) (layer "B.SilkS")
+    (fp_text reference "R15" (at -2.6 0 -12 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 7f51eec5-3fdd-4e44-be94-d2b85be9efac)
     )
@@ -14791,7 +14791,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/58e07b51-d787-4819-b9cf-8622c2a51f19")
     (attr smd)
-    (fp_text reference "R17" (at -2.6 0 36 unlocked) (layer "B.SilkS")
+    (fp_text reference "R17" (at -2.6 0 36 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 06ed3215-be30-4c85-8a52-cf95991a344c)
     )
@@ -14836,7 +14836,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/c9e65a51-6617-45b0-9fbb-ffdbb34bd53f")
     (attr smd)
-    (fp_text reference "R14" (at -2.6 0 -36 unlocked) (layer "B.SilkS")
+    (fp_text reference "R14" (at -2.6 0 -36 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp fe17bcc7-c528-4d3b-81f0-cfa757e0d496)
     )
@@ -14881,7 +14881,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/d1f344b9-a0db-4692-9625-217695b9ff92")
     (attr smd)
-    (fp_text reference "R12" (at -2.6 0 -84 unlocked) (layer "B.SilkS")
+    (fp_text reference "R12" (at -2.6 0 -84 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 60212bef-8c5f-4eed-ba25-53b31b7307f4)
     )
@@ -14926,7 +14926,7 @@
     (property "ki_keywords" "LED diode")
     (path "/ccee320b-1faa-477c-bdb1-206cd01fab2d")
     (attr smd)
-    (fp_text reference "D16" (at 0 0.5 342 unlocked) (layer "B.SilkS")
+    (fp_text reference "D16" (at 0 0.5 342 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 8f1dbfbe-2126-4d14-b427-0f777eb3c827)
     )
@@ -14985,7 +14985,7 @@
     (property "ki_keywords" "LED diode")
     (path "/ba880e41-283e-4695-9868-32676bcaaf22")
     (attr smd)
-    (fp_text reference "D9" (at 0 0.5 198 unlocked) (layer "B.SilkS")
+    (fp_text reference "D9" (at 0 0.5 198 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp c428d7fa-98f2-4d48-b021-c9c436c6990d)
     )
@@ -15044,7 +15044,7 @@
     (property "ki_keywords" "LED diode")
     (path "/ba5c74eb-fdb9-4f41-bbda-b41343726253")
     (attr smd)
-    (fp_text reference "D11" (at 0 0.5 246 unlocked) (layer "B.SilkS")
+    (fp_text reference "D11" (at 0 0.5 246 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp b4d2347e-9401-4a40-83ae-ba30c8056b8e)
     )
@@ -15103,7 +15103,7 @@
     (property "ki_keywords" "LED diode")
     (path "/90b6bf38-6f17-467f-ba1e-cac845cdf46d")
     (attr smd)
-    (fp_text reference "D18" (at 0 0.5 30 unlocked) (layer "B.SilkS")
+    (fp_text reference "D18" (at 0 0.5 30 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 4154d41b-2264-43ea-96f7-20a756b1cbeb)
     )
@@ -15162,7 +15162,7 @@
     (property "ki_keywords" "LED diode")
     (path "/7c5e686f-f604-44dc-a821-eaea5c948e42")
     (attr smd)
-    (fp_text reference "D19" (at 0 0.5 54 unlocked) (layer "B.SilkS")
+    (fp_text reference "D19" (at -0.000001 0.5 54 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 6a86e445-d3d6-45df-b8aa-5e73399d96a8)
     )
@@ -15325,7 +15325,7 @@
     (property "ki_keywords" "LED diode")
     (path "/434769f5-35aa-44ab-b915-affc0124b658")
     (attr smd)
-    (fp_text reference "D15" (at 0 0.5 318 unlocked) (layer "B.SilkS")
+    (fp_text reference "D15" (at 0 0.499999 318 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp d8b76115-65dd-4e33-a91f-99d4f035d136)
     )
@@ -15384,7 +15384,7 @@
     (property "ki_keywords" "LED diode")
     (path "/e9a26dd5-0bfd-4187-b585-e9f9527047f1")
     (attr smd)
-    (fp_text reference "D12" (at 0 0.5 270 unlocked) (layer "B.SilkS")
+    (fp_text reference "D12" (at 0 0.5 270 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp bd728b7a-e00c-46be-aea1-12970269cb1f)
     )
@@ -15466,7 +15466,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/86b253aa-a7a1-4c78-ac83-b518d7d94677")
     (attr smd)
-    (fp_text reference "R16" (at -2.6 0 12 unlocked) (layer "B.SilkS")
+    (fp_text reference "R16" (at -2.6 0 12 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 23483486-59ec-4199-b87f-f0d918762d3c)
     )
@@ -15511,7 +15511,7 @@
     (property "ki_keywords" "LED diode")
     (path "/9fdf507a-65b9-40f5-8cd7-3a486236b64a")
     (attr smd)
-    (fp_text reference "D20" (at 0 0.5 78 unlocked) (layer "B.SilkS")
+    (fp_text reference "D20" (at 0 0.5 78 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp efd9da0c-f30c-411f-9c66-82dda7951eab)
     )
@@ -15570,7 +15570,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/e43e7440-fb72-492b-bf7a-8944972c6434")
     (attr smd)
-    (fp_text reference "R10" (at -2.6 0 228 unlocked) (layer "B.SilkS")
+    (fp_text reference "R10" (at -2.600001 0 228 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 913a3f95-a682-4dc8-aafa-b396c98b86a7)
     )
@@ -15615,7 +15615,7 @@
     (property "ki_keywords" "LED diode")
     (path "/4311c7de-7ac2-4029-8f4b-98083e9cce56")
     (attr smd)
-    (fp_text reference "D5" (at 0 0.5 102 unlocked) (layer "B.SilkS")
+    (fp_text reference "D5" (at 0 0.5 102 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 385d9906-dade-4a46-9906-eaff238327a7)
     )
@@ -15674,7 +15674,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/33648886-e530-4589-808a-ce4e28a65d68")
     (attr smd)
-    (fp_text reference "R20" (at -2.6 0 108 unlocked) (layer "B.SilkS")
+    (fp_text reference "R20" (at -2.6 0 108 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp cb00868c-0d8c-46a5-8fd3-69b52e743028)
     )
@@ -15719,7 +15719,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/db1a82cd-4e8e-4bed-a0e6-e615ca290e09")
     (attr smd)
-    (fp_text reference "R21" (at -2.6 0 132 unlocked) (layer "B.SilkS")
+    (fp_text reference "R21" (at -2.600001 0 132 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp d61e03e3-293f-4c8f-9a80-45251aee451f)
     )
@@ -15764,7 +15764,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/e679b545-b5cb-49b7-b8e9-5c9efdb14977")
     (attr smd)
-    (fp_text reference "R11" (at -2.6 0 252 unlocked) (layer "B.SilkS")
+    (fp_text reference "R11" (at -2.6 0 252 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 4e6670c1-37db-4538-9bd1-310265b8ccc6)
     )
@@ -15809,7 +15809,7 @@
     (property "ki_keywords" "LED diode")
     (path "/89458da9-b9b5-4a2e-8a17-104960d57917")
     (attr smd)
-    (fp_text reference "D7" (at 0 0.5 150 unlocked) (layer "B.SilkS")
+    (fp_text reference "D7" (at 0 0.5 150 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 130517dc-d834-4718-8015-9f4625393a00)
     )
@@ -15868,7 +15868,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/a40ba0e9-da9a-4410-a8dd-8feed9d30c4f")
     (attr smd)
-    (fp_text reference "R22" (at -2.6 0 156 unlocked) (layer "B.SilkS")
+    (fp_text reference "R22" (at -2.6 0 156 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 2283e821-31ba-421b-ad3b-2d27bdbd742e)
     )
@@ -15913,7 +15913,7 @@
     (property "ki_keywords" "LED diode")
     (path "/ea0ad963-7469-4a10-9b00-578d87fc9c71")
     (attr smd)
-    (fp_text reference "D6" (at 0 0.5 126 unlocked) (layer "B.SilkS")
+    (fp_text reference "D6" (at 0.000001 0.5 126 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 64246e69-ca71-44a6-9bcc-ce8a3a321c16)
     )
@@ -16017,7 +16017,7 @@
     (property "ki_keywords" "LED diode")
     (path "/86c7072a-3aef-47a5-8031-fff76ec37b0f")
     (attr smd)
-    (fp_text reference "D8" (at 0 0.5 174 unlocked) (layer "B.SilkS")
+    (fp_text reference "D8" (at 0 0.5 174 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 75f33cd6-71cb-4b34-a290-747206aae5c0)
     )
@@ -16076,7 +16076,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/b078cf3e-8a0c-4a60-9693-1ace3eef01eb")
     (attr smd)
-    (fp_text reference "R18" (at -2.6 0 60 unlocked) (layer "B.SilkS")
+    (fp_text reference "R18" (at -2.6 0 60 unlocked) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp cda349fd-551e-430d-98c4-b96e04e545b4)
     )
@@ -16121,7 +16121,7 @@
     (property "ki_keywords" "LED diode")
     (path "/6d38e70a-8b4f-4ccd-911f-0f7bf1fbe761")
     (attr smd)
-    (fp_text reference "D14" (at 0 0.5 294 unlocked) (layer "B.SilkS")
+    (fp_text reference "D14" (at 0 0.5 294 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 4f442854-9b72-473a-9197-371019b17f0d)
     )
