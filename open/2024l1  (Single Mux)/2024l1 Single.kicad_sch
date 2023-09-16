@@ -4093,12 +4093,12 @@
     (property "LCSC" "C2843867" (at 180.7996 62.0739 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e96d1d46-c763-4816-8ba4-d10719309fb5))
-    (pin "2" (uuid 4900e71b-bb31-4744-9b20-e3296ea9146b))
-    (pin "3" (uuid 20188073-f7c9-49cf-91d7-b4b5ca0929cb))
-    (pin "4" (uuid e469e079-0758-4ef2-a530-5dcc3bfc8f96))
-    (pin "5" (uuid 475e5bbf-a1d0-4dca-a205-fca62112c2ab))
-    (pin "6" (uuid 187c7aa9-b678-4535-a7e6-0ec97cddd1b5))
+    (pin "1" (uuid 59731925-a628-4e0c-8000-3fee8eb660f8))
+    (pin "2" (uuid 907dceb5-5d21-4caa-86c7-1adc1ece3abe))
+    (pin "3" (uuid 6b17f757-b24f-497c-9bb7-3df9b743a4aa))
+    (pin "4" (uuid d54bd8be-ab08-4be9-8cc1-fb2f590db8b4))
+    (pin "5" (uuid a15dd4b8-3a54-45de-b472-c6bc0baa19dd))
+    (pin "6" (uuid 9018586c-fe19-488a-8aab-322e2c732660))
     (instances
       (project "2024l1 Single"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
