@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "isolated_copper|115626669|180685728|8901dd6e-587a-482f-b521-9d9297731d4e|00000000-0000-0000-0000-000000000000",
-        "isolated_copper|115636674|180685745|8901dd6e-587a-482f-b521-9d9297731d4e|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -138,9 +135,9 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_on_pad_in_zone": true,
+          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
-          "td_onroundshapesonly": true,
+          "td_onroundshapesonly": false,
           "td_ontrackend": true,
           "td_onviapad": true
         }
