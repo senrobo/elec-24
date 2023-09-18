@@ -65,8 +65,8 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 1ec2d4fb-497c-40ef-b0e7-39e2cc45bb5c))
   (fp_line (start 6.65 1.25) (end 6.65 -1.25)
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 1265d1e8-59d3-4d28-abba-0dcca95cfaf9))
-  (pad "N" thru_hole circle (at -2.5 5) (size 2.55 2.55) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 8c8cc950-e8d7-40f1-a523-5d7e8a575d3e))
-  (pad "P" thru_hole rect (at 2.5 5) (size 2.55 2.55) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 3f664a9f-0ee5-4d05-a652-61c0a766c08c))
+  (pad "1" thru_hole circle (at -2.5 5) (size 2.55 2.55) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 8c8cc950-e8d7-40f1-a523-5d7e8a575d3e))
+  (pad "2" thru_hole rect (at 2.5 5) (size 2.55 2.55) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 3f664a9f-0ee5-4d05-a652-61c0a766c08c))
   (pad "S1" thru_hole circle (at 5.5 0) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 6d6ae420-0dba-47e4-bc79-8e0d4c614647))
   (pad "S2" thru_hole circle (at -5.5 0) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 511fde8e-6c97-49bd-bb4c-99bf7599789d))
   (model "${KIPRJMOD}/3dmodels/XT30PW-F.step"
