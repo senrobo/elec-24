@@ -2409,6 +2409,31 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 144.78 36.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 091fde39-74ef-42c3-944c-6b32bf5aaa26)
+    (property "Reference" "#PWR033" (at 144.78 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 144.78 31.75 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 144.78 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 144.78 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4d84da74-1545-428e-afca-fc4949cd5467))
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "#PWR033") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 72.39 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 097ee71e-5e9e-4147-ab64-4612280163cc)
@@ -3623,31 +3648,6 @@
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
           (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 144.78 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 80b4e3ab-28de-4a32-b45d-cbe132e65a2a)
-    (property "Reference" "#PWR033" (at 144.78 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 144.78 31.75 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 144.78 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 144.78 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 908eff91-d636-49ef-8c0a-60a7e38985e2))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR033") (unit 1)
         )
       )
     )
