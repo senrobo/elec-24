@@ -69,9 +69,9 @@
   (pad "2" thru_hole rect (at 2.5 5) (size 2.55 2.55) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 3f664a9f-0ee5-4d05-a652-61c0a766c08c))
   (pad "S1" thru_hole circle (at 5.5 0) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 6d6ae420-0dba-47e4-bc79-8e0d4c614647))
   (pad "S2" thru_hole circle (at -5.5 0) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 511fde8e-6c97-49bd-bb4c-99bf7599789d))
-  (model "${KIPRJMOD}/3dmodels/XT30PW-F.step"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/3dmodels/XT30PW-F.STEP"
+    (offset (xyz 0 0.75 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
