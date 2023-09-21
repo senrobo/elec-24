@@ -1,0 +1,8 @@
+(version 1)
+(rule "Clearance zone to board-edge"
+	(condition "A.Type == 'Zone' && A.NetName == 'GND'")
+	(constraint edge_clearance (min 2.5mm))
+)
+(rule silk_over_via
+   (constraint silk_clearance (min 0.2mm))
+   (condition "A.Type == '*Text' && B.Type == 'Via'"))

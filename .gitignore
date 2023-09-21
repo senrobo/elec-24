@@ -28,7 +28,11 @@ fp-info-cache
 *.xml
 *.csv
 
+# prl files
+*.kicad_prl
+
 2024l1-backups/
+2024l1-sing
 2024l2-backups/
 2024l3-backups/
 test-pcb-backups/
