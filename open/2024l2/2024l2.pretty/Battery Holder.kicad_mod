@@ -9,7 +9,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 746c73fc-9c9d-456a-8bf5-306ef6618087)
   )
-  (model "${KIPRJMOD}/27 july v27.step"
+  (model "${KIPRJMOD}/3dmodels/Battery Holder (Elevated) v27.step"
     (offset (xyz 0 0 4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
