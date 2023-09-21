@@ -41,8 +41,8 @@
   (pad "2" thru_hole circle (at -3.6 6) (size 3.716 3.716) (drill 2.7) (layers "*.Cu" "*.Mask") (tstamp 1aab4f82-a658-4823-8a76-09aa7cfef437))
   (pad "S1" thru_hole oval (at 6.75 0) (size 1.2 2.4) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp 6c09511f-9cd0-4f94-b7c3-109347735fee))
   (pad "S2" thru_hole oval (at -6.75 0) (size 1.2 2.4) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp 03c54ade-2013-4b79-acaf-9dab092e0a5e))
-  (model "${KIPRJMOD}/3dmodels/XT60PW-M.step"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/3dmodels/XT60PW MALE.STEP"
+    (offset (xyz 0 9.25 4.1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

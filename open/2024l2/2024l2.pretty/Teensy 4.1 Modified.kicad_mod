@@ -83,9 +83,19 @@
   (pad "48" thru_hole circle (at -29.21 -7.62) (size 1.6 1.6) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp cf0c77f3-d81c-4bad-913a-aad43246e685))
   (pad "66" thru_hole circle (at -28.48 -1.27) (size 1.3 1.3) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 255b8c45-87c1-42e1-bc05-2bfa2f0c2ca0))
   (pad "67" thru_hole circle (at -28.48 1.27) (size 1.3 1.3) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 4e96b3e5-6bfb-486e-9244-1ca803bba850))
-  (model "${KICAD_USER_DIR}/teensy.pretty/Teensy_4.1_Assembly.STEP"
-    (offset (xyz 0 0 0.762))
+  (model "${KIPRJMOD}/3dmodels/DEV-16771.step"
+    (offset (xyz 0 0 6.762))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x24_P2.54mm_Vertical.step"
+    (offset (xyz 29.5 7.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x24_P2.54mm_Vertical.step"
+    (offset (xyz 29 -7.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )
