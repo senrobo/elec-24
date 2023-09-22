@@ -4787,7 +4787,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp be47961c-6cab-42c0-b1d0-07472f809a5a)
     )
-    (fp_text value "0u1" (at -57.23 -10.38 unlocked) (layer "B.Fab")
+    (fp_text value "0u1" (at 0.02 0 unlocked) (layer "B.Fab")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a11631b9-95e2-467c-b09b-5fbb871ae429)
     )
