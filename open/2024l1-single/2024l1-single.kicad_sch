@@ -5795,7 +5795,7 @@
     (property "Value" "100u" (at 39.624 46.736 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5" (at 36.5252 49.53 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5" (at 36.5252 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 35.56 45.72 0)
