@@ -55,24 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|100260430|146143608|cb8c67a5-1add-4ada-a2c9-d8f424280726|f3947308-56ea-4b76-af4b-8836fb9cc44d",
-        "copper_edge_clearance|196739570|146143608|4664426e-3370-4234-b37a-d4722bcc6fbc|914fee50-a7cf-4971-be57-1e7b93634405",
-        "copper_edge_clearance|197119220|145887530|4664426e-3370-4234-b37a-d4722bcc6fbc|bf66c1a5-92a6-4d48-8472-59985303a46a",
-        "copper_edge_clearance|227115527|191996753|46c18b4d-691d-4149-aea7-3421a353d467|81dfea66-0298-49b0-9176-6354b1ac4b70",
-        "copper_edge_clearance|227115527|228003246|8287aef6-5b7f-4af6-8dd9-737bb23f3611|811403fa-f390-4e0d-a8b8-0bc3f4403343",
-        "copper_edge_clearance|235211154|194982975|0dfa15de-09a3-46f1-9c79-16fe65c7ae35|3dd34e5f-8501-4212-a78b-0ee825749510",
-        "copper_edge_clearance|235211155|225017023|0dfa15de-09a3-46f1-9c79-16fe65c7ae35|ebf66030-aaaa-4699-9382-488d5537620a",
-        "copper_edge_clearance|235290444|195466012|0dfa15de-09a3-46f1-9c79-16fe65c7ae35|06ec5e4d-695b-44c9-a522-138a5e1b28ce",
-        "copper_edge_clearance|235290444|224533986|0dfa15de-09a3-46f1-9c79-16fe65c7ae35|822d555d-5290-4c7e-9979-0e288113f3aa",
-        "copper_edge_clearance|61709556|195466012|c5f41bfe-ef6d-4f66-9990-a171da1b0e41|be8ab653-c286-437f-9361-b11c648be33d",
-        "copper_edge_clearance|61709556|224533986|c5f41bfe-ef6d-4f66-9990-a171da1b0e41|ae105f6b-46d2-478c-80a3-baa146e60de9",
-        "copper_edge_clearance|69504822|191740675|3dcf53ca-ee8a-42c4-a451-dfdd7889f018|856bb30e-7b62-448d-98c0-5644012f9069",
-        "copper_edge_clearance|69504822|228259323|a8dbf679-c9a6-4618-9865-96979c9b8f28|20e8aa30-54d4-465c-ab11-ddb35161cce5",
-        "copper_edge_clearance|69884473|191996753|3dcf53ca-ee8a-42c4-a451-dfdd7889f018|a8eb82c6-21da-4f79-9be3-4a065b11b27e",
-        "copper_edge_clearance|69884473|228003246|a8dbf679-c9a6-4618-9865-96979c9b8f28|f6d529e2-41f9-4120-9478-3fb908a6b04e",
-        "copper_edge_clearance|99880780|145887530|cb8c67a5-1add-4ada-a2c9-d8f424280726|4bb72b1b-548a-4ee3-8584-905595e4bea4"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
