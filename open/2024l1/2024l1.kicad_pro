@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "isolated_copper|115636674|180685745|8901dd6e-587a-482f-b521-9d9297731d4e|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -419,7 +417,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2024l1-single.kicad_pro",
+    "filename": "2024l1.kicad_pro",
     "version": 1
   },
   "net_settings": {
