@@ -56,14 +56,14 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|234227924|195186909|fc1e331e-0aab-49af-b7b9-0ffdcd18cfae|5c3bfd9e-48b5-44f9-957e-6e0fcb7ed76d",
-        "copper_edge_clearance|234227925|224813089|fc1e331e-0aab-49af-b7b9-0ffdcd18cfae|b2529b3c-255b-4a54-9566-4ee2c1c5c270",
-        "copper_edge_clearance|234301265|195599995|fc1e331e-0aab-49af-b7b9-0ffdcd18cfae|57b8694b-84c9-4b03-a2a5-677c8417b5ac",
-        "copper_edge_clearance|234301266|224400003|fc1e331e-0aab-49af-b7b9-0ffdcd18cfae|06e1fa1e-3baf-4b7e-b172-b0c6ed426ddb",
-        "copper_edge_clearance|62698736|195599995|3d740b66-7227-4112-bb19-44a8162d4581|ebd4d2e5-c2c6-43f4-98ee-c3227aea1896",
-        "copper_edge_clearance|62698736|224400002|3d740b66-7227-4112-bb19-44a8162d4581|64520513-cc25-4b8e-9371-a0f5e0a8f37e",
-        "copper_edge_clearance|62772077|195186909|3d740b66-7227-4112-bb19-44a8162d4581|3f802b8b-565f-4551-84c4-bf533875f0b6",
-        "copper_edge_clearance|62772077|224813086|3d740b66-7227-4112-bb19-44a8162d4581|946134a4-fda1-4a90-b490-2e2824b6ff71"
+        "copper_edge_clearance|234227924|195186909|fc1e331e-0aab-49af-b7b9-0ffdcd18cfae|ef970cdc-b9ad-44ad-951c-b5e6c684cb2b",
+        "copper_edge_clearance|234227925|224813089|fc1e331e-0aab-49af-b7b9-0ffdcd18cfae|6b03b86c-c99c-4844-a950-eb538abb01b2",
+        "copper_edge_clearance|234301265|195599995|fc1e331e-0aab-49af-b7b9-0ffdcd18cfae|44a69f77-223b-4083-ac21-027d28866f08",
+        "copper_edge_clearance|234301266|224400003|fc1e331e-0aab-49af-b7b9-0ffdcd18cfae|2b43a940-c2e4-406a-a6c4-300146f58525",
+        "copper_edge_clearance|62698736|195599995|3d740b66-7227-4112-bb19-44a8162d4581|62d50676-cf33-44ce-a890-4c1d033ead98",
+        "copper_edge_clearance|62698736|224400002|3d740b66-7227-4112-bb19-44a8162d4581|0424b98d-c677-47b8-a34b-00d0cac84a24",
+        "copper_edge_clearance|62772077|195186909|3d740b66-7227-4112-bb19-44a8162d4581|bae815b3-8b6c-42eb-b75f-37df42e79aa2",
+        "copper_edge_clearance|62772077|224813086|3d740b66-7227-4112-bb19-44a8162d4581|14a6d967-62a9-42d9-b521-b9f56e72405c"
       ],
       "meta": {
         "version": 2
