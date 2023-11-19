@@ -5305,7 +5305,7 @@
     (property "Value" "Conn_01x02" (at 370.1924 185.0472 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2024l2:14 AWG" (at 370.1924 193.9372 0)
+    (property "Footprint" "2024l2:AMASS_XT30-F" (at 370.1924 193.9372 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 370.1924 193.9372 0)

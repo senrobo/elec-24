@@ -1367,6 +1367,31 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 31.7112 59.5814 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1e257af6-6ba0-400b-906b-6befb0f97aa6)
+    (property "Reference" "H11" (at 34.8595 57.6764 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 34.8595 60.2164 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 31.7112 59.5814 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 31.7112 59.5814 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 25fb8fb3-e668-412d-b72b-c674403406a8))
+    (instances
+      (project "2024l3 Cut Off"
+        (path "/d65f20ed-2841-484c-9395-70974a4cd101"
+          (reference "H11") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 201.088 32.686 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23d3ace2-7a68-4e94-aa76-9b88b2fcd0df)
@@ -2438,6 +2463,31 @@
       (project "2024l3 Cut Off"
         (path "/d65f20ed-2841-484c-9395-70974a4cd101"
           (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 20.3615 59.8508 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid daf32173-62d5-41ad-a4c3-762e3b646889)
+    (property "Reference" "H12" (at 23.4295 57.9458 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 23.4295 60.4858 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 20.3615 59.8508 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 20.3615 59.8508 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2ed5c6da-bf9f-49f3-8750-e7e2189261ce))
+    (instances
+      (project "2024l3 Cut Off"
+        (path "/d65f20ed-2841-484c-9395-70974a4cd101"
+          (reference "H12") (unit 1)
         )
       )
     )
