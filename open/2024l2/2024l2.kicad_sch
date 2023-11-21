@@ -2904,10 +2904,6 @@
     (stroke (width 0) (type default))
     (uuid dfcb1e9d-f2f0-485f-a355-c7d3dc1d029b)
   )
-  (wire (pts (xy 59.69 121.92) (xy 54.61 121.92))
-    (stroke (width 0) (type default))
-    (uuid e02852eb-dd6a-45e7-a5da-893b8cc30825)
-  )
   (wire (pts (xy 160.02 44.45) (xy 151.13 44.45))
     (stroke (width 0) (type default))
     (uuid e0703f89-da0b-4d13-9e6c-13555219942b)
@@ -4634,36 +4630,6 @@
     )
   )
 
-  (symbol (lib_id "power:+12V") (at 59.69 121.92 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2dee65a7-abc2-4d85-9ecd-fc5c5f1ba389)
-    (property "Reference" "#PWR062" (at 55.88 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 60.9864 123.7643 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 59.69 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 59.69 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a1b6603-d240-46be-98b9-c934a11f56fa))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR062") (unit 1)
-        )
-      )
-      (project "2024l1"
-        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 370.84 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e8f4008-e9e4-4154-a1a5-e2fc4cea8fe6)
@@ -6165,38 +6131,6 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 49.53 119.38 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 77eb4f91-b350-455a-8223-a096c0880158)
-    (property "Reference" "J1" (at 49.53 111.5403 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x03" (at 49.53 114.0803 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" (at 49.53 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 49.53 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1d95e643-9083-4d89-845a-4300df83db54))
-    (pin "2" (uuid f8dbd81e-e05a-4ccc-b398-ef00191ccc61))
-    (pin "3" (uuid 1c4dc600-ee8e-481d-b4cd-12a812e87ff6))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J1") (unit 1)
-        )
-      )
-      (project "2024l1"
-        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "J?") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 154.4634 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78fe165f-f275-4175-99f7-8ddce9ca43f6)
@@ -6428,6 +6362,32 @@
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
           (reference "#PWR075") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 49.53 119.38 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8340ef74-cda1-4cec-8327-b16837676a9b)
+    (property "Reference" "J1" (at 49.53 111.1795 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x02" (at 49.53 113.7195 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "2024l2:AMASS_XT30-F" (at 49.53 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2bfe9bd2-7b0c-4ec8-aee9-8ec4bb4c0ca8))
+    (pin "2" (uuid 1e05fb18-10c6-4f42-93f8-dc40cb9b5a3b))
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -8203,51 +8163,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 59.69 119.38 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid daf1dc32-2afe-4b56-a709-917d26f673d4)
-    (property "Reference" "#PWR?" (at 66.04 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 64.135 121.285 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 59.69 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 59.69 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 81f8f34b-0575-4e32-ae4c-82be0acb6cbb))
-    (instances
-      (project "2024l2"
-        (path "/24bb1a41-3dfa-48eb-8eef-57082ba6082b"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR060") (unit 1)
-        )
-      )
-      (project "2024l1"
-        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "2023l3-int"
-        (path "/91e7b1c2-b009-4d84-9159-ee8884a12474"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "2023l1-int"
-        (path "/dd82140d-c14c-4d8d-8674-edeceaca486e"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 165.1 204.47 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd356602-03a3-4a70-bb58-f8c4ebe344f8)
@@ -8797,6 +8712,31 @@
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
           (reference "C24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 59.69 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f9661845-4b34-4da0-afd0-5817153e726c)
+    (property "Reference" "#PWR060" (at 59.69 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 59.69 124.8655 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 59.69 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 59.69 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 592544cb-d66d-428e-854f-42f5ab71c919))
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "#PWR060") (unit 1)
         )
       )
     )
