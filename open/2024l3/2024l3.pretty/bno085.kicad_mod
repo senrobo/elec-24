@@ -61,7 +61,7 @@
   (pad "JP2_4" thru_hole circle (at 1.27 -8.89) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 5df6dc3f-498b-4cb5-8a5e-5fab72fc2183))
   (pad "JP2_5" thru_hole circle (at 3.81 -8.89) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask") (tstamp ef8e1537-aaa1-4995-8aa8-364784607585))
   (pad "JP2_6" thru_hole circle (at 6.35 -8.89) (size 1.778 1.778) (drill 1) (layers "*.Cu" "*.Mask") (tstamp dd8c66c7-e268-45ae-80d9-7d85fe2d738c))
-  (model "${KIPRJMOD}/2024-Elec/open/2024l3/3dmodels/Adafruit BNO085.step"
+  (model "${KIPRJMOD}/3dmodels/Adafruit BNO085.step"
     (offset (xyz 0 0 10))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
