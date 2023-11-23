@@ -2798,13 +2798,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 151.13 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 285a9d5e-e5e9-4938-9581-ae8490211b5e)
-    (property "Reference" "J?" (at 151.13 43.18 0)
+    (property "Reference" "J5" (at 151.13 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LDR" (at 151.13 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 49.53 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 151.13 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 49.53 0)
@@ -2815,7 +2815,7 @@
     (instances
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "J?") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2959,13 +2959,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 151.13 30.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31c258b6-7e54-4e1b-a587-d0255b26bcc0)
-    (property "Reference" "J?" (at 151.13 24.13 0)
+    (property "Reference" "J4" (at 151.13 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 151.13 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 30.48 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 151.13 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 30.48 0)
@@ -2976,7 +2976,7 @@
     (instances
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "J?") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
