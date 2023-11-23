@@ -4457,6 +4457,31 @@
     )
   )
 
+  (symbol (lib_id "power:+48V") (at 82.55 120.65 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 22c0fc4f-4595-4947-9037-a8458021ab59)
+    (property "Reference" "#PWR060" (at 78.74 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+48V" (at 86.36 120.6499 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 82.55 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 82.55 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3f421795-3d4f-49d8-8060-6ebd5e5cf058))
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 356.87 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 233d2111-56cf-4401-b201-ae378aaa87aa)
@@ -4596,6 +4621,31 @@
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
           (reference "C23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 82.55 118.11 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2780beb0-8622-4458-b231-b9e64a454cd2)
+    (property "Reference" "#PWR058" (at 78.74 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 86.36 118.1099 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 82.55 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 82.55 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b143f106-540e-405c-983e-cba7ea2a3209))
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -6325,36 +6375,6 @@
     )
   )
 
-  (symbol (lib_id "power:+12V") (at 82.55 118.11 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7f87d3e9-e29d-4e00-8e61-289e65666673)
-    (property "Reference" "#PWR081" (at 78.74 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 86.5428 117.475 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 82.55 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 82.55 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0e77556b-c5bf-49b9-a185-4ffb44d91d81))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR081") (unit 1)
-        )
-      )
-      (project "2024l1"
-        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+5V") (at 274.002 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 817e8060-f5df-44e7-925a-3b90d11fc200)
@@ -6996,7 +7016,7 @@
     (property "Value" "10k" (at 304.8905 199.6035 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2024l2:TRIM_3362W-1-203LF" (at 304.8905 193.5075 0)
+    (property "Footprint" "Potentiometer_SMD:Potentiometer_Vishay_TS53YJ_Vertical" (at 304.8905 193.5075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 304.8905 193.5075 0)
@@ -7572,36 +7592,6 @@
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
           (reference "D2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+48V") (at 82.55 120.65 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bb1fe489-08f4-4c4e-93a8-206b59ca77b9)
-    (property "Reference" "#PWR080" (at 78.74 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+48V" (at 86.8654 120.015 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 82.55 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 82.55 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d5863a34-f8e4-4c43-8593-ed93798c8452))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "#PWR080") (unit 1)
-        )
-      )
-      (project "2024l1"
-        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -8806,7 +8796,7 @@
     (property "Value" "10n" (at 60.96 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2024l2:cap0603" (at 64.77 20.6248 0)
+    (property "Footprint" "2024l2:Potentiometer_Vishay_TS53YJ_Vertical" (at 64.77 20.6248 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 60.96 21.59 0)
