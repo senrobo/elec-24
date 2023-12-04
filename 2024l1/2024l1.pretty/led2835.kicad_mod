@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp f599fc0b-e9aa-4300-893b-944305d64f49)
   )
-  (fp_text value "led2835" (at 0 2.5 unlocked) (layer "F.Fab")
+  (fp_text value "C7423442" (at 0 2.5 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f374c7a6-3bd7-4165-9608-895e44601f37)
   )
