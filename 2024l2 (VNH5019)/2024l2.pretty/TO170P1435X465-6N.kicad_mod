@@ -65,7 +65,7 @@
   (pad "6" smd rect (at 3.4 -0.025 90) (size 10.45 9.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 679fed54-6c20-439d-8a56-436335ddf485))
   (pad "6" thru_hole rect (at 7.347 -4.445) (size 1 1) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp bba9b32d-20e4-4b6d-933e-32d28948017f))
   (pad "6" thru_hole rect (at 7.347 4.445) (size 1 1) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp 22480b6f-3583-4046-b65c-68de83cdc5d7))
-  (model "${KIPRJMOD}/3dmodels/LM2587S.stp"
+  (model "C:/Users/dread/OneDrive/Documents/GitHub/2024-Elec/2024l1/3dmodels/LM2587S.stp"
     (offset (xyz 6.37 0 0.15))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
