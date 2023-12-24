@@ -5051,7 +5051,7 @@
     (property "Value" "Seeed Studio XIAO SAMD21" (at 157.4121 122.8688 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "2024l1:Seeeduino XIAO SAMD 21 TFT" (at 144.0262 93.292 0)
+    (property "Footprint" "2024l1:Xiao SMD" (at 144.0262 93.292 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 144.0262 93.292 0)

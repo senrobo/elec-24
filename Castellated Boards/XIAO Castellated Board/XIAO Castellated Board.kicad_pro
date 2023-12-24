@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.1,
-          "height": 3.8,
-          "width": 3.8
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,26 +45,11 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        "copper_edge_clearance|234227899|119813135|273182be-4e7f-42cb-ba8e-e8b9283aab6a|0ca82848-a94e-4586-a1e6-c897cf324ab8",
-        "copper_edge_clearance|234227915|90186953|273182be-4e7f-42cb-ba8e-e8b9283aab6a|b084bbcb-e4f5-40cb-85a8-7feae52eb437",
-        "copper_edge_clearance|234301241|119400050|273182be-4e7f-42cb-ba8e-e8b9283aab6a|46394915-0ade-4e4a-b0ae-7109da7b6d9e",
-        "copper_edge_clearance|234301256|90600038|273182be-4e7f-42cb-ba8e-e8b9283aab6a|71214b21-017a-4549-a42b-4e4ab0a7c08e",
-        "copper_edge_clearance|62698710|90600043|433d9cff-00c0-4f7d-8448-dd33a29f1b01|4a916bdc-8972-4728-8513-a282d5433cc6",
-        "copper_edge_clearance|62698726|119400045|433d9cff-00c0-4f7d-8448-dd33a29f1b01|eca08925-138a-4a76-bfb2-b0545e90444b",
-        "copper_edge_clearance|62772050|90186959|433d9cff-00c0-4f7d-8448-dd33a29f1b01|6949242b-b916-428c-977d-b1bf57275b5c",
-        "copper_edge_clearance|62772066|119813129|433d9cff-00c0-4f7d-8448-dd33a29f1b01|4c9e5738-2060-44e5-a18f-c4c58dead482"
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -89,8 +74,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -102,7 +87,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -120,9 +105,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.19999999999999998,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 1.5,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -132,28 +117,28 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_on_pad_in_zone": true,
+          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": true,
+          "td_ontrackend": false,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -162,7 +147,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -171,7 +156,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -180,28 +165,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25,
-        0.3,
-        1.0,
-        1.2,
-        1.3,
-        1.4,
-        1.5,
-        1.5,
-        2.0,
-        3.0,
-        4.0,
-        5.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
-      "zones_allow_external_fillets": true
+      "track_widths": [],
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
     },
     "layer_presets": [],
     "viewports": []
@@ -426,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2024l1.kicad_pro",
+    "filename": "XIAO Castellated Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -443,7 +409,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -462,7 +428,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "2024l1.step",
+      "step": "XIAO Castellated Board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -491,16 +457,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -511,7 +469,7 @@
   },
   "sheets": [
     [
-      "5be543b5-1bdc-438f-a916-f916127c0a2b",
+      "e0f49a77-56c8-4b74-a9fe-c5897335c6eb",
       ""
     ]
   ],
