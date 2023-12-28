@@ -134,7 +134,7 @@
     (property "ki_keywords" "resistor variable light sensitive opto LDR")
     (path "/e2c50f98-b087-4d64-a0cd-b419b915ded3")
     (attr through_hole)
-    (fp_text reference "R2" (at 0 -0.5 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "R2" (at 0 -0.5 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp cb5e668f-85c3-4429-9474-7b415aef71cc)
     )
