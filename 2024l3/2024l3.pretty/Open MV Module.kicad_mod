@@ -181,7 +181,7 @@
       f846b36c-aba2-4617-bda1-e18375eeff0f
     )
   )
-  (model "${KIPRJMOD}/3dmodels/Camera module v1.step"
+  (model "${KIPRJMOD}/3dmodels/OpenMV H7.step"
     (offset (xyz -17.5 -22.25 10.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
