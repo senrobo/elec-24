@@ -55,13 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_issues|112906000|70256000|4c5cae31-375c-4d00-a5cc-e3edae3d393e|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|113175999|74206000|46da03dd-7c55-4511-af9d-cac74752a9bb|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|113426000|70256000|4c5cae31-375c-4d00-a5cc-e3edae3d393e|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|133376000|70406000|6b9e9e58-62f7-4d49-928c-734ec15c8a2d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|184626000|72756000|4c5cae31-375c-4d00-a5cc-e3edae3d393e|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
