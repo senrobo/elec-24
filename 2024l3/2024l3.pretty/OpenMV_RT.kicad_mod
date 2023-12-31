@@ -128,8 +128,28 @@
   (pad "30" thru_hole oval (at 13.635 20.586) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp d2a81572-2697-476c-b050-776facad461e))
   (pad "31" thru_hole oval (at 16.175 20.586) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 47b57767-943c-47d8-927d-f89570b3d1e3))
   (model "${KIPRJMOD}/3dmodels/OPENMVRT1062.STEP"
-    (offset (xyz -17.75 -22.2 1))
+    (offset (xyz -17.75 -22.2 10.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x08_P2.54mm_Vertical.step"
+    (offset (xyz -13.75 -2.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x08_P2.54mm_Vertical.step"
+    (offset (xyz 16.25 -2.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.step"
+    (offset (xyz 16 -2.75 9.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.step"
+    (offset (xyz -13.75 -2.75 9))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
   )
 )

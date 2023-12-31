@@ -8089,7 +8089,7 @@
     (property "Datasheet" "~" (at 279.4 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C7461383" (at 279.4 175.26 90)
+    (property "LCSC" "C2875750" (at 279.4 175.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid defbabbb-6669-4b8c-9dd6-a4d8ebf9c7c6))
