@@ -56,14 +56,14 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|234227908|195186912|eac3262c-676a-44e9-912e-e17d0cc70924|5755f0ea-c435-45c0-a163-5727669b39a9",
-        "copper_edge_clearance|234227908|224813086|eac3262c-676a-44e9-912e-e17d0cc70924|5b2be7e8-142b-4ab2-b2e6-ff2ae861042b",
-        "copper_edge_clearance|234301249|195599997|eac3262c-676a-44e9-912e-e17d0cc70924|e13f66db-8dcd-43ef-9b30-ed0c8751cc35",
-        "copper_edge_clearance|234301249|224400000|eac3262c-676a-44e9-912e-e17d0cc70924|0f4cfbb4-c817-4d19-8cb3-c9ef1828203e",
-        "copper_edge_clearance|62698718|224400005|ecb574fb-5f23-42a0-9b41-ae8190429505|70a7eb4e-12e4-44b9-aa84-797d069ad448",
-        "copper_edge_clearance|62698719|195599993|ecb574fb-5f23-42a0-9b41-ae8190429505|84599b9f-13c7-4d67-ae9c-27eb6214fa01",
-        "copper_edge_clearance|62772059|195186908|ecb574fb-5f23-42a0-9b41-ae8190429505|a858f5e3-b607-4ee1-858d-49fbb962b938",
-        "copper_edge_clearance|62772059|224813090|ecb574fb-5f23-42a0-9b41-ae8190429505|354b6c68-2854-4af0-a3dc-34944969c146",
+        "copper_edge_clearance|234227908|195186912|eac3262c-676a-44e9-912e-e17d0cc70924|f06d317e-df1c-44c2-8ba8-bbabceaa9819",
+        "copper_edge_clearance|234227908|224813086|eac3262c-676a-44e9-912e-e17d0cc70924|7f407dfc-4dd3-4c3f-aad3-58d0325263ef",
+        "copper_edge_clearance|234301249|195599997|eac3262c-676a-44e9-912e-e17d0cc70924|b3efb580-c83e-44ac-b2e4-c07d2b4fa251",
+        "copper_edge_clearance|234301249|224400000|eac3262c-676a-44e9-912e-e17d0cc70924|ecd47443-95fd-42a2-a0eb-5ceb7c9b2918",
+        "copper_edge_clearance|62698718|224400005|ecb574fb-5f23-42a0-9b41-ae8190429505|dfcc4bf0-3b4d-46c4-8d95-0070eb8a1739",
+        "copper_edge_clearance|62698719|195599993|ecb574fb-5f23-42a0-9b41-ae8190429505|812936d7-815c-4be3-b61a-635dec2f6d57",
+        "copper_edge_clearance|62772059|195186908|ecb574fb-5f23-42a0-9b41-ae8190429505|5d99da1a-e17a-4884-b581-4bb42c3d7bfe",
+        "copper_edge_clearance|62772059|224813090|ecb574fb-5f23-42a0-9b41-ae8190429505|de8db546-f0d4-4385-9e74-d1309697f1c6",
         "lib_footprint_mismatch|163379995|209966315|437680f3-67b1-4ed5-9af9-f0563df5b9f4|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
