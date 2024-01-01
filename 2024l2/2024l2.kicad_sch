@@ -8153,7 +8153,7 @@
     (property "Datasheet" "~" (at 304.8 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C124590" (at 304.8 193.04 90)
+    (property "LCSC" "C3151613" (at 304.8 193.04 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 67aad115-a8fe-4d39-85ce-e23c8335c146))
