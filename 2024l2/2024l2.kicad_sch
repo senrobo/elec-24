@@ -5698,7 +5698,7 @@
     (property "Reference" "C31" (at 334.645 190.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (at 334.645 193.0399 0)
+    (property "Value" "0u1" (at 334.645 193.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "2024l2:cap0603" (at 332.4352 195.58 0)
