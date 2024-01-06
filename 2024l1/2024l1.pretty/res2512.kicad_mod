@@ -47,4 +47,9 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 035f4374-71b7-4a4e-b719-a28fe9f3df46))
   (pad "1" smd roundrect (at -3.05 0) (size 1.4 3.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.178571) (tstamp 8452026b-33bd-451a-bc53-68aa5a27b749))
   (pad "2" smd roundrect (at 3.05 0) (size 1.4 3.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.178571) (tstamp c7c16cc4-744f-4750-a939-ad6c17148e3c))
+  (model "${KIPRJMOD}/3dmodels/r2512.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
