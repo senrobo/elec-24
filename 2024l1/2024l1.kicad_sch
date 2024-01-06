@@ -1656,7 +1656,9 @@
   (no_connect (at 177.8 171.45) (uuid 2c36b0ab-1601-4a01-8782-d25b54e1ea23))
   (no_connect (at 133.35 153.67) (uuid 2f7a22a2-40a0-462e-b533-e5c309b271b0))
   (no_connect (at 177.8 144.78) (uuid 3c75de69-27e2-498b-af6d-db056dadf6e2))
+  (no_connect (at 177.9488 189.1314) (uuid 3d990d1e-de68-4044-989e-88406cbc24e3))
   (no_connect (at 138.43 171.45) (uuid 4493a903-f367-42c9-98e4-14e3681e11c8))
+  (no_connect (at 183.0288 189.1314) (uuid 49da7d49-47fd-4fdf-b246-944ffa224785))
   (no_connect (at 134.62 100.33) (uuid 5f347648-3d23-4cff-9856-4c859aa0d3dd))
   (no_connect (at 182.88 162.56) (uuid 6f7b13d6-219e-4c22-acbe-bfd3bb826df3))
   (no_connect (at 152.4 105.41) (uuid 7005c325-ffcb-4f30-a707-4314fdeda022))
@@ -3857,6 +3859,31 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 177.9488 186.5914 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 637f9f53-3b41-4c62-9a0f-0b4cac1f80e1)
+    (property "Reference" "KM3" (at 174.7738 184.0513 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M4" (at 174.7738 186.5913 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via" (at 177.9488 186.5914 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 177.9488 186.5914 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4f5f4113-296d-4ddc-9570-68d5080ede82))
+    (instances
+      (project "2024l1"
+        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+          (reference "KM3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 24.13 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 672811e1-a376-4fc8-893d-76ad62b53ed4)
@@ -4629,6 +4656,31 @@
       (project "2024l1"
         (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
           (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 183.0288 186.5914 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 96c31d1c-8639-4bb8-b4d8-41ee7166782b)
+    (property "Reference" "KM4" (at 186.2038 184.0513 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M4" (at 186.2038 186.5913 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via" (at 183.0288 186.5914 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 183.0288 186.5914 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd5bfe4a-9161-4ed1-9963-285a8890e451))
+    (instances
+      (project "2024l1"
+        (path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+          (reference "KM4") (unit 1)
         )
       )
     )
