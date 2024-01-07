@@ -5857,7 +5857,7 @@
     (property "Value" "STP75NF75" (at 62.23 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 62.23 266.37 0)
+    (property "Footprint" "2024l1:TO-220-3_Vertical" (at 62.23 266.37 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD050N10N5-DS-v02_01-EN.pdf?fileId=5546d4625b3ca4ec015b615bb7536713" (at 62.23 366.37 0)
