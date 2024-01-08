@@ -2183,20 +2183,20 @@
 
   (footprint "2024l1:SEN Logo Mini" (layer "F.Cu")
     (tstamp 6cc24fa5-9609-4d3c-ae19-1479c067d6a0)
-    (at 118.02 79.6)
+    (at 118.02 79.6 180)
     (property "Sheetfile" "2024l1.kicad_sch")
     (property "Sheetname" "")
     (path "/4210cf30-bbc7-497b-a16f-c67fd379d8e8")
     (attr smd)
-    (fp_text reference "LOGO2" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (fp_text reference "LOGO2" (at 0 -0.5 180 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 60ddf0da-f2e6-45bf-b171-fe2d47042636)
     )
-    (fp_text value "~" (at 0 1 unlocked) (layer "F.Fab")
+    (fp_text value "~" (at 0 1 180 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 295ba405-4ac5-4bb6-8a02-9198a2f7d7a7)
     )
-    (pad "3" smd custom (at -0.025 -2.875) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd custom (at -0.025 -2.875 180) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
       (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
@@ -4264,7 +4264,7 @@
 
   (footprint "2024l1:Infineon Smaller" (layer "F.Cu")
     (tstamp c56b87bc-37db-4f51-9f73-31ac5f8d559c)
-    (at 178.98 79.6)
+    (at 178.98 79.6 180)
     (property "Sheetfile" "2024l1.kicad_sch")
     (property "Sheetname" "")
     (path "/3848313f-2e6c-4dd3-9d8b-f3959aa78c0b")
