@@ -77,7 +77,7 @@
   (pad "33" thru_hole circle (at 2 2.5 90) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp 3aeb1c19-c570-4cf9-aa33-5976f1aaaf40))
   (pad "33" thru_hole circle (at 2 3.5 90) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp c629a59e-be5d-43fa-8f3f-3ba5d146b6be))
   (model "${KIPRJMOD}/3dmodels/PowSO30-ST.step"
-    (offset (xyz -8.6 -9.6 1))
+    (offset (xyz -8.6 -9.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
