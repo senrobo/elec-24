@@ -405,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2024l2 (VNH5019).kicad_pro",
+    "filename": "2024l2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -441,7 +441,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "2024l2.step",
+      "step": "../../Downloads/2024l2-14Jan.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
