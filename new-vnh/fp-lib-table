@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "new-vnh")(type "KiCad")(uri "${KIPRJMOD}/new-vnh.pretty")(options "")(descr ""))
+)
