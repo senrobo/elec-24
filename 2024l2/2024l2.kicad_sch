@@ -1125,7 +1125,7 @@
       (property "Value" "AON6354" (at 10.16 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (at 7.62 -2.54 90)
+      (property "Footprint" "2024l2:8-DFN (5x6)" (at 7.62 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://aosmd.com/res/data_sheets/AON6354.pdf" (at 7.62 0 0)
@@ -1280,6 +1280,10 @@
         (pin passive line (at 7.62 5.08 270) (length 2.54) hide
           (name "D" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 5.08 270) (length 2.54) hide
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -4388,6 +4392,7 @@
     (pin "6" (uuid 7046c0fc-0b68-45b7-821e-f1b7e3bbe4c1))
     (pin "7" (uuid 432fbf18-cc55-44fc-af81-04f2457d503f))
     (pin "8" (uuid 3062f25e-0137-465a-8a56-72b56a7449fa))
+    (pin "9" (uuid bee7a872-9a98-4163-95c7-048004afef1c))
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
@@ -4810,6 +4815,7 @@
     (pin "6" (uuid 80aa22c2-fbbe-4f4d-a291-9913a81ad151))
     (pin "7" (uuid f19a4cd2-b321-4730-b31d-17d4ce3ea232))
     (pin "8" (uuid 2eaba238-997b-4e43-b603-c71f9c16b44f))
+    (pin "9" (uuid 4a112825-aec3-4fcf-b860-e17e3c4347af))
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
@@ -5059,6 +5065,7 @@
     (pin "6" (uuid 8f4da1c6-8661-4428-88f6-b4a4627b9643))
     (pin "7" (uuid 125ae55e-b1d0-4106-80a9-e0cc3acc3864))
     (pin "8" (uuid 3f3f15a5-db57-4484-9acd-900cb26d592d))
+    (pin "9" (uuid b8a01be2-c26a-4e94-a0ba-32f684b4c007))
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
@@ -6298,6 +6305,7 @@
     (pin "6" (uuid 4dedab3c-1dbe-4d1d-b8df-ea211d2a534a))
     (pin "7" (uuid 8997e81c-d359-419f-b4d4-74a9261472cf))
     (pin "8" (uuid 25c9bf9c-166c-43ef-9591-567401a1e274))
+    (pin "9" (uuid 96ee03f9-3179-4038-a6c9-caed5839a1dd))
     (instances
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
