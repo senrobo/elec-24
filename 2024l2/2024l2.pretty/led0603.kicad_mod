@@ -26,9 +26,9 @@
   (fp_arc (start 1.8 0.6) (mid 1.712132 0.812132) (end 1.5 0.9)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 2c87e5f5-4d32-4039-9350-00c3b8c9d69f))
   (pad "1" smd roundrect (at -0.8 0) (size 1 1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1)
-    (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp d9c8637d-cb6b-4f5c-be3f-7c422cb97d3f))
+    (thermal_bridge_angle 45) (tstamp d9c8637d-cb6b-4f5c-be3f-7c422cb97d3f))
   (pad "2" smd roundrect (at 0.8 0) (size 1 1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1)
-    (solder_mask_margin 0.1) (thermal_bridge_angle 45) (tstamp 50ae395e-d010-4c1f-8f6c-9757f02ace45))
+    (thermal_bridge_angle 45) (tstamp 50ae395e-d010-4c1f-8f6c-9757f02ace45))
   (model "C:/Users/dread/OneDrive/Documents/GitHub/2024-Elec/2024l1/3dmodels/led0603.step"
     (offset (xyz 9 -0.375 -9.1))
     (scale (xyz 1 1 1))
