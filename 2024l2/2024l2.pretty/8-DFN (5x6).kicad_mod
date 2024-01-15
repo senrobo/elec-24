@@ -33,20 +33,6 @@
     (thermal_bridge_angle 45) (tstamp 83a79054-30ad-4f7b-9f0d-f449116cae48))
   (pad "9" smd roundrect (at 0 -0.6) (size 3.75 3.91) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (thermal_bridge_angle 45) (tstamp 413192e5-69f8-4114-b443-308d2a8e7c3f))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 1e0da223-03bc-43a7-a013-c43c54f7d28a) (hatch edge 0.5)
-    (connect_pads (clearance 0))
-    (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour allowed) (footprints allowed))
-    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
-    (polygon
-      (pts
-        (xy -2.55 1.355)
-        (xy -2.55 -2.555)
-        (xy 2.55 -2.555)
-        (xy 2.55 1.355)
-      )
-    )
-  )
   (model "${KIPRJMOD}/3dmodels/DFN08L_5X6A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
