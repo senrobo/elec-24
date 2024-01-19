@@ -9,14 +9,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 46ca5521-3db3-41ef-bc12-89040c25c685)
   )
-  (fp_text user "DVL6A" (at 0 1.524) (layer "F.SilkS")
-      (effects (font (size 0.7 0.7) (thickness 0.15)))
-    (tstamp 38c809f6-ff6a-4b5b-9334-f09ef74e0388)
-  )
-  (fp_text user "MIMXRT1062" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 0.7 0.7) (thickness 0.15)))
-    (tstamp c3970828-5b94-4358-852c-10e44020f100)
-  )
   (fp_line (start -9 -18.034) (end -9 18.026)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 95cea8d8-558b-4f4a-b5ee-48569ee55e62))
   (fp_line (start -3.81 -18.034) (end -9 -18.034)
@@ -29,80 +21,6 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 65a2dff7-3ca5-481b-96fc-d5e3dc564e66))
   (fp_line (start 9 18.026) (end -9 18.026)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 05a5f9eb-7888-4a3d-8315-49f2ca0508ce))
-  (fp_rect (start 5.08 -5.969) (end -5.08 4.191)
-    (stroke (width 0.15) (type solid)) (fill none) (layer "F.SilkS") (tstamp 4f208517-d030-4cae-aa10-de1a191f9943))
-  (fp_poly
-    (pts
-      (xy -0.508 -1.905)
-      (xy -0.254 -1.651)
-      (xy -0.635 -1.397)
-      (xy -0.889 -1.651)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 1b6cf860-97e1-478b-9a58-cb2b9dd28c88))
-  (fp_poly
-    (pts
-      (xy -0.381 -2.667)
-      (xy -0.127 -2.413)
-      (xy -0.508 -2.159)
-      (xy -0.762 -2.413)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 4817993a-6152-41c4-af51-213b457e28f8))
-  (fp_poly
-    (pts
-      (xy -0.127 -4.191)
-      (xy 0.127 -3.937)
-      (xy -0.254 -3.683)
-      (xy -0.508 -3.937)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 17f3a7f8-ece8-4b15-8066-fd950fd145b7))
-  (fp_poly
-    (pts
-      (xy 0 -2.286)
-      (xy 0.254 -2.032)
-      (xy -0.127 -1.778)
-      (xy -0.381 -2.032)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp d663ed92-4e42-489f-8da0-1ef6b4ee515e))
-  (fp_poly
-    (pts
-      (xy 0.127 -3.048)
-      (xy 0.381 -2.794)
-      (xy 0 -2.54)
-      (xy -0.254 -2.794)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp fcdf8fe0-7e72-4acb-8a60-35aa37856f7c))
-  (fp_poly
-    (pts
-      (xy 0.254 -3.81)
-      (xy 0.508 -3.556)
-      (xy 0.127 -3.302)
-      (xy -0.127 -3.556)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 6ba2b7ca-438f-434f-9643-e4ed2bc92168))
-  (fp_poly
-    (pts
-      (xy 0.508 -2.667)
-      (xy 0.762 -2.413)
-      (xy 0.381 -2.159)
-      (xy 0.127 -2.413)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 40656f83-daa1-4c19-99d0-397690d891a5))
-  (fp_poly
-    (pts
-      (xy 0.635 -3.429)
-      (xy 0.889 -3.175)
-      (xy 0.508 -2.921)
-      (xy 0.254 -3.175)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp f0247129-31df-40d5-b034-45616199860e))
   (fp_line (start -9.14 -18.73) (end 9.14 -18.73)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp d555dd91-46b6-4c24-8f55-4595140ebc61))
   (fp_line (start -9.14 18.2) (end -9.14 -18.73)
@@ -140,8 +58,28 @@
   (pad "G3" thru_hole circle (at 7.62 -13.97) (size 1.53 1.53) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 72713fb3-e8c2-4e46-b631-39cd67f2fcdd))
   (pad "VIN" thru_hole circle (at 7.62 -16.51) (size 1.53 1.53) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 5acad836-1c8c-48da-bfd4-f06ccab6971b))
   (model "${KIPRJMOD}/3dmodels/teensy4.step"
-    (offset (xyz 0 0 10))
+    (offset (xyz 0 0 9.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x14_P2.54mm_Vertical.step"
+    (offset (xyz 7.625 16.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x14_P2.54mm_Vertical.step"
+    (offset (xyz -7.625 16.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.step"
+    (offset (xyz -7.625 16.5 9.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -180 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.step"
+    (offset (xyz 7.625 16.5 9.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -180 0))
   )
 )

@@ -3887,7 +3887,7 @@
     (property "Value" "XIAO SAMD21" (at 332.74 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2024l1:XIAO" (at 328.93 99.06 0)
+    (property "Footprint" "2024l1:xiao-samd21" (at 328.93 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/esp32-c3_datasheet.pdf" (at 331.47 118.11 0)

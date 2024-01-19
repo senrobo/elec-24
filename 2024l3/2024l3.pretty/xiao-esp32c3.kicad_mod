@@ -600,9 +600,29 @@
     (thermal_bridge_angle 45) (tstamp 10b04e54-a474-4903-ac08-b2a7455a83a8))
   (pad "13" thru_hole roundrect (at 7.62 -7.62) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.1)
     (thermal_bridge_angle 45) (tstamp bf57c133-ff91-4a9e-aea1-9fed4a048c80))
-  (model "${KIPRJMOD}/3dmodels/SeeedStudio ESP32-C3 THT.step"
-    (offset (xyz 6 -1.7 10))
+  (model "${KIPRJMOD}/3dmodels/Seeed Studio XIAO-ESP32-C3.step"
+    (offset (xyz 6 -1.7 9.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x07_P2.54mm_Vertical.step"
+    (offset (xyz 7.5 7.65 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x07_P2.54mm_Vertical.step"
+    (offset (xyz -7.65 7.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x07_P2.54mm_Vertical.step"
+    (offset (xyz 7.5 7.65 9.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x07_P2.54mm_Vertical.step"
+    (offset (xyz -7.65 7.5 9.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
   )
 )
