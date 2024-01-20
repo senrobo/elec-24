@@ -1,10 +1,12 @@
-(footprint "ZIp Tie" (version 20221018) (generator pcbnew)
+(footprint "Zip Tie" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (zone_connect 2)
+  (attr exclude_from_bom allow_missing_courtyard)
   (fp_text reference "REF**" (at 0 0 90 unlocked) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.1)))
     (tstamp 7f8c936d-455b-4bd4-bba2-7035885e4574)
   )
-  (fp_text value "ZIp Tie" (at 0 1 unlocked) (layer "F.Fab") hide
+  (fp_text value "Zip Tie" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 23bdb189-5740-41b5-88a0-9c5104f43cd0)
   )
