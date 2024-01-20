@@ -3614,31 +3614,6 @@
     (uuid ffc73541-911b-4904-ab35-a32d991eeecf)
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 20.32 182.88 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 00846a53-00cc-4ed0-b24c-6ed3323dd7da)
-    (property "Reference" "J1" (at 17.78 181.61 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 17.78 184.15 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "2024l2:14 AWG" (at 20.32 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 20.32 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 948ad516-50cf-4c45-9c0d-e0cd3f9f238c))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 187.96 173.99 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00f1a536-e3ed-4362-82a7-5980d36560bc)
@@ -3988,6 +3963,32 @@
     )
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 20.32 185.42 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0b45ff80-6bc6-42d4-9cad-75bf1a4129d1)
+    (property "Reference" "J1" (at 20.32 173.99 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x02" (at 20.32 176.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "2024l2:AMASS_XT60-M" (at 20.32 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 20.32 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b16829a0-2852-4e94-8d02-65214bbff33f))
+    (pin "2" (uuid cbd53d0c-f802-4847-9fc2-49767304ce23))
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 106.68 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c1a86de-3163-4f69-8c7d-8ae4a9bad827)
@@ -4023,31 +4024,6 @@
       (project "buck"
         (path "/df3073b9-8d60-44a4-89ea-71f9aa763c80"
           (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 20.32 185.42 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0ca19cb3-ad38-4339-9af0-8c99a5faaac6)
-    (property "Reference" "J15" (at 17.78 184.15 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 17.78 186.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "2024l2:14 AWG" (at 20.32 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 20.32 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6c684e3f-76dc-45bd-bb71-555d7ba42325))
-    (instances
-      (project "2024l2"
-        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-          (reference "J15") (unit 1)
         )
       )
     )
@@ -5314,6 +5290,30 @@
     )
   )
 
+  (symbol (lib_id "Device (Modified):Zip_Tie") (at 108.8696 187.4711 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 486bf162-2c0a-43a5-91d6-170ea245645d)
+    (property "Reference" "U7" (at 118.1059 188.1061 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 108.8696 187.4711 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "2024l2:Zip Tie" (at 108.8696 187.4711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 108.8696 187.4711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "U7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 40.64 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4916e0bc-6930-46c7-a160-96d0fea55ef4)
@@ -5515,7 +5515,7 @@
     (property "Value" "~" (at 108.8737 170.9209 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2024l2:ZIp Tie" (at 108.8737 170.9209 0)
+    (property "Footprint" "2024l2:Zip Tie" (at 108.8737 170.9209 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 108.8737 170.9209 0)
@@ -5641,6 +5641,30 @@
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
           (reference "J8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device (Modified):Zip_Tie") (at 108.8927 181.9979 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5a6551ff-df6b-49d1-a42f-a76548bac359)
+    (property "Reference" "U6" (at 118.129 182.6329 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 108.8927 181.9979 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "2024l2:Zip Tie" (at 108.8927 181.9979 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 108.8927 181.9979 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -7838,6 +7862,30 @@
       (project "2024l2"
         (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
           (reference "R20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device (Modified):Zip_Tie") (at 108.8894 176.4472 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c2204809-2d7d-4df0-833c-a4fa983f4f98)
+    (property "Reference" "U5" (at 118.1257 177.0822 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 108.8894 176.4472 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "2024l2:Zip Tie" (at 108.8894 176.4472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 108.8894 176.4472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "2024l2"
+        (path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+          (reference "U5") (unit 1)
         )
       )
     )
