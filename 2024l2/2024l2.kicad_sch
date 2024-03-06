@@ -15838,6 +15838,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 55.88 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63400838-2cd8-499e-bb2d-e2de280a949d")
+		(property "Reference" "#PWR032"
+			(at 55.88 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 55.88 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a36c431-f873-484a-b3b2-4788b4e288b0")
+		)
+		(instances
+			(project "2024l2"
+				(path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device (Modified):LOGO")
 		(at 109.0493 203.2551 0)
 		(unit 1)
@@ -18076,82 +18142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 50.8 190.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d183b64-f519-428d-b0d0-878d5f248013")
-		(property "Reference" "J3"
-			(at 50.717 183.3929 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 50.8 185.1823 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 50.8 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "677a28c7-651b-468b-99f4-f74adaebae3c")
-		)
-		(pin "2"
-			(uuid "40e7b8cc-f926-4ee6-96bb-ba158f2dd032")
-		)
-		(pin "3"
-			(uuid "9ebd020f-e132-496d-8631-5784da78cea6")
-		)
-		(instances
-			(project "2024l2"
-				(path "/36f2ccec-186b-4304-87fe-6495d5655b87"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 201.93 0)
 		(unit 1)
@@ -18715,6 +18705,80 @@
 			(project "2024l2"
 				(path "/36f2ccec-186b-4304-87fe-6495d5655b87"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 50.8 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9747771f-f00d-4322-85b1-d5c6b2359bb6")
+		(property "Reference" "J3"
+			(at 50.8 179.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 50.8 182.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 50.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bf3896f-1d62-472c-a5d5-f3a3b01d1d99")
+		)
+		(pin "2"
+			(uuid "c285ef9b-e000-4bb4-a6b9-4ad29eba3c34")
+		)
+		(pin "3"
+			(uuid "7ea0332f-42b1-460d-8b98-b6019ed8b45b")
+		)
+		(pin "4"
+			(uuid "f43bf72d-134f-49f4-8254-b42077440942")
+		)
+		(instances
+			(project "2024l2"
+				(path "/36f2ccec-186b-4304-87fe-6495d5655b87"
+					(reference "J3")
 					(unit 1)
 				)
 			)

@@ -1,13 +1,75 @@
-(footprint "14 AWG" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -2.7 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp ec22d08d-02ef-48d2-bf4d-f0d0a4507f6b)
-  )
-  (fp_text value "14 AWG" (at 0 2.7 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp fd964158-1ae7-49c8-bdc1-7cb24fd42089)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 3.6 3.6) (drill 2.7) (layers "*.Cu" "*.Mask" "Eco1.User") (tstamp 861af0a4-1cd4-40c9-9bdd-a57bd631e106))
+(footprint "14 AWG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec22d08d-02ef-48d2-bf4d-f0d0a4507f6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "14 AWG"
+		(at 0 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd964158-1ae7-49c8-bdc1-7cb24fd42089")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ac3076d-bed2-4931-9813-03b8e6aa6550")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56655028-dd81-4bfd-a42e-6a9d03fe7d0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "258bc5ae-fd73-4b2c-a03c-1620459b189b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.6 3.6)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask" "Eco1.User")
+		(remove_unused_layers no)
+		(uuid "861af0a4-1cd4-40c9-9bdd-a57bd631e106")
+	)
 )
