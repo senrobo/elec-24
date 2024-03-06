@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|234227909|195186915|d147afc7-4857-49db-89ef-d4080efd0210|657269ab-69e9-4c2d-9e2a-7625d2b6100c",
-        "copper_edge_clearance|234227910|224813083|d147afc7-4857-49db-89ef-d4080efd0210|a74a26df-258a-4e52-b37d-123788e1fc1c",
-        "copper_edge_clearance|234301250|195600000|d147afc7-4857-49db-89ef-d4080efd0210|517ad096-b011-41aa-acfb-6bf675ecbfb2",
-        "copper_edge_clearance|234301251|224399998|d147afc7-4857-49db-89ef-d4080efd0210|7219f29f-4bc1-4fd3-8bca-0233b1bf275e",
-        "copper_edge_clearance|62698718|224400009|b2b78639-c62d-4f27-9ee2-1549c8ab5cc2|3652b273-f7a3-4243-af98-82317c0755e3",
-        "copper_edge_clearance|62698719|195599989|b2b78639-c62d-4f27-9ee2-1549c8ab5cc2|a103393d-506b-420d-b6ff-2f0132eab788",
-        "copper_edge_clearance|62772059|224813095|b2b78639-c62d-4f27-9ee2-1549c8ab5cc2|e90f0dd7-671f-4932-97c4-b8e7ba2ecce7",
-        "copper_edge_clearance|62772060|195186903|b2b78639-c62d-4f27-9ee2-1549c8ab5cc2|c85dc75b-61ac-49a8-b628-935d29c2a806"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -84,7 +75,6 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
@@ -146,6 +136,9 @@
       },
       "teardrop_options": [
         {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": true,
@@ -154,35 +147,29 @@
       ],
       "teardrop_parameters": [
         {
-          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 6.0,
           "td_maxlen": 1.0,
-          "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 6.0,
           "td_maxlen": 1.0,
-          "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 6.0,
           "td_maxlen": 1.0,
-          "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
