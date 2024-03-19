@@ -2250,6 +2250,102 @@
 				)
 			)
 		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F1:STM32F103CBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5392,16 +5488,22 @@
 		(uuid "001893b2-00c1-4a90-948b-bb083f5f4db3")
 	)
 	(junction
-		(at 90.17 227.33)
+		(at 54.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "005f249a-677e-4162-8c51-dad596757bed")
+		(uuid "03885fe2-5a30-4eaf-a7a6-17ac38af1e79")
 	)
 	(junction
 		(at 360.68 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "061f9d32-2795-4b11-a99e-89e89659a6f9")
+	)
+	(junction
+		(at 160.02 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0661a672-2d54-495e-99df-448ac90d9d80")
 	)
 	(junction
 		(at 74.93 227.33)
@@ -5422,10 +5524,16 @@
 		(uuid "0c022f77-ad2a-4cb6-a0e6-12fa8032857a")
 	)
 	(junction
-		(at 162.56 67.31)
+		(at 59.69 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0daede4c-489a-4650-910a-d9e45e6aeda8")
+		(uuid "0cd75ce5-c9e9-4228-890f-c920a81b01ae")
+	)
+	(junction
+		(at 72.39 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d3755c6-44a4-4df2-b427-a06fa461fdfe")
 	)
 	(junction
 		(at 361.95 218.44)
@@ -5464,6 +5572,12 @@
 		(uuid "135447e5-3a38-418f-b365-5d444defe89a")
 	)
 	(junction
+		(at 49.53 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "173595ac-91e4-4c48-b315-ead523d3a53a")
+	)
+	(junction
 		(at 49.53 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5480,6 +5594,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a2eb13f-b9a3-497f-bbc7-cea924ed5d7f")
+	)
+	(junction
+		(at 57.15 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c30d58e-af15-4a56-b0f7-4d6edd0ee1f1")
+	)
+	(junction
+		(at 62.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e6714ca-6093-4826-92d2-0f9ffc7a341d")
 	)
 	(junction
 		(at 96.52 31.75)
@@ -5506,34 +5632,22 @@
 		(uuid "247c7725-bf51-4a90-9994-ff7b33c950f8")
 	)
 	(junction
+		(at 154.94 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24b17ec3-c916-415a-bbda-a49c56d89d3e")
+	)
+	(junction
 		(at 328.93 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2567cb34-127f-426c-a67d-0841241ccf7f")
 	)
 	(junction
-		(at 167.64 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25c6d722-aa7b-46af-8021-1ceb2b6a4d6e")
-	)
-	(junction
 		(at 58.42 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2708eae9-54b6-42f0-ae3b-3620ce14b3a4")
-	)
-	(junction
-		(at 135.89 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ebd44d7-9f54-4e5d-9572-bae1a1b777a5")
-	)
-	(junction
-		(at 72.39 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f645e64-1ba9-43e3-aecd-0dfb81779271")
 	)
 	(junction
 		(at 46.99 52.07)
@@ -5548,16 +5662,28 @@
 		(uuid "34d26188-f3c7-4c04-b369-a44647af603e")
 	)
 	(junction
+		(at 152.4 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36dd12e8-cda0-4085-8381-57dd69a17e5a")
+	)
+	(junction
+		(at 142.24 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bbf8804-9018-4714-a530-e2cb07d8b46a")
+	)
+	(junction
 		(at 96.52 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bdf0ddf-08f8-4937-bcf5-8e109a8ae20c")
 	)
 	(junction
-		(at 120.65 262.89)
+		(at 147.32 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4146f957-d87e-4f53-bb30-48296a19cbca")
+		(uuid "40ad4c25-1974-4693-be3e-1021527d7b7d")
 	)
 	(junction
 		(at 128.27 41.91)
@@ -5578,12 +5704,6 @@
 		(uuid "4919555d-9662-45e0-b86d-0829db974919")
 	)
 	(junction
-		(at 90.17 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49b98671-e185-47c3-aee5-277b427d0fde")
-	)
-	(junction
 		(at 58.42 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5602,16 +5722,10 @@
 		(uuid "5355aa1d-c684-411d-aa3f-d5bbf4cbf2d3")
 	)
 	(junction
-		(at 135.89 262.89)
+		(at 74.93 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5881b91d-3f0f-48ba-8675-9a3f09add595")
-	)
-	(junction
-		(at 144.78 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eece54a-4e07-4148-b8f3-ef666065b8ef")
+		(uuid "57fec0ba-251a-44a9-ab8b-db685f9aafc1")
 	)
 	(junction
 		(at 44.45 227.33)
@@ -5632,6 +5746,24 @@
 		(uuid "67783275-53ab-4abd-8f04-4863d445b4ae")
 	)
 	(junction
+		(at 46.99 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6825164c-85ad-4159-bba3-de8468251c5f")
+	)
+	(junction
+		(at 67.31 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e8b3d4-7753-413a-91ce-39f859ece74e")
+	)
+	(junction
+		(at 64.77 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ababf94-c869-40ba-a6c9-a3ee7cf2a0c0")
+	)
+	(junction
 		(at 45.72 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5648,6 +5780,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70e0abb7-6fb9-4211-a7ae-6349031d6b6a")
+	)
+	(junction
+		(at 52.07 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7107ae83-3f76-4ddd-8afc-d46a3d8bfc35")
 	)
 	(junction
 		(at 118.11 41.91)
@@ -5668,6 +5806,18 @@
 		(uuid "73d1ac22-0fed-40e1-bf2e-3883417f0061")
 	)
 	(junction
+		(at 165.1 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73e7a67d-210d-4ac9-afa8-c4ec7fd0c24f")
+	)
+	(junction
+		(at 162.56 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74f944a9-8367-4413-989a-da089a769f63")
+	)
+	(junction
 		(at 74.93 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5680,18 +5830,6 @@
 		(uuid "782800e3-bf7b-40b5-b3da-a0a7a8f3c216")
 	)
 	(junction
-		(at 165.1 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78b75541-a115-4e95-8996-9c13c02d32de")
-	)
-	(junction
-		(at 44.45 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cecd996-1fb8-4d60-af43-b9f5a5db77c9")
-	)
-	(junction
 		(at 58.42 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5702,12 +5840,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7efcabb4-2492-4742-a731-14ef88fa32da")
-	)
-	(junction
-		(at 142.24 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8121c017-abd1-4207-b6a9-1c04ba56911b")
 	)
 	(junction
 		(at 35.56 31.75)
@@ -5726,12 +5858,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "870e60ba-adff-4f39-a9eb-6e6be7f9d353")
-	)
-	(junction
-		(at 120.65 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b0dfe3c-699d-4a7c-9fdc-12da9e24cad1")
 	)
 	(junction
 		(at 44.45 262.89)
@@ -5764,6 +5890,12 @@
 		(uuid "8f8c67df-7df2-47f3-add3-39a40181c05f")
 	)
 	(junction
+		(at 144.78 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9421545e-6c48-46fb-aede-00c365a7d6d5")
+	)
+	(junction
 		(at 77.47 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5782,22 +5914,10 @@
 		(uuid "978242b1-62df-46e1-9be1-9965622f12a9")
 	)
 	(junction
-		(at 105.41 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97f3924f-b04f-4c51-960d-6c757416219b")
-	)
-	(junction
 		(at 336.55 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "988d3201-a887-424b-8806-3bf031292f03")
-	)
-	(junction
-		(at 74.93 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98a06fc8-91f7-41dc-9976-597546f71c40")
 	)
 	(junction
 		(at 38.1 167.64)
@@ -5812,16 +5932,16 @@
 		(uuid "9a691218-6a10-4615-993f-df7c6a9c5f3a")
 	)
 	(junction
-		(at 46.99 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9de094ae-b20c-4525-8de3-ef8427eb62de")
-	)
-	(junction
 		(at 36.83 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e70980b-386f-430e-9dbd-9310a16536f8")
+	)
+	(junction
+		(at 80.01 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fab9ad6-9d42-40f5-b43f-1138a69d6f27")
 	)
 	(junction
 		(at 63.5 157.48)
@@ -5848,22 +5968,28 @@
 		(uuid "a81b3c68-fef6-49b2-af4e-15c1b23bb40e")
 	)
 	(junction
+		(at 69.85 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a86ef7f6-fbd9-427e-b823-10978cce5543")
+	)
+	(junction
+		(at 139.7 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab33f64a-f938-43b8-b71b-269e7d1b58b7")
+	)
+	(junction
 		(at 86.36 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab79752f-79a2-40a6-9647-1ee36634ba59")
 	)
 	(junction
-		(at 52.07 67.31)
+		(at 157.48 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aee1642b-ce8f-443b-a824-896a529140c0")
-	)
-	(junction
-		(at 80.01 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "affe45aa-719f-47fa-8037-a6db7a12cfd8")
+		(uuid "b0904486-3eca-4397-a05d-eb403844610b")
 	)
 	(junction
 		(at 127 31.75)
@@ -5896,28 +6022,16 @@
 		(uuid "b80fc214-48e8-41d3-bfc9-f34eb0b4d4dc")
 	)
 	(junction
-		(at 134.62 67.31)
+		(at 170.18 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9ba127c-6b37-430b-ad80-546913811e54")
+		(uuid "ba208942-d094-4754-a4f0-a10d071ed576")
 	)
 	(junction
 		(at 87.63 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba9c084e-4416-44c5-a4aa-9aa541a4f5b4")
-	)
-	(junction
-		(at 139.7 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bac5d760-5987-4129-8768-df7e20a82925")
-	)
-	(junction
-		(at 137.16 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb8dd355-b125-4d81-a0e0-f304c59a7379")
 	)
 	(junction
 		(at 35.56 21.59)
@@ -5974,18 +6088,6 @@
 		(uuid "ca8f8786-d74b-4856-8557-251c20afc4b7")
 	)
 	(junction
-		(at 54.61 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb123ffc-14be-4d97-b260-87568261098c")
-	)
-	(junction
-		(at 59.69 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbbc3815-39a2-4915-9d68-3a3bba604cc9")
-	)
-	(junction
 		(at 57.15 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5996,12 +6098,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cca49047-ed4d-4c6d-b14b-7704914b82ef")
-	)
-	(junction
-		(at 105.41 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cde24eda-6b2a-4fd4-aae4-75ce2a1849e6")
 	)
 	(junction
 		(at 66.04 21.59)
@@ -6016,16 +6112,16 @@
 		(uuid "d552f430-28b3-4db0-9df0-962efa8501b0")
 	)
 	(junction
+		(at 137.16 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6bed914-e6f6-4e53-919b-a81c9e773912")
+	)
+	(junction
 		(at 58.42 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9ff1772-5c52-4bb6-ac04-18dd6e06cec9")
-	)
-	(junction
-		(at 170.18 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcef1697-3ea8-4a39-8e83-97d4f975f7dc")
 	)
 	(junction
 		(at 328.93 231.14)
@@ -6052,6 +6148,12 @@
 		(uuid "e3cd451f-89d9-4193-9ab2-f439a31c9d40")
 	)
 	(junction
+		(at 167.64 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7a9cd80-73e3-4769-821b-697a92763904")
+	)
+	(junction
 		(at 25.4 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6064,16 +6166,10 @@
 		(uuid "e97d458d-f72f-42e6-8792-7da127ae809c")
 	)
 	(junction
-		(at 62.23 67.31)
+		(at 149.86 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebb322a2-099f-4ead-933b-bb555a813816")
-	)
-	(junction
-		(at 57.15 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edb028c8-23e9-4a42-9012-0854c8114393")
+		(uuid "ee423b1f-a5c3-4f74-80da-51543335b8cf")
 	)
 	(junction
 		(at 335.28 231.14)
@@ -6100,12 +6196,6 @@
 		(uuid "f48b4f59-a867-4dee-8145-e2a85bb56aa5")
 	)
 	(junction
-		(at 49.53 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f85476a7-71bc-4549-8a0e-c08f637cb50c")
-	)
-	(junction
 		(at 87.63 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6124,12 +6214,20 @@
 		(uuid "ff120d9a-9c80-4452-80e3-7cc50bfd760c")
 	)
 	(no_connect
+		(at 341.63 96.52)
+		(uuid "021c7689-06c6-4976-a488-58ae28782c68")
+	)
+	(no_connect
 		(at 133.35 146.05)
 		(uuid "18811c0b-f519-4ab1-bd53-db6aa3caf953")
 	)
 	(no_connect
-		(at 345.44 203.2)
-		(uuid "1c4a3059-8f20-4b2b-a462-110c03a9b5c9")
+		(at 44.45 82.55)
+		(uuid "209af40d-3575-4d51-bb96-0b8a549f5ded")
+	)
+	(no_connect
+		(at 341.63 93.98)
+		(uuid "21b7e2e2-dfff-4be9-abe6-e563e4eb0c3b")
 	)
 	(no_connect
 		(at 133.35 162.56)
@@ -6150,10 +6248,6 @@
 	(no_connect
 		(at 133.35 153.67)
 		(uuid "2f7a22a2-40a0-462e-b533-e5c309b271b0")
-	)
-	(no_connect
-		(at 345.44 177.8)
-		(uuid "382ee594-012d-4039-ab06-0ba4442e4bca")
 	)
 	(no_connect
 		(at 177.8 144.78)
@@ -6180,14 +6274,6 @@
 		(uuid "4d671099-3580-4356-b5b1-0040b89ed15e")
 	)
 	(no_connect
-		(at 345.44 205.74)
-		(uuid "56357c5f-a973-4b22-83f9-0458333188ed")
-	)
-	(no_connect
-		(at 378.46 172.72)
-		(uuid "5b6b993f-a64f-461a-8fab-a7f2b6dc39e9")
-	)
-	(no_connect
 		(at 378.46 144.78)
 		(uuid "67bf216b-7241-408e-9f61-6560fce72a75")
 	)
@@ -6200,10 +6286,6 @@
 		(uuid "7ed5e102-7307-4d63-a895-ed6395987ad0")
 	)
 	(no_connect
-		(at 345.44 193.04)
-		(uuid "7f13f8d7-0b8c-4998-be3e-ce18cf0b72b8")
-	)
-	(no_connect
 		(at 13.97 250.19)
 		(uuid "8129415f-2b2b-44c6-bd95-ed81f6c66d4f")
 	)
@@ -6212,8 +6294,8 @@
 		(uuid "81e305dc-a6dd-4838-9044-4a0d08448bf5")
 	)
 	(no_connect
-		(at 310.7715 33.0955)
-		(uuid "87e20703-a91a-4bba-9eeb-2e0c265b77f7")
+		(at 341.63 101.6)
+		(uuid "895e4c74-bfa9-4e72-a99d-5caca83ed59b")
 	)
 	(no_connect
 		(at 177.8 153.67)
@@ -6222,10 +6304,6 @@
 	(no_connect
 		(at 182.88 144.78)
 		(uuid "aae25200-9605-4af6-be73-a327bace3255")
-	)
-	(no_connect
-		(at 378.46 180.34)
-		(uuid "affbff42-5a97-4ab0-a57c-10eb75e6901d")
 	)
 	(no_connect
 		(at 345.44 162.56)
@@ -6238,10 +6316,6 @@
 	(no_connect
 		(at 138.43 146.05)
 		(uuid "c57c5636-9d04-43eb-93e2-39062b4981f0")
-	)
-	(no_connect
-		(at 345.44 190.5)
-		(uuid "c7966db4-9fa9-4c9e-b51c-e347de4b3b41")
 	)
 	(no_connect
 		(at 138.43 180.34)
@@ -6260,14 +6334,6 @@
 		(uuid "e02d9cce-0ccf-46a8-ab3b-9793ab326f1e")
 	)
 	(no_connect
-		(at 345.44 200.66)
-		(uuid "e90ec00e-e289-4cc1-803d-6257e5972db2")
-	)
-	(no_connect
-		(at 378.46 170.18)
-		(uuid "eecd8c60-a5f1-4c8c-9d06-eb014bfaca18")
-	)
-	(no_connect
 		(at 182.88 171.45)
 		(uuid "eedc4ac1-4d74-4e30-b6a6-3f1a380b19a9")
 	)
@@ -6276,20 +6342,16 @@
 		(uuid "f1473a2e-2170-4359-8016-4f0ea4fbfaab")
 	)
 	(no_connect
+		(at 341.63 99.06)
+		(uuid "f17da039-9db5-4525-862c-d70fff8f5195")
+	)
+	(no_connect
 		(at 182.88 180.34)
 		(uuid "f737b787-e325-46eb-9c99-3915a082935a")
 	)
 	(no_connect
 		(at 177.8 162.56)
 		(uuid "fbfa9eca-87e9-49b8-add2-5cfd29080b0a")
-	)
-	(no_connect
-		(at 345.44 208.28)
-		(uuid "fd163b05-a1e0-4383-959e-19671d59939f")
-	)
-	(no_connect
-		(at 345.44 198.12)
-		(uuid "ffd67c08-775b-46f5-82f3-7bb59b8e3891")
 	)
 	(wire
 		(pts
@@ -6320,6 +6382,16 @@
 			(type default)
 		)
 		(uuid "005bb455-282a-4eb2-84d3-65b36d2609b9")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 64.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0090cbc8-2d0d-49ed-b676-04ac0bc38867")
 	)
 	(wire
 		(pts
@@ -6383,16 +6455,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 227.33) (xy 105.41 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040f97d4-764b-453f-882a-3b3be5bfe90a")
-	)
-	(wire
-		(pts
 			(xy 361.95 218.44) (xy 363.22 218.44)
 		)
 		(stroke
@@ -6413,6 +6475,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 67.31) (xy 74.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055af3f4-2715-4cd8-a763-fa0c2213e456")
+	)
+	(wire
+		(pts
 			(xy 74.93 227.33) (xy 90.17 227.33)
 		)
 		(stroke
@@ -6423,16 +6495,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 67.31) (xy 77.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05fd5f26-cb15-4312-9407-083e2d1fbc21")
-	)
-	(wire
-		(pts
 			(xy 19.05 227.33) (xy 19.05 229.87)
 		)
 		(stroke
@@ -6440,16 +6502,6 @@
 			(type default)
 		)
 		(uuid "062c36cc-bb84-4063-8c23-7280cd57b8df")
-	)
-	(wire
-		(pts
-			(xy 72.39 67.31) (xy 74.93 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06d0a406-a80e-4ccc-b5b1-0dc1a31f55a5")
 	)
 	(wire
 		(pts
@@ -6480,6 +6532,26 @@
 			(type default)
 		)
 		(uuid "08b11e56-32bd-4b60-b8c2-3c22df7948f9")
+	)
+	(wire
+		(pts
+			(xy 59.69 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b390762-6c3d-41af-a2b1-cf51bce9a0e0")
+	)
+	(wire
+		(pts
+			(xy 154.94 67.31) (xy 157.48 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6269d4-adec-4f70-830c-674a8dce4574")
 	)
 	(wire
 		(pts
@@ -6573,6 +6645,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 67.31) (xy 54.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15752d42-23d2-4845-acb0-4c1427cecb29")
+	)
+	(wire
+		(pts
 			(xy 187.96 21.59) (xy 198.12 21.59)
 		)
 		(stroke
@@ -6623,6 +6705,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 80.01) (xy 172.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a374a78-7620-49ac-b0b7-39d077e59fa8")
+	)
+	(wire
+		(pts
 			(xy 36.83 52.07) (xy 46.99 52.07)
 		)
 		(stroke
@@ -6630,6 +6722,26 @@
 			(type default)
 		)
 		(uuid "1a8182ca-a13a-4439-a296-dc5caebe9e5c")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbeafa1-1cbe-4954-81cf-42315b009392")
+	)
+	(wire
+		(pts
+			(xy 170.18 67.31) (xy 172.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1deb1f3e-58d8-4fca-9212-ef43b8a0179e")
 	)
 	(wire
 		(pts
@@ -6643,6 +6755,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 67.31) (xy 57.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8d0a79-f41d-4cb3-a50d-dc0e761b6be6")
+	)
+	(wire
+		(pts
 			(xy 77.47 120.65) (xy 77.47 123.19)
 		)
 		(stroke
@@ -6650,16 +6772,6 @@
 			(type default)
 		)
 		(uuid "1eda6df4-4b6d-4d92-9ba6-23e09cbf140e")
-	)
-	(wire
-		(pts
-			(xy 46.99 67.31) (xy 49.53 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9eab01-6202-4d2d-8d01-6edb69e7d6ea")
 	)
 	(polyline
 		(pts
@@ -6713,13 +6825,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 67.31) (xy 82.55 67.31)
+			(xy 339.09 172.72) (xy 345.44 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "220728f7-e5e5-4687-b34b-75f041fdd913")
+		(uuid "2211a872-4e61-42ca-a36a-30e1f1ec850d")
 	)
 	(wire
 		(pts
@@ -6753,7 +6865,17 @@
 	)
 	(wire
 		(pts
-			(xy 122.2913 67.31) (xy 134.62 67.31)
+			(xy 152.4 67.31) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241a73e2-8371-4a78-919d-f25c4555a353")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.31) (xy 137.16 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6770,6 +6892,16 @@
 			(type default)
 		)
 		(uuid "24cf36b4-f537-4282-bab2-8be7ac7fd3f1")
+	)
+	(wire
+		(pts
+			(xy 162.56 67.31) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261c756d-0e36-4db3-9383-c5d4645bdc5a")
 	)
 	(wire
 		(pts
@@ -6790,6 +6922,26 @@
 			(type default)
 		)
 		(uuid "27581494-9048-4138-a2f1-31bc094c161a")
+	)
+	(wire
+		(pts
+			(xy 62.23 80.01) (xy 62.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cf4c7c-76f3-4584-b8ee-2d2f81f8c21a")
+	)
+	(wire
+		(pts
+			(xy 59.69 67.31) (xy 59.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2900f7cd-ae74-4b09-a228-e1fea038d4fb")
 	)
 	(wire
 		(pts
@@ -6863,16 +7015,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 250.19) (xy 151.13 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d200821-582d-492a-8149-dd11c78e0f68")
-	)
-	(wire
-		(pts
 			(xy 335.28 231.14) (xy 339.09 231.14)
 		)
 		(stroke
@@ -6893,6 +7035,26 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 157.48) (xy 387.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff54787-b9f7-47f4-9601-e83395496c81")
+	)
+	(wire
+		(pts
+			(xy 157.48 67.31) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c04b49-cddd-4fee-964d-2b133716a6a6")
+	)
+	(wire
+		(pts
 			(xy 208.28 52.07) (xy 208.28 58.42)
 		)
 		(stroke
@@ -6903,13 +7065,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 67.31) (xy 72.39 74.93)
+			(xy 167.64 67.31) (xy 170.18 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32155dec-3b3e-45fb-ab58-e2421f382c95")
+		(uuid "313d2609-f481-4fd8-a95f-b8c2893ec1fa")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d9e174-0806-44c8-a88b-0f04b4025ee8")
 	)
 	(wire
 		(pts
@@ -6920,6 +7092,36 @@
 			(type default)
 		)
 		(uuid "34733d40-874c-43de-883b-46c359c8fe03")
+	)
+	(wire
+		(pts
+			(xy 271.78 27.94) (xy 271.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347ec496-b74d-45ae-9ab9-95354db7b195")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34afe6d2-cd2f-49b1-89c4-508c9f545d70")
+	)
+	(wire
+		(pts
+			(xy 49.53 80.01) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ee575b-4b6e-4a6f-86d4-f12387316337")
 	)
 	(wire
 		(pts
@@ -7033,23 +7235,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 67.31) (xy 162.56 74.93)
+			(xy 72.39 72.39) (xy 72.39 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dead884-5b00-4f7d-b6e8-f2476bb304c0")
-	)
-	(wire
-		(pts
-			(xy 59.69 67.31) (xy 62.23 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee821a4-064d-4ca8-952a-ad7a6a8176ff")
+		(uuid "3e3ca3b8-6404-47ae-b75b-298ec17dd69a")
 	)
 	(wire
 		(pts
@@ -7083,6 +7275,26 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 167.64) (xy 387.35 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4196b51c-eeb9-48d3-bf31-1f049c277e3b")
+	)
+	(wire
+		(pts
+			(xy 67.31 67.31) (xy 67.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41da104e-e5e3-477c-a4bf-7b4c57d8224d")
+	)
+	(wire
+		(pts
 			(xy 311.15 157.48) (xy 313.69 157.48)
 		)
 		(stroke
@@ -7090,16 +7302,6 @@
 			(type default)
 		)
 		(uuid "42bd5585-6f7b-4b4f-8e8e-22b9aa92acb2")
-	)
-	(wire
-		(pts
-			(xy 80.01 67.31) (xy 80.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4327adae-2f10-4a9e-97ae-fcbb905166c5")
 	)
 	(wire
 		(pts
@@ -7123,13 +7325,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 67.31) (xy 142.24 74.93)
+			(xy 139.7 67.31) (xy 139.7 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43d8b9ce-9b01-45df-b917-8870a9b5742c")
+		(uuid "45443518-f8a1-430a-965c-5fcf0c9d93c2")
 	)
 	(wire
 		(pts
@@ -7143,6 +7345,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 67.31) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46239251-0959-40f4-ba2c-4a374ae04fdb")
+	)
+	(wire
+		(pts
 			(xy 389.89 237.49) (xy 382.27 237.49)
 		)
 		(stroke
@@ -7150,6 +7362,16 @@
 			(type default)
 		)
 		(uuid "464e78fe-ec4a-4457-93ef-81814a83b5f3")
+	)
+	(wire
+		(pts
+			(xy 77.47 80.01) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4697c5b5-8651-42fb-b0c0-bb79e6a68c92")
 	)
 	(wire
 		(pts
@@ -7163,6 +7385,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 80.01) (xy 162.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bd2534-c891-4c5c-8222-03058067a7f7")
+	)
+	(wire
+		(pts
 			(xy 360.68 215.9) (xy 360.68 218.44)
 		)
 		(stroke
@@ -7170,6 +7402,26 @@
 			(type default)
 		)
 		(uuid "474454c9-a457-4720-b34d-50dc3cb7573b")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.01) (xy 137.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4806f078-9511-4eb7-96c5-d3ef858febd6")
+	)
+	(wire
+		(pts
+			(xy 147.32 67.31) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48245cf7-e88e-4bbc-a56c-aaff9c996833")
 	)
 	(wire
 		(pts
@@ -7193,13 +7445,33 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 52.07) (xy 264.7878 52.07)
+			(xy 257.81 52.07) (xy 266.7 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a5e5526-7225-45d7-950f-a8975e19f318")
+	)
+	(wire
+		(pts
+			(xy 62.23 72.39) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6ec669-d4e4-487e-982e-d224a08282fc")
+	)
+	(wire
+		(pts
+			(xy 378.46 165.1) (xy 387.35 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b02f1d3-29b8-471a-b9ab-b2771bfaa47a")
 	)
 	(wire
 		(pts
@@ -7213,13 +7485,13 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 149.86) (xy 386.08 149.86)
+			(xy 147.32 80.01) (xy 147.32 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d04f644-53ae-43ef-9cfc-834fcde48cf2")
+		(uuid "4ed1f7a8-1c1d-432a-b384-f6da1ae361ba")
 	)
 	(wire
 		(pts
@@ -7243,13 +7515,13 @@
 	)
 	(wire
 		(pts
-			(xy 315.2434 28.0155) (xy 310.7715 28.0155)
+			(xy 142.24 80.01) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5184f459-4423-4e8b-9de0-8d890cf9c64d")
+		(uuid "532c6e2c-c66e-4157-8881-c18ff421334d")
 	)
 	(wire
 		(pts
@@ -7263,6 +7535,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 67.31) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53804d8a-ed45-43c7-afc9-cba980f02590")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5380fb9e-36df-4b57-b27d-dbb85b1d207a")
+	)
+	(wire
+		(pts
 			(xy 67.31 107.95) (xy 67.31 118.11)
 		)
 		(stroke
@@ -7270,6 +7562,16 @@
 			(type default)
 		)
 		(uuid "53b0a023-3ba9-42ba-afc8-c5dee6832b7f")
+	)
+	(wire
+		(pts
+			(xy 170.18 67.31) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bf2307-230b-42d0-a4e1-984effb41577")
 	)
 	(wire
 		(pts
@@ -7313,7 +7615,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 77.47 74.93)
+			(xy 77.47 67.31) (xy 77.47 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7333,6 +7635,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 67.31) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5712e4fc-d4be-4297-a7a3-6bcf2ef6faec")
+	)
+	(wire
+		(pts
+			(xy 170.18 80.01) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b9772c-c17f-4307-bff9-b9c9342e24bf")
+	)
+	(wire
+		(pts
 			(xy 59.69 227.33) (xy 74.93 227.33)
 		)
 		(stroke
@@ -7340,6 +7662,16 @@
 			(type default)
 		)
 		(uuid "584ff7f1-9bc0-4e95-a743-3a907dacb230")
+	)
+	(wire
+		(pts
+			(xy 57.15 80.01) (xy 57.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c3593f-b942-4cad-9771-323bf7be0e34")
 	)
 	(wire
 		(pts
@@ -7393,13 +7725,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 227.33) (xy 105.41 242.57)
+			(xy 341.63 88.9) (xy 353.06 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c2f6eb7-a254-46ad-b039-93fadac19e45")
+		(uuid "5c7ee66b-5fe8-4ca9-a40c-90ede96f8b68")
 	)
 	(wire
 		(pts
@@ -7413,13 +7745,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 67.31) (xy 74.93 74.93)
+			(xy 142.24 67.31) (xy 142.24 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e451c94-42f1-4ebc-b62d-b3bf394d0076")
+		(uuid "5db8568f-ce8f-41f8-87a3-e9b75fa1d23a")
 	)
 	(wire
 		(pts
@@ -7433,16 +7765,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 67.31) (xy 72.39 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f581521-9c18-42ae-8c32-f6c765ab65a0")
-	)
-	(wire
-		(pts
 			(xy 90.17 95.25) (xy 95.25 95.25)
 		)
 		(stroke
@@ -7450,6 +7772,16 @@
 			(type default)
 		)
 		(uuid "5fd96a3d-f0a0-4ef7-897c-98ed42cb51c5")
+	)
+	(wire
+		(pts
+			(xy 378.46 162.56) (xy 387.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60725c3e-e924-437c-bcc0-c3ffbed27f46")
 	)
 	(wire
 		(pts
@@ -7483,6 +7815,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 67.31) (xy 149.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c47cdd-cb3d-4aa1-9571-195b7b34a22e")
+	)
+	(wire
+		(pts
 			(xy 361.95 218.44) (xy 361.95 219.71)
 		)
 		(stroke
@@ -7500,16 +7842,6 @@
 			(type default)
 		)
 		(uuid "64d610ea-9843-4e67-a8b0-8610f8674862")
-	)
-	(wire
-		(pts
-			(xy 378.46 147.32) (xy 386.08 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64e21963-211a-4bb2-a1b9-eb610eafee1d")
 	)
 	(wire
 		(pts
@@ -7540,16 +7872,6 @@
 			(type default)
 		)
 		(uuid "674556b0-7d35-4766-ba87-0a429fd684b3")
-	)
-	(wire
-		(pts
-			(xy 54.61 67.31) (xy 54.61 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67942cf7-0474-4930-ad9a-bfbde485c01f")
 	)
 	(wire
 		(pts
@@ -7663,16 +7985,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 67.31) (xy 137.16 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a16ad91-edaa-4263-8fd7-24fbbb6dc673")
-	)
-	(wire
-		(pts
 			(xy 77.47 43.18) (xy 77.47 41.91)
 		)
 		(stroke
@@ -7733,13 +8045,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 67.31) (xy 139.7 74.93)
+			(xy 80.01 80.01) (xy 80.01 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e5524cb-068a-4ca8-8c0f-a5bb08e46f9b")
+		(uuid "6d4930c5-0910-400c-843a-66415b944e17")
 	)
 	(polyline
 		(pts
@@ -7793,6 +8105,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 80.01) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f857df2-8eed-4a97-8030-275051f10745")
+	)
+	(wire
+		(pts
 			(xy 74.93 250.19) (xy 74.93 262.89)
 		)
 		(stroke
@@ -7800,6 +8122,26 @@
 			(type default)
 		)
 		(uuid "6fb8c36e-7727-4c3b-b4cc-b647171ccb84")
+	)
+	(wire
+		(pts
+			(xy 144.78 80.01) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b84635-7193-4d4a-949d-ec4304a66108")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d6fbfd-676f-48d8-b923-b744c5fa94ef")
 	)
 	(wire
 		(pts
@@ -7823,16 +8165,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.3196 68.8731) (xy 147.32 68.8731)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a67ec8-405a-443a-b5e1-7818eb79829a")
-	)
-	(wire
-		(pts
 			(xy 328.93 223.52) (xy 335.28 223.52)
 		)
 		(stroke
@@ -7843,16 +8175,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 144.78 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74dbd3f7-a084-4819-a117-75124e10438f")
-	)
-	(wire
-		(pts
 			(xy 29.21 95.25) (xy 36.83 95.25)
 		)
 		(stroke
@@ -7860,16 +8182,6 @@
 			(type default)
 		)
 		(uuid "74e63aef-f5d4-4be1-866b-513ccb12173f")
-	)
-	(wire
-		(pts
-			(xy 90.17 262.89) (xy 105.41 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752af73d-689c-4724-8ac4-6f8eaf70d142")
 	)
 	(wire
 		(pts
@@ -7903,16 +8215,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 67.31) (xy 172.72 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7892260e-8de3-4c0b-830d-932aa7ffb43e")
-	)
-	(wire
-		(pts
 			(xy 87.63 41.91) (xy 97.79 41.91)
 		)
 		(stroke
@@ -7933,6 +8235,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 80.01) (xy 74.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a36bd74-cfc5-4746-a852-d9ff867039d8")
+	)
+	(wire
+		(pts
 			(xy 76.2 30.48) (xy 76.2 31.75)
 		)
 		(stroke
@@ -7940,6 +8252,16 @@
 			(type default)
 		)
 		(uuid "7a871899-da8e-4e0a-b210-62e589d39bb7")
+	)
+	(wire
+		(pts
+			(xy 54.61 80.01) (xy 54.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad23f0d-196c-4d66-acde-e46236e15ccb")
 	)
 	(wire
 		(pts
@@ -7953,7 +8275,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 67.31) (xy 57.15 67.31)
+			(xy 31.75 67.31) (xy 46.99 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7983,13 +8305,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 67.31) (xy 44.45 74.93)
+			(xy 152.4 67.31) (xy 154.94 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bf1bf13-9d70-4cea-ab78-f5a4768f9bea")
+		(uuid "7bbd10c5-adbd-4d47-a01e-d3af12062ec9")
 	)
 	(wire
 		(pts
@@ -8000,36 +8322,6 @@
 			(type default)
 		)
 		(uuid "7c30f90c-4131-4e54-9b2c-f869012867c8")
-	)
-	(wire
-		(pts
-			(xy 57.15 67.31) (xy 59.69 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c363193-9fdb-4348-9211-d7bb4c1dd735")
-	)
-	(wire
-		(pts
-			(xy 165.1 67.31) (xy 165.1 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c6958b3-b9d6-490b-8011-597c59acfd24")
-	)
-	(wire
-		(pts
-			(xy 120.65 227.33) (xy 120.65 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d24749d-0926-4eb6-a737-f05867d1a2be")
 	)
 	(wire
 		(pts
@@ -8053,16 +8345,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 67.31) (xy 46.99 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f36e361-0868-4c5f-9562-6b37bec4eae0")
-	)
-	(wire
-		(pts
 			(xy 38.1 163.83) (xy 38.1 167.64)
 		)
 		(stroke
@@ -8080,6 +8362,16 @@
 			(type default)
 		)
 		(uuid "80e9c136-d992-4af8-ba25-ad1e81018c22")
+	)
+	(wire
+		(pts
+			(xy 316.23 93.98) (xy 323.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f574b6-2662-47a6-be87-3631e937313f")
 	)
 	(wire
 		(pts
@@ -8103,23 +8395,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 227.33) (xy 135.89 227.33)
+			(xy 316.23 99.06) (xy 323.85 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "837a533b-4c06-4bc1-8708-2c1106936ccb")
+		(uuid "8329b129-0c35-4e24-bfe0-42ba2ab60adc")
 	)
 	(wire
 		(pts
-			(xy 62.23 67.31) (xy 62.23 74.93)
+			(xy 316.23 96.52) (xy 323.85 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83a1c198-368f-4410-9e4f-f52ad99a11b5")
+		(uuid "83964931-71d6-48ea-80a2-e53a8aadf561")
 	)
 	(wire
 		(pts
@@ -8130,6 +8422,16 @@
 			(type default)
 		)
 		(uuid "84112825-42f7-4153-a7b2-fb6ec5ae967c")
+	)
+	(wire
+		(pts
+			(xy 165.1 67.31) (xy 167.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842ebf4d-2dea-4750-ba31-4630e7177c63")
 	)
 	(wire
 		(pts
@@ -8163,13 +8465,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 262.89) (xy 151.13 262.89)
+			(xy 49.53 67.31) (xy 52.07 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87283c85-2f9e-46d3-a1df-365216df7028")
+		(uuid "85373a52-4b85-45b8-b9b3-428d3a1df736")
 	)
 	(wire
 		(pts
@@ -8193,16 +8495,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 19.05) (xy 16.51 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8955a707-3202-4474-bdb0-891b154542b3")
-	)
-	(wire
-		(pts
 			(xy 87.63 50.8) (xy 87.63 52.07)
 		)
 		(stroke
@@ -8210,6 +8502,16 @@
 			(type default)
 		)
 		(uuid "89746fff-8e82-4ea4-a094-f61b0175847e")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0a36d1-3771-49a0-a646-88d9ffaff3f0")
 	)
 	(wire
 		(pts
@@ -8223,36 +8525,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 67.31) (xy 82.55 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad32155-0a00-4a55-ba46-fb11e22b00ef")
-	)
-	(wire
-		(pts
-			(xy 49.53 67.31) (xy 52.07 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae918d0-5b95-414d-adfe-c3d7ae82e99b")
-	)
-	(wire
-		(pts
-			(xy 167.64 67.31) (xy 170.18 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2c14cd-728b-4053-803e-de4875886248")
-	)
-	(wire
-		(pts
 			(xy 62.23 107.95) (xy 62.23 118.11)
 		)
 		(stroke
@@ -8263,23 +8535,23 @@
 	)
 	(wire
 		(pts
-			(xy 300.6115 30.5555) (xy 293.6337 30.5555)
+			(xy 353.06 91.44) (xy 353.06 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c67db68-8037-4c72-b448-09577c6eff7d")
+		(uuid "8c123316-c8e4-4c6e-bc27-b84cfef9cf42")
 	)
 	(wire
 		(pts
-			(xy 142.24 67.31) (xy 144.78 67.31)
+			(xy 57.15 67.31) (xy 59.69 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8df3af50-adaf-455d-ac65-66780dae81ba")
+		(uuid "8c5fe5d8-a9fc-4ee3-b7ae-fd9443175c89")
 	)
 	(wire
 		(pts
@@ -8323,6 +8595,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 67.31) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f95d951-b108-41a2-8a80-f258705df1dd")
+	)
+	(wire
+		(pts
 			(xy 318.77 231.14) (xy 328.93 231.14)
 		)
 		(stroke
@@ -8333,13 +8615,23 @@
 	)
 	(wire
 		(pts
-			(xy 32.1213 67.31) (xy 44.45 67.31)
+			(xy 154.94 80.01) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "906b4290-063f-4b20-92ee-a2d124972d64")
+		(uuid "914ce6bc-284c-4091-9c42-b72bb2df333d")
+	)
+	(wire
+		(pts
+			(xy 74.93 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e54093-54a0-4c63-8a1d-e0e5138520c8")
 	)
 	(wire
 		(pts
@@ -8350,6 +8642,16 @@
 			(type default)
 		)
 		(uuid "9335bd26-7825-4f2b-9cd5-24c245ccb4e4")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 162.56 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93bef232-34fa-44c3-8a06-bfbac6b0b44e")
 	)
 	(wire
 		(pts
@@ -8383,16 +8685,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 67.31) (xy 167.64 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b59c37-c0bc-4a41-b0b4-fc07641c9df2")
-	)
-	(wire
-		(pts
 			(xy 67.31 43.18) (xy 67.31 41.91)
 		)
 		(stroke
@@ -8410,16 +8702,6 @@
 			(type default)
 		)
 		(uuid "969a6edd-abf5-486b-8dc4-e8d9c03c5344")
-	)
-	(wire
-		(pts
-			(xy 52.07 67.31) (xy 54.61 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972925ae-2361-465d-8bca-8c7bb2427043")
 	)
 	(wire
 		(pts
@@ -8453,6 +8735,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 101.6) (xy 323.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996022fd-d548-401d-9aff-bfa38cddc331")
+	)
+	(wire
+		(pts
 			(xy 224.8169 29.5083) (xy 231.1669 29.5083)
 		)
 		(stroke
@@ -8480,6 +8772,26 @@
 			(type default)
 		)
 		(uuid "9a891ae4-8a4e-4934-8e70-fa461d3afa89")
+	)
+	(wire
+		(pts
+			(xy 67.31 80.01) (xy 67.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2d31b9-70a2-4f96-b366-2b0f7e47635c")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3c93c2-3662-4e5a-a14b-55e423a83ab2")
 	)
 	(wire
 		(pts
@@ -8513,13 +8825,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 227.33) (xy 151.13 242.57)
+			(xy 64.77 80.01) (xy 64.77 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f325644-aad2-46af-8e3a-7f15d3cf5dff")
+		(uuid "9ed92ef7-2a67-4a04-9f0a-a83e210a7306")
 	)
 	(wire
 		(pts
@@ -8583,6 +8895,26 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 67.31) (xy 80.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a227fb33-b32d-4d9b-be2c-1017b483f66c")
+	)
+	(wire
+		(pts
+			(xy 52.07 80.01) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26dfc0f-e56b-451c-ac0b-420a557d86d4")
+	)
+	(wire
+		(pts
 			(xy 38.1 180.34) (xy 58.42 180.34)
 		)
 		(stroke
@@ -8603,23 +8935,43 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 67.31) (xy 134.62 74.93)
+			(xy 144.78 67.31) (xy 147.32 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4a6ee9b-01d7-496f-a992-ac88b4d8b12b")
+		(uuid "a38ff7d7-061f-4b23-81d6-112388812bda")
 	)
 	(wire
 		(pts
-			(xy 105.41 250.19) (xy 105.41 262.89)
+			(xy 54.61 67.31) (xy 57.15 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a51ac307-8cae-486a-a8c9-772f34de7a45")
+		(uuid "a3bde06b-6385-4e34-b9b1-2f86d89bf9f0")
+	)
+	(wire
+		(pts
+			(xy 172.72 67.31) (xy 172.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4425dec-8043-4f54-b70a-82015acd7929")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fc07a9-9bda-4a60-b988-18373b1aa032")
 	)
 	(wire
 		(pts
@@ -8653,16 +9005,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 67.31) (xy 52.07 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab33c6cb-b958-4681-a6de-ef217cf7fd9e")
-	)
-	(wire
-		(pts
 			(xy 378.46 175.26) (xy 387.35 175.26)
 		)
 		(stroke
@@ -8673,13 +9015,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 67.31) (xy 165.1 67.31)
+			(xy 72.39 80.01) (xy 72.39 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac434538-34ed-4144-8028-469d67f5cbd9")
+		(uuid "add5666a-f5f8-414a-a5e6-da055cafe23b")
 	)
 	(wire
 		(pts
@@ -8693,6 +9035,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 67.31) (xy 67.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee739e2-e785-41c6-a8a2-b2e93ee204ec")
+	)
+	(wire
+		(pts
 			(xy 360.68 134.62) (xy 360.68 135.89)
 		)
 		(stroke
@@ -8700,16 +9052,6 @@
 			(type default)
 		)
 		(uuid "b0f7eebf-0d06-4c05-8531-d015bcab7405")
-	)
-	(wire
-		(pts
-			(xy 147.32 82.55) (xy 147.32 68.8731)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b16b75d0-8f45-4b44-bbc6-4359d78bfcdd")
 	)
 	(wire
 		(pts
@@ -8763,13 +9105,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 67.31) (xy 142.24 67.31)
+			(xy 157.48 67.31) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b70af4fa-1b5f-4949-8306-491f90a13ecb")
+		(uuid "b60a6f1c-1e78-4ee8-8e49-51aab6ce9433")
+	)
+	(wire
+		(pts
+			(xy 82.55 80.01) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63842fd-e660-477c-9746-168d8234499d")
+	)
+	(wire
+		(pts
+			(xy 378.46 149.86) (xy 387.35 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87ea91d-3eb8-4f21-b0f7-dec86fff953a")
 	)
 	(wire
 		(pts
@@ -8783,16 +9145,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 67.31) (xy 49.53 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b93a0655-7969-4213-b0c8-3b1831c591d6")
-	)
-	(wire
-		(pts
 			(xy 45.72 31.75) (xy 55.88 31.75)
 		)
 		(stroke
@@ -8803,6 +9155,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 80.01) (xy 46.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2ace25-e256-430a-8eb3-f23c94f2ac2c")
+	)
+	(wire
+		(pts
+			(xy 353.06 88.9) (xy 353.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad2d425-4947-484a-abf4-bb9838d3eb84")
+	)
+	(wire
+		(pts
 			(xy 177.8 22.86) (xy 177.8 21.59)
 		)
 		(stroke
@@ -8810,6 +9182,16 @@
 			(type default)
 		)
 		(uuid "bb2831e3-32a1-4c71-81ed-3104fbc03bdc")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb922078-c2f6-4e93-bd79-72bc04269ab5")
 	)
 	(wire
 		(pts
@@ -8843,6 +9225,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 80.01) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6cbf20-0616-4394-900c-ae374be49bfe")
+	)
+	(wire
+		(pts
 			(xy 337.82 142.24) (xy 345.44 142.24)
 		)
 		(stroke
@@ -8863,6 +9255,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 80.01) (xy 167.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf55d47d-cadf-463f-a0b4-8699b6855890")
+	)
+	(wire
+		(pts
 			(xy 138.43 43.18) (xy 138.43 41.91)
 		)
 		(stroke
@@ -8870,6 +9272,16 @@
 			(type default)
 		)
 		(uuid "bfed92bc-60ca-4ff5-ae1f-983a938efb5e")
+	)
+	(wire
+		(pts
+			(xy 378.46 160.02) (xy 387.35 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c048b1b6-b039-4644-b3d9-6a18dec2abe7")
 	)
 	(wire
 		(pts
@@ -8900,6 +9312,16 @@
 			(type default)
 		)
 		(uuid "c1036f17-b3fc-4c7f-a7e2-e004b1ec597d")
+	)
+	(wire
+		(pts
+			(xy 82.55 72.39) (xy 82.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1797c01-19a1-49f3-a0a5-ec0b3880cf2d")
 	)
 	(wire
 		(pts
@@ -8963,6 +9385,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 67.31) (xy 46.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4aeb941-effc-4dce-a34f-607759a7a49c")
+	)
+	(wire
+		(pts
 			(xy 35.56 22.86) (xy 35.56 21.59)
 		)
 		(stroke
@@ -9010,16 +9442,6 @@
 			(type default)
 		)
 		(uuid "c72beb96-fb35-4c2f-9bdd-ba84a3aa4564")
-	)
-	(wire
-		(pts
-			(xy 165.1 67.31) (xy 167.64 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c74f8721-da58-435f-b81a-79f1f68305a9")
 	)
 	(wire
 		(pts
@@ -9093,23 +9515,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 227.33) (xy 135.89 242.57)
+			(xy 139.7 80.01) (xy 139.7 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb795b8c-0799-4575-bfec-453dcef0272f")
-	)
-	(wire
-		(pts
-			(xy 316.5229 28.0159) (xy 315.2434 28.0159)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd2d1e89-85e7-481d-843c-839af0a6b4bc")
+		(uuid "cb1c0ffd-b62b-4ba8-aeed-3aa4cb14106b")
 	)
 	(wire
 		(pts
@@ -9153,13 +9565,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 67.31) (xy 139.7 67.31)
+			(xy 59.69 80.01) (xy 59.69 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf23bc31-8606-49d9-afbd-ea1ee685a236")
+		(uuid "cf8133b8-09ca-4f97-b1bd-0bea28c99276")
 	)
 	(wire
 		(pts
@@ -9183,13 +9595,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 227.33) (xy 120.65 227.33)
+			(xy 154.94 67.31) (xy 154.94 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d05d78f7-ff4c-4d80-b7c4-dc8dc139d000")
+		(uuid "d16ef527-ded0-4dd8-8edf-a33ba417fed6")
 	)
 	(wire
 		(pts
@@ -9223,16 +9635,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 227.33) (xy 151.13 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ef4d55-e3eb-406e-b6df-9123b8db4eef")
-	)
-	(wire
-		(pts
 			(xy 74.93 262.89) (xy 90.17 262.89)
 		)
 		(stroke
@@ -9263,23 +9665,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 67.31) (xy 44.45 67.31)
+			(xy 165.1 67.31) (xy 165.1 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d54b6a47-d4f7-4fa7-86b6-a42977600871")
-	)
-	(wire
-		(pts
-			(xy 135.89 250.19) (xy 135.89 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f57ee1-8dc7-458a-836e-2d85cd39b8ca")
+		(uuid "d4f8f26c-188a-428a-b3f6-327a4c431248")
 	)
 	(wire
 		(pts
@@ -9290,6 +9682,16 @@
 			(type default)
 		)
 		(uuid "d64b60f9-4f81-4377-a65d-32e15e3f8a36")
+	)
+	(wire
+		(pts
+			(xy 64.77 67.31) (xy 64.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67fef1c-45d5-4bca-a076-00a0d929d3ee")
 	)
 	(wire
 		(pts
@@ -9313,16 +9715,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 67.31) (xy 172.72 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85c2e21-20c2-4b5e-8fe2-868d77ce0685")
-	)
-	(wire
-		(pts
 			(xy 16.51 260.35) (xy 16.51 262.89)
 		)
 		(stroke
@@ -9330,16 +9722,6 @@
 			(type default)
 		)
 		(uuid "d8c109fb-7cfe-4206-95a4-2ef168dc5498")
-	)
-	(wire
-		(pts
-			(xy 315.2434 28.0159) (xy 315.2434 28.0155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d99776e0-1044-4687-95f7-18cd4655769a")
 	)
 	(wire
 		(pts
@@ -9363,16 +9745,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 262.89) (xy 120.65 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db459b34-cf09-4222-a450-e40d72c6a264")
-	)
-	(wire
-		(pts
 			(xy 335.28 223.52) (xy 339.09 223.52)
 		)
 		(stroke
@@ -9383,7 +9755,17 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 30.48) (xy 272.4078 30.48)
+			(xy 134.62 82.55) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd17fc2-4d09-4c4e-8681-62c8c567b6f1")
+	)
+	(wire
+		(pts
+			(xy 265.43 30.48) (xy 271.78 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9403,23 +9785,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 262.89) (xy 135.89 262.89)
+			(xy 316.23 88.9) (xy 323.85 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de0c14cd-194a-4ece-a7a6-d8db4e5bf831")
-	)
-	(wire
-		(pts
-			(xy 120.65 250.19) (xy 120.65 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9106f3-e31e-4587-96e3-9df9813ac5cf")
+		(uuid "ddf12209-987d-4972-a1ed-603c1552fc19")
 	)
 	(wire
 		(pts
@@ -9430,6 +9802,16 @@
 			(type default)
 		)
 		(uuid "df52aa08-fe05-491b-81a0-3028b030b242")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6c61b7-1395-4163-84da-f8b3686c4f8c")
 	)
 	(wire
 		(pts
@@ -9463,13 +9845,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 162.56 67.31)
+			(xy 149.86 67.31) (xy 149.86 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e324300d-e076-4be8-a3ee-5c03c279da7e")
+		(uuid "e5018a56-9330-445f-9b4e-7203bcba9d59")
+	)
+	(wire
+		(pts
+			(xy 52.07 67.31) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e551da36-bd41-4138-8b85-6d0b89fdce3b")
+	)
+	(wire
+		(pts
+			(xy 266.7 49.53) (xy 266.7 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d4a020-19bf-4ac7-bea8-caa518cc2fcb")
 	)
 	(wire
 		(pts
@@ -9493,6 +9895,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 67.31) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f480fb-5ab1-44c2-a128-5a656e774cce")
+	)
+	(wire
+		(pts
 			(xy 137.16 22.86) (xy 137.16 21.59)
 		)
 		(stroke
@@ -9500,6 +9912,16 @@
 			(type default)
 		)
 		(uuid "e74a2c3b-eefe-4150-81b1-af0353344ad4")
+	)
+	(wire
+		(pts
+			(xy 162.56 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a62186-7d98-40cb-9153-6c12dd87cd90")
 	)
 	(wire
 		(pts
@@ -9573,16 +9995,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 67.31) (xy 57.15 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe241bb-52c1-4114-b461-45ffbadcf13b")
-	)
-	(wire
-		(pts
 			(xy 59.69 250.19) (xy 59.69 262.89)
 		)
 		(stroke
@@ -9613,6 +10025,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 80.01) (xy 160.02 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede95615-9c72-4181-8e1c-9f322d8dbb65")
+	)
+	(wire
+		(pts
+			(xy 69.85 80.01) (xy 69.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edea0a4b-5f83-4504-a2f5-3ad577611cf7")
+	)
+	(wire
+		(pts
 			(xy 116.84 31.75) (xy 127 31.75)
 		)
 		(stroke
@@ -9620,6 +10052,16 @@
 			(type default)
 		)
 		(uuid "f00d42d7-8e7a-4ccc-b271-4690f77669eb")
+	)
+	(wire
+		(pts
+			(xy 378.46 147.32) (xy 387.35 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03fd4d7-c958-4a2d-8615-3f326ac11d0a")
 	)
 	(wire
 		(pts
@@ -9633,13 +10075,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 67.31) (xy 137.16 74.93)
+			(xy 67.31 67.31) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f12e059d-ef2a-40b6-900f-c0ae3edcac70")
+		(uuid "f24eb323-8f66-47aa-88ca-08e047544caa")
 	)
 	(wire
 		(pts
@@ -9680,6 +10122,26 @@
 			(type default)
 		)
 		(uuid "f3c47276-2c99-49f0-b790-3152ecce827d")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 52.07 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42f627d-946e-4536-8eee-223361b1a102")
+	)
+	(wire
+		(pts
+			(xy 316.23 91.44) (xy 323.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4481e3e-27b7-457c-aac6-fbf8bff43b71")
 	)
 	(wire
 		(pts
@@ -9783,13 +10245,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 67.31) (xy 170.18 74.93)
+			(xy 80.01 67.31) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa297247-82a2-4ba2-ad2e-5205c2d38f31")
+		(uuid "fa3195c3-f5de-4b58-9d60-f69c7bbc2d51")
 	)
 	(wire
 		(pts
@@ -9843,6 +10305,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 91.44) (xy 353.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3e76d7-1b1a-4209-ac3f-b22b997f116a")
+	)
+	(wire
+		(pts
 			(xy 330.2 147.32) (xy 328.93 147.32)
 		)
 		(stroke
@@ -9860,16 +10332,6 @@
 			(type default)
 		)
 		(uuid "ff786ad0-a6be-4913-af97-04076b1d0fdb")
-	)
-	(wire
-		(pts
-			(xy 59.69 67.31) (xy 59.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffa1bc94-e714-4904-8a79-3d84a9c937bc")
 	)
 	(rectangle
 		(start 294.64 124.46)
@@ -9949,6 +10411,17 @@
 		)
 		(uuid "f97dfeff-7be8-4bb1-b674-d80fcec24f23")
 	)
+	(label "S2"
+		(at 386.08 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08da3f96-fc80-4f49-886c-3aac98c26be4")
+	)
 	(label "S3"
 		(at 67.31 110.49 270)
 		(fields_autoplaced yes)
@@ -9982,8 +10455,8 @@
 		)
 		(uuid "1cd32e3c-cb14-41f1-8019-f72148c16dd4")
 	)
-	(label "LIGHT RING"
-		(at 299.7937 30.5555 180)
+	(label "M1"
+		(at 386.08 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9991,7 +10464,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "27bbea8b-4659-48cf-82cc-1d627d68900d")
+		(uuid "24289c53-185d-469a-9900-258dab16a93e")
+	)
+	(label "S2"
+		(at 317.5 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32ee6c24-dfbb-4902-bbbb-ec4ab0b0e545")
 	)
 	(label "S0"
 		(at 149.86 110.49 270)
@@ -10015,6 +10499,28 @@
 		)
 		(uuid "40dc6646-23fd-44c3-b679-9c5fa0bdab35")
 	)
+	(label "S3"
+		(at 386.08 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42418b99-efb4-420a-b3db-7e2032a172be")
+	)
+	(label "M2"
+		(at 317.5 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "434ec490-090e-4340-bc75-a284737ebb5f")
+	)
 	(label "RST"
 		(at 339.09 142.24 0)
 		(fields_autoplaced yes)
@@ -10025,17 +10531,6 @@
 			(justify left bottom)
 		)
 		(uuid "4d7c9921-10c9-452d-bca2-fcb6f8b2008d")
-	)
-	(label "LIGHT RING"
-		(at 128.4513 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4eb688c3-a7a2-42c6-893f-1442dc3642d9")
 	)
 	(label "L1 TX"
 		(at 347.98 104.14 180)
@@ -10048,17 +10543,6 @@
 		)
 		(uuid "55b9df2d-9ccd-4bd1-a331-cd95422a3406")
 	)
-	(label "LIGHT RING"
-		(at 38.2813 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f528b24-8097-44c3-9533-ab62b1f2237e")
-	)
 	(label "M1"
 		(at 44.45 110.49 0)
 		(fields_autoplaced yes)
@@ -10069,6 +10553,17 @@
 			(justify left bottom)
 		)
 		(uuid "62d151e1-1219-4d2a-bd13-3737c7aaf014")
+	)
+	(label "S0"
+		(at 317.5 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d9adff3-e816-4870-81f8-1f1dca020566")
 	)
 	(label "S2"
 		(at 154.94 110.49 270)
@@ -10081,25 +10576,14 @@
 		)
 		(uuid "70b100b8-f366-4cca-98ac-933170e90934")
 	)
-	(label "LIGHT RING"
-		(at 22.86 19.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7267f1b4-885a-4e68-a485-ddacc5f61c07")
-	)
 	(label "L1 RX"
-		(at 381 149.86 0)
+		(at 386.08 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "72d0de9c-17d6-4556-b23c-4b84589db2f5")
 	)
@@ -10114,17 +10598,6 @@
 		)
 		(uuid "76df6d65-e00c-4249-84c5-d83d71da16a9")
 	)
-	(label "LIGHT RING"
-		(at 258.6278 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "799dade5-dca2-4062-9d32-27a8663c2804")
-	)
 	(label "RST"
 		(at 321.31 189.23 0)
 		(fields_autoplaced yes)
@@ -10135,6 +10608,39 @@
 			(justify left bottom)
 		)
 		(uuid "7dbd3fde-1972-463a-94d4-598672a5c4a6")
+	)
+	(label "LG"
+		(at 134.62 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8021601b-8b5c-4f25-b9a1-0783ef33931c")
+	)
+	(label "M1"
+		(at 317.5 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95ce1c73-74dc-4fe3-add0-efc0e87268a1")
+	)
+	(label "M2"
+		(at 340.36 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "962fe19d-c688-4a09-894e-cf5abf3f2556")
 	)
 	(label "SWCLK"
 		(at 388.62 237.49 180)
@@ -10170,26 +10676,15 @@
 		(uuid "a15d89f9-547c-4948-be7a-a89b8c2578f3")
 	)
 	(label "L1 TX"
-		(at 381 147.32 0)
+		(at 386.08 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b8fee8ec-1248-486f-a226-698d6c33eb3d")
-	)
-	(label "LIGHT RING"
-		(at 266.2478 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c243bfd6-7424-41a2-9c31-602721592b9c")
 	)
 	(label "L1 RX"
 		(at 224.8169 32.0483 0)
@@ -10213,6 +10708,17 @@
 		)
 		(uuid "c768fa22-85ed-4401-aaca-61b4a39a3b42")
 	)
+	(label "S1"
+		(at 317.5 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d26adbb2-e5c6-4a16-ae1c-1ec936cdb94e")
+	)
 	(label "SWDIO"
 		(at 388.62 234.95 180)
 		(fields_autoplaced yes)
@@ -10224,8 +10730,8 @@
 		)
 		(uuid "d71d85fc-972a-4eaa-8a39-2d46747f7164")
 	)
-	(label "LG"
-		(at 147.32 70.6362 270)
+	(label "S1"
+		(at 386.08 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10233,7 +10739,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e0885f88-5d5f-44f9-8835-5ae4a5a31ac3")
+		(uuid "e64a4425-a1d7-4f9c-8cfd-5ddf5e8a246e")
 	)
 	(label "SWDIO"
 		(at 379.73 175.26 0)
@@ -10279,6 +10785,17 @@
 		)
 		(uuid "f6d7b63a-4c3a-4bc4-b4fd-219427a710cd")
 	)
+	(label "S0"
+		(at 386.08 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f753933a-bb42-451d-8477-886ca8594899")
+	)
 	(label "L1 TX"
 		(at 224.8169 26.9683 0)
 		(fields_autoplaced yes)
@@ -10289,6 +10806,17 @@
 			(justify left bottom)
 		)
 		(uuid "fc6715c3-afef-4f89-baa3-29d7cff767d3")
+	)
+	(label "S3"
+		(at 317.5 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd3652a6-8030-40e4-80bf-21fff6851b25")
 	)
 	(label "M2"
 		(at 134.62 110.49 0)
@@ -10653,16 +11181,16 @@
 	)
 	(symbol
 		(lib_id "Device (Modified):ALS-PT19")
-		(at 64.77 78.74 0)
+		(at 160.02 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0dd342f7-f58b-4cf7-b267-352199ff9e3c")
-		(property "Reference" "R?"
-			(at 67.31 77.47 0)
+		(uuid "0a6e5afe-2f83-427b-975f-9601b93271dd")
+		(property "Reference" "R21"
+			(at 162.56 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,7 +11199,7 @@
 			)
 		)
 		(property "Value" "C146233"
-			(at 64.77 90.17 0)
+			(at 160.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,7 +11208,7 @@
 			)
 		)
 		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 64.77 95.25 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +11217,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 64.77 92.71 0)
+			(at 160.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +11226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 78.74 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,7 +11235,7 @@
 			)
 		)
 		(property "LCSC" "C146233"
-			(at 67.31 80.01 0)
+			(at 162.56 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,15 +11244,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "90b83eac-229e-42eb-9b67-0dc56d20b51b")
+			(uuid "1d0babf5-60b0-4daf-8eb7-55c8cf697630")
 		)
 		(pin "2"
-			(uuid "66139088-b849-4166-a7dd-3fe0c33c5665")
+			(uuid "643307b9-4079-4930-818a-513db1778ad7")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11065,6 +11593,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 152.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11b36c82-f2b8-43da-b978-4defbf30502e")
+		(property "Reference" "R24"
+			(at 154.94 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 154.94 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "de9abdd5-5953-436b-a785-e591255d3f5f")
+		)
+		(pin "2"
+			(uuid "f2a6ff46-f5a0-4b1f-8155-2e1ec121567f")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 365.76 134.62 0)
 		(unit 1)
@@ -11276,85 +11883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 62.23 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "147b1218-4612-4567-bf90-e021d99ecd67")
-		(property "Reference" "R4"
-			(at 64.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 62.23 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 62.23 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 62.23 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 64.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "66e1e952-1083-48d1-9799-c239620e1dea")
-		)
-		(pin "2"
-			(uuid "cd220e57-9b59-4732-b6c3-b114b1a0aced")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 157.48 26.67 90)
 		(unit 1)
@@ -11495,85 +12023,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "MTH9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 49.53 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c90fc15-f06f-455e-8e5e-90c5dd089e46")
-		(property "Reference" "R9"
-			(at 52.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 49.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 49.53 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 49.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 52.07 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "90e073bd-cab5-446e-bdea-7f135d506c95")
-		)
-		(pin "2"
-			(uuid "766c75a1-5ef5-4ade-8c5f-b5a38d47c9b6")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12024,6 +12473,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 54.61 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c23cb2-20f2-4039-8ef3-f15c147ddf61")
+		(property "Reference" "R12"
+			(at 57.15 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 54.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 57.15 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0b91bce5-0edb-4d53-875a-d0f5ea00340a")
+		)
+		(pin "2"
+			(uuid "5d72404c-3013-4c7a-bd7a-3c1c196ea787")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 252.73 49.53 0)
 		(mirror y)
@@ -12165,6 +12693,85 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 139.7 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a82a759-e72b-4241-a78e-9abcbf5dcc7e")
+		(property "Reference" "R29"
+			(at 142.24 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 142.24 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "da13d613-37ab-49fb-8e60-8abae9aeefbd")
+		)
+		(pin "2"
+			(uuid "d6e0f3d3-a30c-48cb-a585-a5135792d7c8")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -12396,6 +13003,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 59.69 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e935a09-d163-4b68-b65a-8b76df2356e7")
+		(property "Reference" "R10"
+			(at 62.23 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 59.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 59.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 62.23 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "89c44838-05fb-4b88-8643-d790afebf41e")
+		)
+		(pin "2"
+			(uuid "dddee951-489d-46af-a100-9726610cb1b4")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 44.45 167.64 90)
 		(unit 1)
@@ -12533,85 +13219,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 135.89 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31312920-31f2-4f91-b899-6ef2fc2f1538")
-		(property "Reference" "C12"
-			(at 139.7 244.221 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 139.7 246.761 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
-			(at 136.8552 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1669545"
-			(at 135.89 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56e2a885-fa10-4d6f-88ad-f544ed8223ec")
-		)
-		(pin "2"
-			(uuid "8a3c25ee-a6f8-4291-a64d-78d559dc93a5")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13047,85 +13654,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 142.24 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "358bb595-e1dd-4783-8e41-cd5744c02ced")
-		(property "Reference" "R36"
-			(at 144.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 142.24 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 142.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 142.24 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 144.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "56ddfbff-6947-4026-b4eb-716bfeba0470")
-		)
-		(pin "2"
-			(uuid "c9bbb527-d0fa-4092-aca4-1b3ae360bf02")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 133.35 168.91 0)
 		(mirror y)
@@ -13256,33 +13784,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 305.6915 30.5555 0)
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 157.48 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3af8cb37-8119-4641-aede-7b4808991602")
-		(property "Reference" "SW3"
-			(at 305.6915 23.3446 0)
+		(uuid "38b2188b-6063-4f0d-b75a-3bbde2a48340")
+		(property "Reference" "R22"
+			(at 160.02 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 305.6915 25.8846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "2024l1:SS12D00G3"
-			(at 305.6915 30.5555 0)
+		(property "Value" "C146233"
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,8 +13811,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 305.6915 30.5555 0)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,7 +13830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 305.6915 30.5555 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,19 +13838,25 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C146233"
+			(at 160.02 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "075088c6-362c-48e7-ba3e-c946b6f60ac5")
+			(uuid "b564edbc-7b1f-4078-8705-6d9d5d530a96")
 		)
 		(pin "2"
-			(uuid "49da5b62-bf75-4259-8991-250f6ad01138")
-		)
-		(pin "3"
-			(uuid "2f9fd07e-39b0-427e-80b3-1c5be7852300")
+			(uuid "88d4a4ef-e4b6-4030-b302-9e21f8e5480a")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "SW3")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -13473,26 +14009,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 57.15 78.74 0)
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 16.51 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40bbb9df-c2f3-4e13-bde0-7a61acccf2d1")
-		(property "Reference" "R6"
-			(at 59.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 57.15 90.17 0)
+		(uuid "40456e44-9263-4808-96eb-01185197e8e5")
+		(property "Reference" "#PWR029"
+			(at 16.51 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,8 +14028,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 57.15 95.25 0)
+		(property "Value" "+3V3"
+			(at 16.51 13.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,8 +14045,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 57.15 92.71 0)
+		(property "Datasheet" ""
+			(at 16.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13518,34 +14054,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 57.15 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 16.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "1"
-			(uuid "4b7e826d-1d85-4ed5-b898-fe047534b671")
-		)
-		(pin "2"
-			(uuid "e46b49b8-4054-4149-9ada-850c7ec39c30")
+			(uuid "e0eb366b-6e00-4f60-9718-7a51a4c3340d")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R6")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13682,6 +14206,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 170.18 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "450cef02-ef8a-4fda-9b52-8991f1e33912")
+		(property "Reference" "R17"
+			(at 172.72 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 172.72 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "57f2fe94-27ed-4387-8e58-5f9ea45586d3")
+		)
+		(pin "2"
+			(uuid "6cfa923e-143d-4187-8620-75c430e3669a")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 77.47 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46d5857a-c7e9-4e4e-899a-cee1aaf25e8a")
+		(property "Reference" "R3"
+			(at 80.01 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 77.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 80.01 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "83bef45c-c295-450b-8104-5003bd4063d2")
+		)
+		(pin "2"
+			(uuid "f77ae1b1-3666-4984-b5b0-1055e418a1ab")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 182.88 168.91 0)
 		(unit 1)
@@ -13811,85 +14493,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "R87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 77.47 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "496a573b-93c4-4718-8001-560d8a306e18")
-		(property "Reference" "R14"
-			(at 80.01 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 77.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 77.47 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 77.47 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "cb4b1ccd-b909-476f-815d-ab4e7dc112ca")
-		)
-		(pin "2"
-			(uuid "56e7ddb8-b40b-41d3-9361-b836a74c82ea")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14198,6 +14801,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 172.72 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d084407-83a2-4c7d-bb2d-609b6b5f357e")
+		(property "Reference" "R16"
+			(at 175.26 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 172.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 175.26 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e00c395d-06da-461b-a633-e5a5a2139285")
+		)
+		(pin "2"
+			(uuid "a3441226-0f4c-45a4-a2d4-685989fd0ecd")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "vincent:R")
 		(at 49.53 115.57 90)
 		(unit 1)
@@ -14411,85 +15093,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 160.02 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "504ada77-a311-488e-b5ab-eabcf4d575e7")
-		(property "Reference" "R?"
-			(at 162.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 160.02 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 160.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "7f220660-d5ea-45a1-b2e0-53a7e2d67cf4")
-		)
-		(pin "2"
-			(uuid "8052cad4-ad98-41e9-9d0c-470adb58fe51")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -14774,85 +15377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 134.62 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5485eedd-c7e8-4d6d-8e50-7421e4537a1a")
-		(property "Reference" "R3"
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 134.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 134.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 137.16 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "6d531f23-6fb4-4294-a9b6-91abb10162e1")
-		)
-		(pin "2"
-			(uuid "3a5e60b9-b052-4d94-ac1f-701c7678baed")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 123.19 0)
 		(unit 1)
@@ -14920,16 +15444,16 @@
 	)
 	(symbol
 		(lib_id "Device (Modified):ALS-PT19")
-		(at 59.69 78.74 0)
+		(at 142.24 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "58cd3a35-20a0-47a1-a115-b911004a73ca")
-		(property "Reference" "R5"
-			(at 62.23 77.47 0)
+		(uuid "55892c3b-93d5-488c-b915-9bb5b0ceb54d")
+		(property "Reference" "R28"
+			(at 144.78 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14938,7 +15462,7 @@
 			)
 		)
 		(property "Value" "C146233"
-			(at 59.69 90.17 0)
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14947,7 +15471,7 @@
 			)
 		)
 		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 59.69 95.25 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14956,7 +15480,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 59.69 92.71 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14965,7 +15489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 78.74 0)
+			(at 142.24 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14974,7 +15498,7 @@
 			)
 		)
 		(property "LCSC" "C146233"
-			(at 62.23 80.01 0)
+			(at 144.78 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14983,32 +15507,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "892eabc1-44d8-457c-9bce-30192b7d632f")
+			(uuid "e13207a1-1498-41ad-8f90-055602037c56")
 		)
 		(pin "2"
-			(uuid "5ddf3569-a702-4d5c-a4ce-0c8399e831ea")
+			(uuid "7ae5c114-43b4-4828-85ce-f5fac96972c8")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R5")
+					(reference "R28")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 120.65 246.38 0)
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 144.78 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b32666b-26f0-45ca-befd-28f4c17732d7")
-		(property "Reference" "C11"
-			(at 124.46 244.856 0)
+		(uuid "59c30391-527a-46cb-9c96-7cb81f39f434")
+		(property "Reference" "R27"
+			(at 147.32 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,17 +15540,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
-			(at 124.46 247.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
-			(at 121.6152 250.19 0)
+		(property "Value" "C146233"
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15034,8 +15549,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 246.38 0)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15044,7 +15568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 246.38 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15052,25 +15576,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1669545"
-			(at 120.65 246.38 0)
+		(property "LCSC" "C146233"
+			(at 147.32 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "1"
-			(uuid "d82a4225-9d57-4860-ba25-ce4d26cfebf3")
+			(uuid "af4c2c58-f9b2-42f4-b433-94e22d05503b")
 		)
 		(pin "2"
-			(uuid "426db1bb-d970-4141-8223-f08da7df4334")
+			(uuid "48cf6563-8c96-4244-91a3-8876f9033f78")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "C11")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -15592,6 +16116,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 49.53 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a1fa77b-063d-480c-aefa-59962537a142")
+		(property "Reference" "R14"
+			(at 52.07 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 49.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 52.07 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "756ffe13-975f-45d3-b063-4dde694d5b3d")
+		)
+		(pin "2"
+			(uuid "74395c81-c888-4cdf-a189-61e531970a7c")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 123.19 0)
 		(unit 1)
@@ -15967,85 +16570,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 74.93 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d83b9bf-acb2-4856-af2c-9b328b5c5eb5")
-		(property "Reference" "R15"
-			(at 77.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 74.93 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 74.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 74.93 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 77.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "2da538a9-65ef-4a7e-a360-22b29a64cc2e")
-		)
-		(pin "2"
-			(uuid "377eabc1-1fed-44c3-aa33-e2fffb4fd765")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 66.04 26.67 90)
 		(unit 1)
@@ -16186,6 +16710,85 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 72.39 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70f04858-70cf-4e70-a62a-fe19c1227490")
+		(property "Reference" "R5"
+			(at 74.93 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 74.93 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "098e6687-a420-47fe-98c0-eaa54fead003")
+		)
+		(pin "2"
+			(uuid "768af285-1500-424e-88e2-c5bae27fb848")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -16533,85 +17136,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 167.64 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77ce3e26-da55-4283-a2bc-dc1afa4d9b1b")
-		(property "Reference" "R19"
-			(at 170.18 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 167.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 167.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 167.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 170.18 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "39f0f100-62e4-4e2c-ac27-0e4311c43217")
-		)
-		(pin "2"
-			(uuid "dc8cc0d6-42c7-4b38-baf0-2b6f3a626ddf")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 219.7369 32.0483 180)
 		(unit 1)
@@ -16746,85 +17270,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 44.45 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "792b7352-1a6c-4a54-938b-7512c7177658")
-		(property "Reference" "R11"
-			(at 46.99 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 44.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 46.99 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "e326dc38-9b19-4a8c-8809-c3e649a1c29c")
-		)
-		(pin "2"
-			(uuid "177d8b9f-923a-4f4d-aab6-53b0dda9a0dc")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17034,6 +17479,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 137.16 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e53ef88-7419-46e4-84f8-eb80b86d3d5d")
+		(property "Reference" "R30"
+			(at 139.7 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 139.7 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f95ed162-5df6-4e86-ab04-90c5fca46ad8")
+		)
+		(pin "2"
+			(uuid "f9c1c8f3-08e1-4f5c-b936-c469b62eeac3")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 59.69 246.38 0)
 		(unit 1)
@@ -17107,6 +17631,85 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 165.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ef0485a-951d-4294-99fb-97aee2da1d7a")
+		(property "Reference" "R19"
+			(at 167.64 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 167.64 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6dda964b-41b4-4a3c-ad17-d8b27571dabd")
+		)
+		(pin "2"
+			(uuid "5ee05bf0-0738-4cdd-88f0-23cb65b56b84")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17338,164 +17941,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 52.07 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89288800-198f-48ea-acd2-e0a64c3d6e0c")
-		(property "Reference" "R8"
-			(at 54.61 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 52.07 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 52.07 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 54.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "6bc6e5c0-19c3-4671-a3e9-2fbb0f4eaac3")
-		)
-		(pin "2"
-			(uuid "73107580-3ecc-40fd-be8c-4805ac20a0d4")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 162.56 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89f7e4cd-ce69-49d6-a5a9-897e0031b5db")
-		(property "Reference" "R?"
-			(at 165.1 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 162.56 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 162.56 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 165.1 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "1dcc052c-c5d3-45f6-8066-a0e66edc14c6")
-		)
-		(pin "2"
-			(uuid "aa1be058-512c-4cd4-8144-e08dc8b780ac")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 55.88 26.67 90)
 		(unit 1)
@@ -17641,17 +18086,27 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 165.1 78.74 0)
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 31.75 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "905bd250-8a85-489d-81f4-ffe7bd43618d")
-		(property "Reference" "R20"
-			(at 167.64 77.47 0)
+		(uuid "8d146f72-8b54-47ee-aa4d-84b75b1b1f74")
+		(property "Reference" "#PWR030"
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 27.94 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17659,8 +18114,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C146233"
-			(at 165.1 90.17 0)
+		(property "Footprint" ""
+			(at 31.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17668,8 +18123,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 165.1 95.25 0)
+		(property "Datasheet" ""
+			(at 31.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17677,43 +18132,22 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 165.1 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 31.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 167.64 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "1"
-			(uuid "97bb028c-dd5c-47aa-89d0-762f08f20997")
-		)
-		(pin "2"
-			(uuid "735c8192-6377-418d-9e6c-3ede85576828")
+			(uuid "73a2f04a-c364-471d-ba9f-e6f4c7ce9ac5")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R20")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17878,6 +18312,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 69.85 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9319db40-352e-425d-adfe-c4a55472e9eb")
+		(property "Reference" "R6"
+			(at 72.39 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 72.39 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "976b393d-a01d-4232-8f43-a6d79d22c589")
+		)
+		(pin "2"
+			(uuid "a970ad18-45d6-44d3-a1c3-71d27412e2dc")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 339.09 227.33 0)
 		(unit 1)
@@ -18019,16 +18532,16 @@
 	)
 	(symbol
 		(lib_id "Device (Modified):ALS-PT19")
-		(at 80.01 78.74 0)
+		(at 80.01 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "958558f8-da6a-484d-b957-f6c50f897973")
-		(property "Reference" "R13"
-			(at 82.55 77.47 0)
+		(uuid "967b00db-fc8d-47d0-a6bc-b448550c35de")
+		(property "Reference" "R2"
+			(at 82.55 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18037,7 +18550,7 @@
 			)
 		)
 		(property "Value" "C146233"
-			(at 80.01 90.17 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18046,15 +18559,6 @@
 			)
 		)
 		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 80.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
 			(at 80.01 92.71 0)
 			(effects
 				(font
@@ -18063,8 +18567,17 @@
 				(hide yes)
 			)
 		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" ""
-			(at 80.01 78.74 0)
+			(at 80.01 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18073,7 +18586,7 @@
 			)
 		)
 		(property "LCSC" "C146233"
-			(at 82.55 80.01 0)
+			(at 82.55 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18082,15 +18595,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6028c61a-e2d1-4d57-9bf0-4e443935222f")
+			(uuid "4f44726b-43aa-49b4-905d-78c746673399")
 		)
 		(pin "2"
-			(uuid "b238f35f-ac7c-476c-93f0-0c8eae546f12")
+			(uuid "e0b3311a-beb2-4f13-929f-832502d6877e")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R13")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -18158,6 +18671,85 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "KM4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 52.07 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96ff6ae2-9a87-4bf7-b15f-20aea013e8c6")
+		(property "Reference" "R13"
+			(at 54.61 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 52.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 54.61 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6a9559a0-43b5-4c2e-9d07-e2f7fa4b9f7c")
+		)
+		(pin "2"
+			(uuid "bbc7118b-495f-465d-ad17-447971fd9208")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18385,6 +18977,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 62.23 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a83220f-57b0-4c5c-839e-5f016a1f6a04")
+		(property "Reference" "R9"
+			(at 64.77 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 64.77 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d78ec977-1094-42cd-9e7f-dbb9296a85b1")
+		)
+		(pin "2"
+			(uuid "0ae239bf-887d-417c-90a1-93c8f804e860")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 335.28 220.98 0)
 		(unit 1)
@@ -18445,85 +19116,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 137.16 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ba83b93-5379-463c-a0dd-f738886edc4e")
-		(property "Reference" "R2"
-			(at 139.7 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 137.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 137.16 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 137.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 139.7 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "379a9a79-92fb-449e-933a-ff9e50919b66")
-		)
-		(pin "2"
-			(uuid "0680409f-8db5-4e66-83bb-c09079c090c4")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -18679,6 +19271,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 74.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a185455b-d6c3-4ad3-8054-2d194ba0f4e5")
+		(property "Reference" "R4"
+			(at 77.47 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 74.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 74.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 77.47 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1795c1ce-a9b2-46d2-9cdc-bb3ae76b2776")
+		)
+		(pin "2"
+			(uuid "166c7a08-1f9c-4654-857b-3bd9a17964bd")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+48V")
 		(at 227.33 46.99 270)
 		(unit 1)
@@ -18740,6 +19411,152 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 266.7 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a36b7d78-4945-4eb1-8b48-9434b389acb3")
+		(property "Reference" "#PWR028"
+			(at 266.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 266.7 44.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9ac94c8-31ed-42ed-8eae-9f939d31ae4f")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 57.15 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f68f77-77ae-450c-9c59-96cc035a3db9")
+		(property "Reference" "R11"
+			(at 59.69 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 59.69 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6ed42ac5-9961-4d9f-a904-4229506956bb")
+		)
+		(pin "2"
+			(uuid "1fdacaa7-dad1-4aec-9cff-15e5ce3dc538")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18970,85 +19787,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 67.31 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7badf6f-93ea-4806-88b4-867f175f8d63")
-		(property "Reference" "R?"
-			(at 69.85 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 67.31 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 67.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 67.31 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "e5ceb297-338c-47fc-b841-358b684e00b5")
-		)
-		(pin "2"
-			(uuid "88319eef-e401-4b2d-ba36-ec130081b455")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 177.8 168.91 0)
 		(mirror y)
@@ -19189,6 +19927,152 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 353.06 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd3b574-af35-4839-b327-c0e637e4445f")
+		(property "Reference" "#PWR020"
+			(at 353.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 353.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a54c60c3-7725-4892-b6f0-165110d0775b")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 82.55 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb2c414-a1bf-4a53-b22f-1db456e1872f")
+		(property "Reference" "R1"
+			(at 85.09 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 85.09 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "af00aaac-ed04-407f-99c1-7efe4531ce35")
+		)
+		(pin "2"
+			(uuid "54b73840-bdac-457e-bdf0-9278f33f3654")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -19567,16 +20451,16 @@
 	)
 	(symbol
 		(lib_id "Device (Modified):ALS-PT19")
-		(at 144.78 78.74 0)
+		(at 167.64 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b7ab84f6-e167-4f78-a134-4ebe4cc50e2b")
-		(property "Reference" "R35"
-			(at 147.32 77.47 0)
+		(uuid "b677fcbc-b99d-4c14-beee-154090a0fe9e")
+		(property "Reference" "R18"
+			(at 170.18 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19585,7 +20469,7 @@
 			)
 		)
 		(property "Value" "C146233"
-			(at 144.78 90.17 0)
+			(at 167.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19594,7 +20478,7 @@
 			)
 		)
 		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 144.78 95.25 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19603,7 +20487,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 144.78 92.71 0)
+			(at 167.64 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19612,7 +20496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 78.74 0)
+			(at 167.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19621,7 +20505,7 @@
 			)
 		)
 		(property "LCSC" "C146233"
-			(at 147.32 80.01 0)
+			(at 170.18 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19630,15 +20514,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4ea2deb-5c4f-4c68-b79a-11a59de0d880")
+			(uuid "ba85e1ed-78b7-44f3-ad4c-7cd3da1978d1")
 		)
 		(pin "2"
-			(uuid "4669ea0c-2e0b-472e-8419-6228fd533784")
+			(uuid "a08df46a-7eb5-494f-b266-1add95c6b7d1")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R35")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -19869,16 +20753,16 @@
 	)
 	(symbol
 		(lib_id "Device (Modified):ALS-PT19")
-		(at 54.61 78.74 0)
+		(at 64.77 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bc731bc9-8fe7-446d-8ef3-18064e87d985")
-		(property "Reference" "R7"
-			(at 57.15 77.47 0)
+		(uuid "bbf07924-e5bc-4097-bd04-fc841967ccb3")
+		(property "Reference" "R8"
+			(at 67.31 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19887,7 +20771,7 @@
 			)
 		)
 		(property "Value" "C146233"
-			(at 54.61 90.17 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19896,7 +20780,7 @@
 			)
 		)
 		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 54.61 95.25 0)
+			(at 64.77 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19905,7 +20789,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 54.61 92.71 0)
+			(at 64.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19914,7 +20798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 78.74 0)
+			(at 64.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19923,7 +20807,7 @@
 			)
 		)
 		(property "LCSC" "C146233"
-			(at 57.15 80.01 0)
+			(at 67.31 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19932,15 +20816,173 @@
 			)
 		)
 		(pin "1"
-			(uuid "f005290a-9ee3-45d9-8e9c-f8313d98dcc8")
+			(uuid "7b603106-bafe-498b-8f56-339f264010c0")
 		)
 		(pin "2"
-			(uuid "95ab9be3-dbb0-4975-be50-13ce6933489a")
+			(uuid "3ff2e81e-4c4f-49c2-818e-b94680418588")
 		)
 		(instances
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R7")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 154.94 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc347cbb-fb88-45c8-972b-6c2643620bbd")
+		(property "Reference" "R23"
+			(at 157.48 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 157.48 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6a3bebf3-6692-4110-a457-fa1455d7e425")
+		)
+		(pin "2"
+			(uuid "bbae407b-3462-4a21-8b49-f08588c01181")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 147.32 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd520968-d037-48d7-88bf-de8a7e2def2c")
+		(property "Reference" "R26"
+			(at 149.86 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 149.86 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1ebd48ff-a45e-4f77-a39d-0cd83a24fa36")
+		)
+		(pin "2"
+			(uuid "5dba0e85-9d17-408a-9f5e-1554d7256ea7")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -20307,85 +21349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 82.55 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c078e27b-12f9-476c-99b1-9d01b197593f")
-		(property "Reference" "R12"
-			(at 85.09 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 82.55 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 82.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 82.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 85.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "efd2e2c0-25b6-48d1-9593-0ce7dae5e001")
-		)
-		(pin "2"
-			(uuid "19f84ece-ecb0-4005-b351-fe6bb99ded35")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 260.35 35.56 0)
 		(unit 1)
@@ -20446,85 +21409,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 139.7 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4886be8-6c15-455b-ad57-18c79d8fb714")
-		(property "Reference" "R1"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 139.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 139.7 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 139.7 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 142.24 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "039f1704-7a0a-4b31-8167-00f9d333ce1a")
-		)
-		(pin "2"
-			(uuid "7f464c27-0365-4da4-96f9-b20eae2b3745")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -20810,85 +21694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 172.72 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca4f303a-1e49-456e-afdd-42f3a045c0bf")
-		(property "Reference" "R17"
-			(at 175.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 172.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 172.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 172.72 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 175.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "9a65246b-cd17-4a06-8230-990cb502e4d8")
-		)
-		(pin "2"
-			(uuid "c13a4085-80e6-457f-a08e-077052df4c87")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 138.43 160.02 0)
 		(unit 1)
@@ -21167,6 +21972,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 162.56 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d260cbdc-b185-4048-9bf0-822103197610")
+		(property "Reference" "R20"
+			(at 165.1 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 165.1 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ea506da2-dcff-4e23-9584-1746e5b0dc71")
+		)
+		(pin "2"
+			(uuid "d7a2e597-ed17-4f58-b0a1-ecf9bf664b04")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 133.35 143.51 0)
 		(mirror y)
@@ -21228,6 +22112,72 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "KM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 353.06 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5b87478-96c5-4a1b-af89-652f48b541ea")
+		(property "Reference" "#PWR019"
+			(at 353.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 353.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 353.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3d68eb3-0347-4dd3-8e22-3a9895873061")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -21437,85 +22387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 72.39 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d764060f-8fbc-40f3-a0b0-3e41ac108bcc")
-		(property "Reference" "R16"
-			(at 74.93 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 72.39 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 72.39 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 72.39 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 74.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "e4d45bfe-8af4-44cd-9e2a-ebfbb0561828")
-		)
-		(pin "2"
-			(uuid "f0116200-c0d2-4408-9105-ffd2abc40b2a")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 198.12 26.67 90)
 		(unit 1)
@@ -21589,6 +22460,73 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 271.78 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db09d60c-88b9-4496-a1dc-08aaa3d53918")
+		(property "Reference" "#PWR01"
+			(at 271.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 271.78 22.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 271.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db96ad61-005c-4fba-b1c4-a2e09c696f37")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -21674,85 +22612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 152.4 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd475d52-534c-444d-8964-42d8498bed68")
-		(property "Reference" "R?"
-			(at 154.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 152.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 152.4 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 152.4 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 154.94 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "429b67a2-f7a5-4f21-8fa2-74a5b56137b2")
-		)
-		(pin "2"
-			(uuid "5c4350ae-bd8f-4396-b047-c4bc9f27bec3")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 138.43 168.91 0)
 		(unit 1)
@@ -21814,85 +22673,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "MTH12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 151.13 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e057493f-ecda-473f-ad3d-396fedeb71d0")
-		(property "Reference" "C13"
-			(at 154.94 244.221 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 154.94 246.761 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
-			(at 152.0952 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1669545"
-			(at 151.13 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec6e8264-9ce7-4023-a9e4-ae5838beca13")
-		)
-		(pin "2"
-			(uuid "105ee2b9-9ca9-4610-914d-5e1db01e5bca")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -22382,85 +23162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 170.18 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7306948-36e7-4f3d-8c2a-d33f0a772081")
-		(property "Reference" "R18"
-			(at 172.72 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 170.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 170.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 170.18 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 172.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "c2e20cee-d535-4984-8d5c-acb9656fba4d")
-		)
-		(pin "2"
-			(uuid "36e194a5-92a9-450f-ba7a-f967b97a9cce")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+48V")
 		(at 38.1 224.79 0)
 		(unit 1)
@@ -22521,6 +23222,85 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 67.31 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb3321d-a92f-4b60-9c71-c0683fa9734d")
+		(property "Reference" "R7"
+			(at 69.85 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 67.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 67.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 69.85 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c053fa3c-cb3f-4865-a046-280ae584401f")
+		)
+		(pin "2"
+			(uuid "9403aeb2-9478-4daf-a262-25b42da6ccae")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -22594,164 +23374,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 46.99 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3a6435a-989a-4bbe-957d-0c1e687f0a09")
-		(property "Reference" "R10"
-			(at 49.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 46.99 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 46.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "d3102b7b-dccb-4746-8ee0-4f9519fbe504")
-		)
-		(pin "2"
-			(uuid "8873aee9-4dd5-441a-b7a8-ff0d29ad80f8")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 105.41 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3d8f65b-01b1-4a68-9c56-f0c4546d936d")
-		(property "Reference" "C10"
-			(at 109.22 244.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 109.22 247.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
-			(at 106.3752 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1669545"
-			(at 105.41 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52bbc907-82b2-426d-a3f1-b49e9b7fdde1")
-		)
-		(pin "2"
-			(uuid "59f05c11-c486-4c0a-9fa6-3da7e9ec99ca")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 177.8 142.24 0)
 		(mirror y)
@@ -22813,6 +23435,85 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "MTH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 149.86 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f40d396b-3cdb-4703-8d59-8b2fc422b031")
+		(property "Reference" "R25"
+			(at 152.4 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 152.4 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0d032fd7-3831-4db9-8f51-e1f2b83fd40e")
+		)
+		(pin "2"
+			(uuid "1cf62526-e466-4556-a5a1-b91d290108b3")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -23002,85 +23703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 69.85 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f599993f-d283-4584-bbe0-7c3c429c1baa")
-		(property "Reference" "R?"
-			(at 72.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 69.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 69.85 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 72.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "5bb2177f-1109-44fc-8db8-1e37d77862a8")
-		)
-		(pin "2"
-			(uuid "33ed9805-a994-4744-85ec-68d19feb65fa")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 167.64 123.19 0)
 		(unit 1)
@@ -23141,6 +23763,74 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 121.92 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f845cc-bc3d-4e1e-86d9-4cfefe992815")
+		(property "Reference" "#PWR047"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 118.11 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654ae57c-abe7-4ec4-addc-52611c51e76d")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -23208,6 +23898,85 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "MTH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device (Modified):ALS-PT19")
+		(at 46.99 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f835cfdf-f52f-4b0e-b746-978102b71827")
+		(property "Reference" "R15"
+			(at 49.53 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C146233"
+			(at 46.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
+			(at 46.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146233"
+			(at 49.53 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7499ccc8-4644-426c-9e6a-54cc9fd49db9")
+		)
+		(pin "2"
+			(uuid "6085e65a-e9c6-4dab-82b8-35cd3e406176")
+		)
+		(instances
+			(project "2024l1"
+				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -23354,152 +24123,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 154.94 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9fdd4b1-e1ce-4314-9dd7-fdaeb921dd62")
-		(property "Reference" "R?"
-			(at 157.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 154.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 154.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 157.48 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "4c27c8c4-95ae-4cfc-8dde-e97d1553ddc9")
-		)
-		(pin "2"
-			(uuid "39d75360-bd2c-4ae1-bf80-30371000d0a8")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V3_1")
-		(lib_id "power:+3V3")
-		(at 316.5229 28.0159 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbb9ffcf-9285-4ab8-bad5-1b4764f18edb")
-		(property "Reference" "#PWR01"
-			(at 316.5229 31.8259 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 316.5229 22.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.5229 28.0159 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.5229 28.0159 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 316.5229 28.0159 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05954fa4-fdf4-4d41-8048-df6e9bcfe81d")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -23658,85 +24281,6 @@
 			(project "2024l1"
 				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device (Modified):ALS-PT19")
-		(at 157.48 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe148a2b-6b97-4bdd-8b2a-6b870b68e088")
-		(property "Reference" "R?"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C146233"
-			(at 157.48 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2024l1:ALS-PT19 (Top Side)"
-			(at 157.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806131537_Everlight-Elec-ALS-PT19-315C-L177-TR8_C146233.pdf"
-			(at 157.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C146233"
-			(at 160.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "1837f19b-f4fe-4cfc-8211-ba17bb79d7a0")
-		)
-		(pin "2"
-			(uuid "24c16a24-6b37-4a28-864c-ba98bead4ab4")
-		)
-		(instances
-			(project "2024l1"
-				(path "/5be543b5-1bdc-438f-a916-f916127c0a2b"
-					(reference "R?")
 					(unit 1)
 				)
 			)
