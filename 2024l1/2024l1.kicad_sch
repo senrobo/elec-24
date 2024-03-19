@@ -18973,7 +18973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l1:res0603"
+		(property "Footprint" "2024l1:res2512"
 			(at 17.272 233.68 90)
 			(effects
 				(font
