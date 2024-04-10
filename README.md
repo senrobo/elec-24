@@ -1,4 +1,4 @@
-## Sentinels 2024 Electrical Repository
+## Sentinels-93 2024-2025 Electrical Repository
 ### Folder Structure
 ```bash
 ├── 2024l1
