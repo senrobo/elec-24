@@ -1,0 +1,86 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ed645744-3dd5-47d9-ada7-a59bad87c6ea")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.6 76.2)
+		(size 25.654 25.654)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e82c284-ab28-4c6b-8caa-f59246f3779e")
+		(property "Sheetname" "solenoid activation"
+			(at 101.6 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid activation.kicad_sch"
+			(at 101.6 102.4386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2025l1"
+				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/2141b66e-45d0-43fd-aaef-c9fd4e16da7c"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 76.2)
+		(size 25.654 25.654)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e196d10e-c8d7-4713-a47b-fa701fb4b868")
+		(property "Sheetname" "caps"
+			(at 152.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "caps.kicad_sch"
+			(at 152.4 102.4386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2025l1"
+				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/2141b66e-45d0-43fd-aaef-c9fd4e16da7c"
+					(page "10")
+				)
+			)
+		)
+	)
+)

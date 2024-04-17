@@ -1,0 +1,84 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ecfbc401-6658-4725-b9d4-9cec027f6e73")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 50.8)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b5b3d0c-e9d6-468d-9491-c6676e24121a")
+		(property "Sheetname" "leds"
+			(at 127 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 127 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2025l1"
+				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/c64c4b1b-d73d-4041-97d2-d557e1412053"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 83.82)
+		(size 75.946 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72c0b584-8d1c-4455-a8d9-7f89f61042d9")
+		(property "Sheetname" "mux"
+			(at 127 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ledringmux.kicad_sch"
+			(at 127 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "2025l1"
+				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/c64c4b1b-d73d-4041-97d2-d557e1412053"
+					(page "9")
+				)
+			)
+		)
+	)
+)
