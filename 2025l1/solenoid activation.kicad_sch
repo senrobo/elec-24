@@ -2165,7 +2165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l1:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 103.8352 107.95 0)
 			(effects
 				(font
@@ -2226,7 +2226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "312abf28-b629-44dc-b282-35e5646c78ed")
-		(property "Reference" "D4"
+		(property "Reference" "D34"
 			(at 77.47 80.01 90)
 			(effects
 				(font
@@ -2307,7 +2307,7 @@
 		(instances
 			(project "2025l1"
 				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/2141b66e-45d0-43fd-aaef-c9fd4e16da7c/5e82c284-ab28-4c6b-8caa-f59246f3779e"
-					(reference "D4")
+					(reference "D34")
 					(unit 1)
 				)
 			)

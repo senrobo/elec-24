@@ -1093,7 +1093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "2025:CP_Radial_D16.0mm_P7.50mm"
 			(at 185.6367 74.5195 0)
 			(effects
 				(font
@@ -1172,7 +1172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "2025:CP_Radial_D16.0mm_P7.50mm"
 			(at 127.2167 74.5195 0)
 			(effects
 				(font
@@ -1251,7 +1251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "2025:CP_Radial_D16.0mm_P7.50mm"
 			(at 139.9167 74.5195 0)
 			(effects
 				(font
@@ -1396,7 +1396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "2025:CP_Radial_D16.0mm_P7.50mm"
 			(at 155.1567 74.5195 0)
 			(effects
 				(font
@@ -1475,7 +1475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l1:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "2025:CP_Radial_D16.0mm_P7.50mm"
 			(at 170.3967 74.5195 0)
 			(effects
 				(font

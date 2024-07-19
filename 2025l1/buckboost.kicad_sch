@@ -444,139 +444,6 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -2327,12 +2194,6 @@
 		(uuid "759acbd8-17b4-4386-aab0-74840c45e679")
 	)
 	(junction
-		(at 160.02 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81affdb2-d563-4cd4-999b-8964f610aee4")
-	)
-	(junction
 		(at 88.9 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2385,6 +2246,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0fef058-fa68-4ed7-834a-a44db62f71cd")
+	)
+	(junction
+		(at 160.02 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2bce6f7-5baf-4fed-b67f-623ac8ae9773")
 	)
 	(junction
 		(at 138.43 177.8)
@@ -2601,16 +2468,6 @@
 			(type default)
 		)
 		(uuid "2a90c8b7-5fc8-4933-9226-36259b0dffb7")
-	)
-	(wire
-		(pts
-			(xy 160.02 91.44) (xy 160.02 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c35430c-8fee-499a-98da-9f9fb3531b68")
 	)
 	(wire
 		(pts
@@ -2881,16 +2738,6 @@
 			(type default)
 		)
 		(uuid "710c24cd-8f86-4c67-b7e2-99d74178a514")
-	)
-	(wire
-		(pts
-			(xy 160.02 35.56) (xy 160.02 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "740cbbcd-c145-4eb4-9ad8-7f459c4b14a4")
 	)
 	(wire
 		(pts
@@ -3314,16 +3161,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 133.35) (xy 160.02 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd2995b-f791-44e5-ace6-f952bc3cdebf")
-	)
-	(wire
-		(pts
 			(xy 81.28 67.31) (xy 81.28 63.5)
 		)
 		(stroke
@@ -3344,13 +3181,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 82.55) (xy 160.02 83.82)
+			(xy 160.02 90.17) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7f94e12-4b14-42ee-a991-a8dd948a7048")
+		(uuid "d3498a85-74d9-4af4-b46c-beb186f9e217")
 	)
 	(wire
 		(pts
@@ -3424,7 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 142.24) (xy 160.02 144.78)
+			(xy 160.02 139.7) (xy 160.02 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3569,7 +3406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 60.6552 59.69 0)
 			(effects
 				(font
@@ -3697,7 +3534,7 @@
 		(fields_autoplaced yes)
 		(uuid "12f682c6-81eb-4e71-b23e-79c4f3d435ea")
 		(property "Reference" "R39"
-			(at 162.56 61.595 0)
+			(at 162.56 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,8 +3542,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K9"
-			(at 162.56 64.135 0)
+		(property "Value" "3K24"
+			(at 162.56 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 160.9852 165.1 0)
 			(effects
 				(font
@@ -3872,7 +3709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:EIA-7343-D"
+		(property "Footprint" "2025:EIA-7343-D"
 			(at 134.3152 102.87 0)
 			(effects
 				(font
@@ -4563,7 +4400,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 160.02 35.56 0)
+		(at 160.02 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4572,7 +4409,7 @@
 		(fields_autoplaced yes)
 		(uuid "294322af-3b81-4bb3-8c82-648987a7af0f")
 		(property "Reference" "#PWR029"
-			(at 160.02 39.37 0)
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4418,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 160.02 30.48 0)
+			(at 160.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 35.56 0)
+			(at 160.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 35.56 0)
+			(at 160.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 35.56 0)
+			(at 160.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "422687a3-4fbd-4482-ad0d-7b34031ec00f")
-		(property "Reference" "D1"
+		(property "Reference" "D31"
 			(at 120.65 51.1175 90)
 			(effects
 				(font
@@ -4787,7 +4624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:SMA (DO-214AC)"
+		(property "Footprint" "2025:SMA (DO-214AC)"
 			(at 113.665 52.07 0)
 			(effects
 				(font
@@ -4832,7 +4669,7 @@
 		(instances
 			(project "2025l1"
 				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/16e5a10f-6121-427d-870d-aa3cfdca5a89"
-					(reference "D1")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -5036,76 +4873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 160.02 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c061467-cd97-4d71-a71d-959f696ab68b")
-		(property "Reference" "F3"
-			(at 162.56 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 162.56 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.242 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 160.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40dccb62-5879-497c-9241-042fed7666b1")
-		)
-		(pin "2"
-			(uuid "8ae114a9-9f76-4657-9003-14b9eb153b22")
-		)
-		(instances
-			(project "2025l1"
-				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/16e5a10f-6121-427d-870d-aa3cfdca5a89"
-					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 82.55 173.99 0)
 		(unit 1)
@@ -5133,7 +4900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 83.5152 177.8 0)
 			(effects
 				(font
@@ -5264,16 +5031,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 160.02 82.55 0)
+		(at 160.02 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "677fc94a-ef25-41c4-b0a4-3589a4192344")
 		(property "Reference" "#PWR031"
-			(at 160.02 86.36 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5048,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.02 78.232 0)
+			(at 160.02 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 82.55 0)
+			(at 160.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +5065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 82.55 0)
+			(at 160.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 82.55 0)
+			(at 160.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:EIA-7343-D"
+		(property "Footprint" "2025:EIA-7343-D"
 			(at 134.3152 55.88 0)
 			(effects
 				(font
@@ -5514,7 +5280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 59.3852 165.1 0)
 			(effects
 				(font
@@ -5591,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 105.41 46.0248 0)
 			(effects
 				(font
@@ -5652,7 +5418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "836d1ee9-2140-4b3b-a50b-148fdb3c4f19")
-		(property "Reference" "D2"
+		(property "Reference" "D32"
 			(at 120.65 98.1075 90)
 			(effects
 				(font
@@ -5670,7 +5436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:SMA (DO-214AC)"
+		(property "Footprint" "2025:SMA (DO-214AC)"
 			(at 113.665 99.06 0)
 			(effects
 				(font
@@ -5715,7 +5481,7 @@
 		(instances
 			(project "2025l1"
 				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/16e5a10f-6121-427d-870d-aa3cfdca5a89"
-					(reference "D2")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -5749,7 +5515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 148.2852 102.87 0)
 			(effects
 				(font
@@ -5904,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 105.41 93.0148 0)
 			(effects
 				(font
@@ -5957,7 +5723,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 160.02 133.35 0)
+		(at 160.02 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5965,7 +5731,7 @@
 		(dnp no)
 		(uuid "9429772a-6b35-41cd-8879-fc9be2b6f0d5")
 		(property "Reference" "#PWR034"
-			(at 160.02 137.16 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +5740,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 160.02 130.048 0)
+			(at 160.02 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +5748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 133.35 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +5757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 133.35 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +5766,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 133.35 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +5879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 60.6552 106.68 0)
 			(effects
 				(font
@@ -6320,7 +6086,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa5925e9-132a-437a-8645-36aef68d4cc4")
 		(property "Reference" "R41"
-			(at 162.56 108.585 0)
+			(at 162.56 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,8 +6094,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3K24"
-			(at 162.56 111.125 0)
+		(property "Value" "5K9"
+			(at 162.56 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,76 +6307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 160.02 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7921dbd-fb45-4a91-bc03-93ce384bfdcd")
-		(property "Reference" "F1"
-			(at 162.56 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 162.56 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.242 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 160.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c5b5ee7-294f-4442-82f0-c48d42d31cd8")
-		)
-		(pin "2"
-			(uuid "d2420a02-e77b-4773-b9c6-0ed04bda3527")
-		)
-		(instances
-			(project "2025l1"
-				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/16e5a10f-6121-427d-870d-aa3cfdca5a89"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 67.31 0)
 		(unit 1)
@@ -6671,76 +6367,6 @@
 			(project "2025l1"
 				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/16e5a10f-6121-427d-870d-aa3cfdca5a89"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 160.02 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf42a699-9f93-42ae-9f1c-a2adbbb47e8d")
-		(property "Reference" "F2"
-			(at 162.56 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 162.56 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.242 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db29903e-9a5d-419e-b14e-eef65df89fec")
-		)
-		(pin "2"
-			(uuid "cf70ee83-ec49-46f0-96c6-e8abdc06e88b")
-		)
-		(instances
-			(project "2025l1"
-				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/16e5a10f-6121-427d-870d-aa3cfdca5a89"
-					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 148.2852 55.88 0)
 			(effects
 				(font
@@ -7267,7 +6893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b3536e-311d-467b-9d36-8e299e4cb297")
-		(property "Reference" "D3"
+		(property "Reference" "D33"
 			(at 129.8575 138.43 0)
 			(effects
 				(font
@@ -7283,7 +6909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:SMA (DO-214AC)"
+		(property "Footprint" "2025:SMA (DO-214AC)"
 			(at 129.54 144.78 0)
 			(effects
 				(font
@@ -7328,7 +6954,7 @@
 		(instances
 			(project "2025l1"
 				(path "/42f1a342-2581-49f6-a220-6ea8add89dfb/16e5a10f-6121-427d-870d-aa3cfdca5a89"
-					(reference "D3")
+					(reference "D33")
 					(unit 1)
 				)
 			)

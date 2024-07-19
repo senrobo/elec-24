@@ -5847,7 +5847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 192.0748 76.2 0)
 			(effects
 				(font
@@ -7353,7 +7353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 192.0748 135.89 0)
 			(effects
 				(font
@@ -8506,7 +8506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 99.3648 74.93 0)
 			(effects
 				(font
@@ -9865,7 +9865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "2025:cap0603"
 			(at 99.3648 134.62 0)
 			(effects
 				(font
@@ -10634,7 +10634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "2025:CP_Radial_D8.0mm_P3.50mm"
 			(at 88.5952 134.62 0)
 			(effects
 				(font
@@ -10781,7 +10781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "2025:CP_Radial_D8.0mm_P3.50mm"
 			(at 181.3052 135.89 0)
 			(effects
 				(font
@@ -11179,7 +11179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "2025:CP_Radial_D8.0mm_P3.50mm"
 			(at 181.3052 76.2 0)
 			(effects
 				(font
@@ -11460,7 +11460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "2025:CP_Radial_D8.0mm_P3.50mm"
 			(at 88.5952 74.93 0)
 			(effects
 				(font
