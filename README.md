@@ -1,7 +1,7 @@
-## Sentinels-93 2024-2025 Electrical Repository
+## Sentinels 2024 Electrical Repository
 ### Folder Structure
 ```bash
-├── 2025l1
+├── 2024l1
 │  ├── 3dmodels
 │  ├── 2024l1-backups
 │  ├── 2024l1.kicad_pcb
@@ -11,7 +11,7 @@
 │  ├── 2024l1.pretty
 │  ├── fp-info-cache
 │  └── fp-lib-table
-├── 2025l2
+├── 2024l2
 │  ├── 3dmodels
 │  ├── 2024l2-backups
 │  ├── 2024l2.kicad_pcb
@@ -24,7 +24,7 @@
 │  │  └── ibom.html
 │  ├── fp-info-cache
 │  └── fp-lib-table
-├── 2025l3
+├── 2024l3
 │  ├── 3dmodels
 │  ├── 2024l3-backups
 │  ├── 2024l3.kicad_pcb
